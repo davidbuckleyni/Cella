@@ -1,0 +1,17 @@
+D:\GitMaster\RingWoodMedia\MISSystemWeb\SharedResourceLib.Lng\bin\Release\netcoreapp3.1\SharedResourceLib.Lng.deps.json
+D:\GitMaster\RingWoodMedia\MISSystemWeb\SharedResourceLib.Lng\bin\Release\netcoreapp3.1\SharedResourceLib.Lng.dll
+D:\GitMaster\RingWoodMedia\MISSystemWeb\SharedResourceLib.Lng\bin\Release\netcoreapp3.1\SharedResourceLib.Lng.pdb
+D:\GitMaster\RingWoodMedia\MISSystemWeb\SharedResourceLib.Lng\bin\Release\netcoreapp3.1\es\SharedResourceLib.Lng.resources.dll
+D:\GitMaster\RingWoodMedia\MISSystemWeb\SharedResourceLib.Lng\bin\Release\netcoreapp3.1\fr\SharedResourceLib.Lng.resources.dll
+D:\GitMaster\RingWoodMedia\MISSystemWeb\SharedResourceLib.Lng\obj\Release\netcoreapp3.1\SharedResourceLib.Lng.Resources.SharedResource.resources
+D:\GitMaster\RingWoodMedia\MISSystemWeb\SharedResourceLib.Lng\obj\Release\netcoreapp3.1\SharedResourceLib.Lng.Resources.SharedResource.es.resources
+D:\GitMaster\RingWoodMedia\MISSystemWeb\SharedResourceLib.Lng\obj\Release\netcoreapp3.1\SharedResourceLib.Lng.Resources.SharedResource.fr.resources
+D:\GitMaster\RingWoodMedia\MISSystemWeb\SharedResourceLib.Lng\obj\Release\netcoreapp3.1\SharedResourceLib.Lng.csproj.GenerateResource.cache
+D:\GitMaster\RingWoodMedia\MISSystemWeb\SharedResourceLib.Lng\obj\Release\netcoreapp3.1\SharedResourceLib.Lng.AssemblyInfoInputs.cache
+D:\GitMaster\RingWoodMedia\MISSystemWeb\SharedResourceLib.Lng\obj\Release\netcoreapp3.1\SharedResourceLib.Lng.AssemblyInfo.cs
+D:\GitMaster\RingWoodMedia\MISSystemWeb\SharedResourceLib.Lng\obj\Release\netcoreapp3.1\SharedResourceLib.Lng.csproj.CoreCompileInputs.cache
+D:\GitMaster\RingWoodMedia\MISSystemWeb\SharedResourceLib.Lng\obj\Release\netcoreapp3.1\es\SharedResourceLib.Lng.resources.dll
+D:\GitMaster\RingWoodMedia\MISSystemWeb\SharedResourceLib.Lng\obj\Release\netcoreapp3.1\fr\SharedResourceLib.Lng.resources.dll
+D:\GitMaster\RingWoodMedia\MISSystemWeb\SharedResourceLib.Lng\obj\Release\netcoreapp3.1\SharedResourceLib.Lng.dll
+D:\GitMaster\RingWoodMedia\MISSystemWeb\SharedResourceLib.Lng\obj\Release\netcoreapp3.1\SharedResourceLib.Lng.pdb
+D:\GitMaster\RingWoodMedia\MISSystemWeb\SharedResourceLib.Lng\obj\Release\netcoreapp3.1\SharedResourceLib.Lng.csprojAssemblyReference.cache

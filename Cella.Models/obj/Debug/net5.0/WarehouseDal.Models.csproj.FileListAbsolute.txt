@@ -1,0 +1,15 @@
+D:\GitMaster\WareHouseCrm\Warehouse.Models\bin\Debug\net5.0\WarehouseDal.Models.deps.json
+D:\GitMaster\WareHouseCrm\Warehouse.Models\bin\Debug\net5.0\WarehouseDal.Models.runtimeconfig.json
+D:\GitMaster\WareHouseCrm\Warehouse.Models\bin\Debug\net5.0\WarehouseDal.Models.runtimeconfig.dev.json
+D:\GitMaster\WareHouseCrm\Warehouse.Models\bin\Debug\net5.0\WarehouseDal.Models.dll
+D:\GitMaster\WareHouseCrm\Warehouse.Models\bin\Debug\net5.0\ref\WarehouseDal.Models.dll
+D:\GitMaster\WareHouseCrm\Warehouse.Models\bin\Debug\net5.0\WarehouseDal.Models.pdb
+D:\GitMaster\WareHouseCrm\Warehouse.Models\obj\Debug\net5.0\WarehouseDal.Models.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitMaster\WareHouseCrm\Warehouse.Models\obj\Debug\net5.0\WarehouseDal.Models.AssemblyInfoInputs.cache
+D:\GitMaster\WareHouseCrm\Warehouse.Models\obj\Debug\net5.0\WarehouseDal.Models.AssemblyInfo.cs
+D:\GitMaster\WareHouseCrm\Warehouse.Models\obj\Debug\net5.0\WarehouseDal.Models.csproj.CoreCompileInputs.cache
+D:\GitMaster\WareHouseCrm\Warehouse.Models\obj\Debug\net5.0\WarehouseDal.Models.dll
+D:\GitMaster\WareHouseCrm\Warehouse.Models\obj\Debug\net5.0\ref\WarehouseDal.Models.dll
+D:\GitMaster\WareHouseCrm\Warehouse.Models\obj\Debug\net5.0\WarehouseDal.Models.pdb
+D:\GitMaster\WareHouseCrm\Warehouse.Models\obj\Debug\net5.0\WarehouseDal.Models.genruntimeconfig.cache
+D:\GitMaster\WareHouseCrm\Warehouse.Models\obj\Debug\net5.0\WarehouseDal.Models.csprojAssemblyReference.cache

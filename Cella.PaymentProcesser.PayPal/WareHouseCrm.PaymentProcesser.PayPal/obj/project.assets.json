@@ -1,0 +1,134 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0": {
+      "ExtCore.Infrastructure/5.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.0/ExtCore.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/ExtCore.Infrastructure.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
+      "ExtCore.Mvc.Infrastructure/5.0.0": {
+        "type": "package",
+        "dependencies": {
+          "ExtCore.Infrastructure": "5.0.0"
+        },
+        "compile": {
+          "lib/netcoreapp3.0/ExtCore.Mvc.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/ExtCore.Mvc.Infrastructure.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ExtCore.Infrastructure/5.0.0": {
+      "sha512": "b94Kw4u0ocOcFbBOEqv1anJytMfIMlllzl/N+qXNwVAj3U2+nytMoaniyBkobHMKjsw4xnkgepWByeTeQ5XXhg==",
+      "type": "package",
+      "path": "extcore.infrastructure/5.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "extcore.infrastructure.5.0.0.nupkg.sha512",
+        "extcore.infrastructure.nuspec",
+        "lib/netcoreapp3.0/ExtCore.Infrastructure.dll"
+      ]
+    },
+    "ExtCore.Mvc.Infrastructure/5.0.0": {
+      "sha512": "nnom2T7FbhoFe/rRz8VHSK3mGsYytwAxXiDwW09LAHSr+8DGgox1EuBwxgpG9tJkk+fww/DjjYxhTg3cjMmCQA==",
+      "type": "package",
+      "path": "extcore.mvc.infrastructure/5.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "extcore.mvc.infrastructure.5.0.0.nupkg.sha512",
+        "extcore.mvc.infrastructure.nuspec",
+        "lib/netcoreapp3.0/ExtCore.Mvc.Infrastructure.dll"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0": [
+      "ExtCore.Mvc.Infrastructure >= 5.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\David's PC\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\GitMaster\\WareHouseCrm\\WareHouseCrm.PaymentProcesser.PayPal\\WareHouseCrm.PaymentProcesser.PayPal\\WareHouseCrm.PaymentProcesser.PayPalStandard.csproj",
+      "projectName": "WareHouseCrm.PaymentProcesser.PayPalStandard",
+      "projectPath": "D:\\GitMaster\\WareHouseCrm\\WareHouseCrm.PaymentProcesser.PayPal\\WareHouseCrm.PaymentProcesser.PayPal\\WareHouseCrm.PaymentProcesser.PayPalStandard.csproj",
+      "packagesPath": "C:\\Users\\David's PC\\.nuget\\packages\\",
+      "outputPath": "D:\\GitMaster\\WareHouseCrm\\WareHouseCrm.PaymentProcesser.PayPal\\WareHouseCrm.PaymentProcesser.PayPal\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\David's PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {},
+        "https://pkgs.dev.azure.com/xamarin/public/_packaging/XamarinCommunityToolkitNightly/nuget/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0": {
+        "targetAlias": "net5.0",
+        "dependencies": {
+          "ExtCore.Mvc.Infrastructure": {
+            "target": "Package",
+            "version": "[5.0.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

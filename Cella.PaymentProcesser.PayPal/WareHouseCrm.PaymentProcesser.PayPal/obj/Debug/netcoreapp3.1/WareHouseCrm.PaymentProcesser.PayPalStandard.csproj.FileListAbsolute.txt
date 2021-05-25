@@ -1,0 +1,8 @@
+D:\GitMaster\WareHouseCrm\WareHouseCrm.PaymentProcesser.PayPal\WareHouseCrm.PaymentProcesser.PayPal\obj\Debug\netcoreapp3.1\WareHouseCrm.PaymentProcesser.PayPalStandard.AssemblyInfoInputs.cache
+D:\GitMaster\WareHouseCrm\WareHouseCrm.PaymentProcesser.PayPal\WareHouseCrm.PaymentProcesser.PayPal\obj\Debug\netcoreapp3.1\WareHouseCrm.PaymentProcesser.PayPalStandard.AssemblyInfo.cs
+D:\GitMaster\WareHouseCrm\WareHouseCrm.PaymentProcesser.PayPal\WareHouseCrm.PaymentProcesser.PayPal\obj\Debug\netcoreapp3.1\WareHouseCrm.PaymentProcesser.PayPalStandard.csproj.CoreCompileInputs.cache
+D:\GitMaster\WareHouseCrm\WareHouseCrm.PaymentProcesser.PayPal\WareHouseCrm.PaymentProcesser.PayPal\bin\Debug\netcoreapp3.1\WareHouseCrm.PaymentProcesser.PayPalStandard.deps.json
+D:\GitMaster\WareHouseCrm\WareHouseCrm.PaymentProcesser.PayPal\WareHouseCrm.PaymentProcesser.PayPal\bin\Debug\netcoreapp3.1\WareHouseCrm.PaymentProcesser.PayPalStandard.dll
+D:\GitMaster\WareHouseCrm\WareHouseCrm.PaymentProcesser.PayPal\WareHouseCrm.PaymentProcesser.PayPal\bin\Debug\netcoreapp3.1\WareHouseCrm.PaymentProcesser.PayPalStandard.pdb
+D:\GitMaster\WareHouseCrm\WareHouseCrm.PaymentProcesser.PayPal\WareHouseCrm.PaymentProcesser.PayPal\obj\Debug\netcoreapp3.1\WareHouseCrm.PaymentProcesser.PayPalStandard.dll
+D:\GitMaster\WareHouseCrm\WareHouseCrm.PaymentProcesser.PayPal\WareHouseCrm.PaymentProcesser.PayPal\obj\Debug\netcoreapp3.1\WareHouseCrm.PaymentProcesser.PayPalStandard.pdb

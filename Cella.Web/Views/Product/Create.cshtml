@@ -1,0 +1,210 @@
+﻿@model Cella.Models.Product
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Views/Shared/_AdminLteLayout.cshtml";
+
+}
+
+
+<div class="row">
+    <div class="col-md-12">
+        <div class="card">
+            <div class="card-header">
+                <h5 class="card-title">Product Info</h5>
+
+                <div class="card-tools">
+                    <button type="button" class="btn btn-tool" data-card-widget="collapse">
+                        <i class="fas fa-minus"></i>
+                    </button>
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-tool dropdown-toggle" data-toggle="dropdown">
+                            <i class="fas fa-wrench"></i>
+                        </button>
+                        <div class="dropdown-menu dropdown-menu-right" role="menu">
+                            <a href="#" class="dropdown-item">Action</a>
+                            <a href="#" class="dropdown-item">Another action</a>
+                            <a href="#" class="dropdown-item">Something else here</a>
+                            <a class="dropdown-divider"></a>
+                            <a href="#" class="dropdown-item">Separated link</a>
+                        </div>
+                    </div>
+                    <button type="button" class="btn btn-tool" data-card-widget="remove">
+                        <i class="fas fa-times"></i>
+                    </button>
+                </div>
+            </div>
+            <!-- /.card-header -->
+            <div class="card-body">
+
+                <form asp-action="Submit" class="form-horizontal">
+
+                    <div class="form-group">
+                        <label asp-for="Name" class="control-label"></label>
+                        <div class="col-sm-10">
+                            <input asp-for="Name" class="form-control" />
+                            <span asp-validation-for="Name" class="text-danger"></span>
+
+                        </div>
+                    </div>
+
+                    <div class="control-group">
+                        <div class="controls">
+                            <label class="checkbox inline " style="padding-left: 10px;" for="inputColor">Favorite Color <input type="text" id="inputColor" class="form-control  span2" /></label>
+                            <label class="checkbox inline " style="padding-left: 10px;" for="inputNColor">Next Color <input type="text" id="inputNColor" class="form-control span2" /></label>
+
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="StockCode" class="control-label"></label>
+                        <div class="col-sm-10">
+                            <input asp-for="StockCode" class="form-control" />
+                            <span asp-validation-for="StockCode" class="text-danger"></span>
+
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="BarCode" class="control-label"></label>
+                        <div class="col-sm-10">
+                            <input asp-for="BarCode" class="form-control" />
+                            <span asp-validation-for="BarCode" class="text-danger"></span>
+
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="ShortDescription" class="control-label"></label>
+                        <div class="col-sm-10">
+                            <input asp-for="ShortDescription" class="form-control" />
+                            <span asp-validation-for="ShortDescription" class="text-danger"></span>
+
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="SKU" class="control-label"></label>
+                        <div class="col-sm-10">
+                            <input asp-for="SKU" class="form-control" />
+                            <span asp-validation-for="SKU" class="text-danger"></span>
+
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label asp-for="AvailableStartDate" class="control-label"></label>
+                        <div class="col-sm-10">
+                            <input asp-for="AvailableStartDate" class="form-control" />
+                            <span asp-validation-for="AvailableStartDate" class="text-danger"></span>
+
+                        </div>
+                    </div>
+
+
+                    <div class="form-group">
+                        <label asp-for="AvailableEndDate" class="control-label"></label>
+                        <div class="col-sm-10">
+                            <input asp-for="AvailableEndDate" class="form-control" />
+                            <span asp-validation-for="AvailableEndDate" class="text-danger"></span>
+
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label asp-for="WarehouseLocation" class="control-label"></label>
+                        <div class="col-sm-10">
+                            <input asp-for="WarehouseLocation" class="form-control" />
+                            <span asp-validation-for="AvailableEndDate" class="text-danger"></span>
+
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label asp-for="ProductType" class="control-label"></label>
+                        <div class="col-sm-10">
+                            <input asp-for="ProductType" class="form-control" />
+                            <span asp-validation-for="ProductType" class="text-danger"></span>
+
+                        </div>
+                    </div>
+
+
+                    <!-- /.progress-group -->
+
+
+
+                    <div class="form-group row">
+
+                        <input type="submit" value="Create" class="btn btn-primary" />
+                    </div>
+                </form>
+            </div>
+            <!-- /.col -->
+        </div>
+        <!-- /.row -->
+    </div>
+    <!-- ./card-body -->
+    <div class="card-footer">
+
+        <!-- /.row -->
+    </div>
+    <!-- /.card-footer -->
+</div>
+<!-- /.card -->
+<!-- /.row -->
+
+
+
+<div class="row">
+    <div class="col-md-12">
+        <div class="card">
+            <div class="card-header">
+                <h5 class="card-title">Product Info</h5>
+
+                <div class="card-tools">
+                    <button type="button" class="btn btn-tool" data-card-widget="collapse">
+                        <i class="fas fa-minus"></i>
+                    </button>
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-tool dropdown-toggle" data-toggle="dropdown">
+                            <i class="fas fa-wrench"></i>
+                        </button>
+                        <div class="dropdown-menu dropdown-menu-right" role="menu">
+                            <a href="#" class="dropdown-item">Action</a>
+                            <a href="#" class="dropdown-item">Another action</a>
+                            <a href="#" class="dropdown-item">Something else here</a>
+                            <a class="dropdown-divider"></a>
+                            <a href="#" class="dropdown-item">Separated link</a>
+                        </div>
+                    </div>
+                    <button type="button" class="btn btn-tool" data-card-widget="remove">
+                        <i class="fas fa-times"></i>
+                    </button>
+                </div>
+            </div>
+            <!-- /.card-header -->
+            <div class="card-body">
+
+                Test for the Pictures of products
+
+
+                <div class="form-group row">
+
+                    <input type="submit" value="Create" class="btn btn-primary" />
+                </div>
+               
+            </div>
+            <!-- /.col -->
+        </div>
+        <!-- /.row -->
+    </div>
+    <!-- ./card-body -->
+    <div class="card-footer">
+
+        <!-- /.row -->
+    </div>
+    <!-- /.card-footer -->
+</div>
+<!-- /.card -->
+<!-- /.row -->
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

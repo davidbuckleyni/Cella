@@ -1,0 +1,17 @@
+D:\GitMaster\WareHouseCrm\Warehouse.Infrastructure\Warehouse.Infrastructure\Warehouse.Infrastructure\bin\Release\net5.0\Warehouse.Infrastructure.deps.json
+D:\GitMaster\WareHouseCrm\Warehouse.Infrastructure\Warehouse.Infrastructure\Warehouse.Infrastructure\bin\Release\net5.0\Warehouse.Infrastructure.dll
+D:\GitMaster\WareHouseCrm\Warehouse.Infrastructure\Warehouse.Infrastructure\Warehouse.Infrastructure\bin\Release\net5.0\ref\Warehouse.Infrastructure.dll
+D:\GitMaster\WareHouseCrm\Warehouse.Infrastructure\Warehouse.Infrastructure\Warehouse.Infrastructure\bin\Release\net5.0\Warehouse.Infrastructure.pdb
+D:\GitMaster\WareHouseCrm\Warehouse.Infrastructure\Warehouse.Infrastructure\Warehouse.Infrastructure\bin\Release\net5.0\Warehouse.Domain.dll
+D:\GitMaster\WareHouseCrm\Warehouse.Infrastructure\Warehouse.Infrastructure\Warehouse.Infrastructure\bin\Release\net5.0\WarehouseDal.Models.dll
+D:\GitMaster\WareHouseCrm\Warehouse.Infrastructure\Warehouse.Infrastructure\Warehouse.Infrastructure\bin\Release\net5.0\Warehouse.Domain.pdb
+D:\GitMaster\WareHouseCrm\Warehouse.Infrastructure\Warehouse.Infrastructure\Warehouse.Infrastructure\bin\Release\net5.0\WarehouseDal.Models.pdb
+D:\GitMaster\WareHouseCrm\Warehouse.Infrastructure\Warehouse.Infrastructure\Warehouse.Infrastructure\obj\Release\net5.0\Warehouse.Infrastructure.csprojAssemblyReference.cache
+D:\GitMaster\WareHouseCrm\Warehouse.Infrastructure\Warehouse.Infrastructure\Warehouse.Infrastructure\obj\Release\net5.0\Warehouse.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitMaster\WareHouseCrm\Warehouse.Infrastructure\Warehouse.Infrastructure\Warehouse.Infrastructure\obj\Release\net5.0\Warehouse.Infrastructure.AssemblyInfoInputs.cache
+D:\GitMaster\WareHouseCrm\Warehouse.Infrastructure\Warehouse.Infrastructure\Warehouse.Infrastructure\obj\Release\net5.0\Warehouse.Infrastructure.AssemblyInfo.cs
+D:\GitMaster\WareHouseCrm\Warehouse.Infrastructure\Warehouse.Infrastructure\Warehouse.Infrastructure\obj\Release\net5.0\Warehouse.Infrastructure.csproj.CoreCompileInputs.cache
+D:\GitMaster\WareHouseCrm\Warehouse.Infrastructure\Warehouse.Infrastructure\Warehouse.Infrastructure\obj\Release\net5.0\Warehouse.Infrastructure.csproj.CopyComplete
+D:\GitMaster\WareHouseCrm\Warehouse.Infrastructure\Warehouse.Infrastructure\Warehouse.Infrastructure\obj\Release\net5.0\Warehouse.Infrastructure.dll
+D:\GitMaster\WareHouseCrm\Warehouse.Infrastructure\Warehouse.Infrastructure\Warehouse.Infrastructure\obj\Release\net5.0\ref\Warehouse.Infrastructure.dll
+D:\GitMaster\WareHouseCrm\Warehouse.Infrastructure\Warehouse.Infrastructure\Warehouse.Infrastructure\obj\Release\net5.0\Warehouse.Infrastructure.pdb

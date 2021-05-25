@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "g9nhs6CrVjiN2JeMiaTabfmrJKaAIg+NbO3ANQVe4mfcNwu09j8uQiO8xGdNgevDSsx4LSR6GFEQ+a1xeT1Ekg==",
+  "success": true,
+  "projectFilePath": "D:\\GitMaster\\WareHouseCrm\\Warehouse.Mobile\\Warehouse\\Warehouse.iOS\\Warehouse.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\David's PC\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\David's PC\\.nuget\\packages\\xamarin.communitytoolkit\\1.0.0-preview1114\\xamarin.communitytoolkit.1.0.0-preview1114.nupkg.sha512",
+    "C:\\Users\\David's PC\\.nuget\\packages\\xamarin.essentials\\1.6.0-pre5\\xamarin.essentials.1.6.0-pre5.nupkg.sha512",
+    "C:\\Users\\David's PC\\.nuget\\packages\\xamarin.forms\\5.0.0.1709-pre4\\xamarin.forms.5.0.0.1709-pre4.nupkg.sha512"
+  ],
+  "logs": []
+}

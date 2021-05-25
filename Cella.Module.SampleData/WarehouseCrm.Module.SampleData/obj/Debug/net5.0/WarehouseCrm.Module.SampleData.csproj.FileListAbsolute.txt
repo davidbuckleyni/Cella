@@ -1,0 +1,15 @@
+D:\GitMaster\WareHouseCrm\WarehouseCrm.Module.SampleData\WarehouseCrm.Module.SampleData\bin\Debug\net5.0\WarehouseCrm.Module.SampleData.deps.json
+D:\GitMaster\WareHouseCrm\WarehouseCrm.Module.SampleData\WarehouseCrm.Module.SampleData\bin\Debug\net5.0\WarehouseCrm.Module.SampleData.dll
+D:\GitMaster\WareHouseCrm\WarehouseCrm.Module.SampleData\WarehouseCrm.Module.SampleData\bin\Debug\net5.0\ref\WarehouseCrm.Module.SampleData.dll
+D:\GitMaster\WareHouseCrm\WarehouseCrm.Module.SampleData\WarehouseCrm.Module.SampleData\bin\Debug\net5.0\WarehouseCrm.Module.SampleData.pdb
+D:\GitMaster\WareHouseCrm\WarehouseCrm.Module.SampleData\WarehouseCrm.Module.SampleData\bin\Debug\net5.0\Warehouse.Infrastructure.dll
+D:\GitMaster\WareHouseCrm\WarehouseCrm.Module.SampleData\WarehouseCrm.Module.SampleData\bin\Debug\net5.0\Warehouse.Infrastructure.pdb
+D:\GitMaster\WareHouseCrm\WarehouseCrm.Module.SampleData\WarehouseCrm.Module.SampleData\obj\Debug\net5.0\WarehouseCrm.Module.SampleData.csprojAssemblyReference.cache
+D:\GitMaster\WareHouseCrm\WarehouseCrm.Module.SampleData\WarehouseCrm.Module.SampleData\obj\Debug\net5.0\WarehouseCrm.Module.SampleData.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitMaster\WareHouseCrm\WarehouseCrm.Module.SampleData\WarehouseCrm.Module.SampleData\obj\Debug\net5.0\WarehouseCrm.Module.SampleData.AssemblyInfoInputs.cache
+D:\GitMaster\WareHouseCrm\WarehouseCrm.Module.SampleData\WarehouseCrm.Module.SampleData\obj\Debug\net5.0\WarehouseCrm.Module.SampleData.AssemblyInfo.cs
+D:\GitMaster\WareHouseCrm\WarehouseCrm.Module.SampleData\WarehouseCrm.Module.SampleData\obj\Debug\net5.0\WarehouseCrm.Module.SampleData.csproj.CoreCompileInputs.cache
+D:\GitMaster\WareHouseCrm\WarehouseCrm.Module.SampleData\WarehouseCrm.Module.SampleData\obj\Debug\net5.0\WarehouseCrm.Module.SampleData.csproj.CopyComplete
+D:\GitMaster\WareHouseCrm\WarehouseCrm.Module.SampleData\WarehouseCrm.Module.SampleData\obj\Debug\net5.0\WarehouseCrm.Module.SampleData.dll
+D:\GitMaster\WareHouseCrm\WarehouseCrm.Module.SampleData\WarehouseCrm.Module.SampleData\obj\Debug\net5.0\ref\WarehouseCrm.Module.SampleData.dll
+D:\GitMaster\WareHouseCrm\WarehouseCrm.Module.SampleData\WarehouseCrm.Module.SampleData\obj\Debug\net5.0\WarehouseCrm.Module.SampleData.pdb

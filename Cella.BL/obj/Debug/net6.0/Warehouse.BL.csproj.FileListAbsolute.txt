@@ -1,0 +1,15 @@
+D:\GitMaster\WareHouseCrm\Warehouse.BL\bin\Debug\net6.0\Warehouse.BL.deps.json
+D:\GitMaster\WareHouseCrm\Warehouse.BL\bin\Debug\net6.0\Warehouse.BL.dll
+D:\GitMaster\WareHouseCrm\Warehouse.BL\bin\Debug\net6.0\ref\Warehouse.BL.dll
+D:\GitMaster\WareHouseCrm\Warehouse.BL\bin\Debug\net6.0\Warehouse.BL.pdb
+D:\GitMaster\WareHouseCrm\Warehouse.BL\bin\Debug\net6.0\WarehouseDal.Models.dll
+D:\GitMaster\WareHouseCrm\Warehouse.BL\bin\Debug\net6.0\WarehouseDal.Models.pdb
+D:\GitMaster\WareHouseCrm\Warehouse.BL\obj\Debug\net6.0\Warehouse.BL.csproj.AssemblyReference.cache
+D:\GitMaster\WareHouseCrm\Warehouse.BL\obj\Debug\net6.0\Warehouse.BL.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitMaster\WareHouseCrm\Warehouse.BL\obj\Debug\net6.0\Warehouse.BL.AssemblyInfoInputs.cache
+D:\GitMaster\WareHouseCrm\Warehouse.BL\obj\Debug\net6.0\Warehouse.BL.AssemblyInfo.cs
+D:\GitMaster\WareHouseCrm\Warehouse.BL\obj\Debug\net6.0\Warehouse.BL.csproj.CoreCompileInputs.cache
+D:\GitMaster\WareHouseCrm\Warehouse.BL\obj\Debug\net6.0\Warehouse.BL.csproj.CopyComplete
+D:\GitMaster\WareHouseCrm\Warehouse.BL\obj\Debug\net6.0\Warehouse.BL.dll
+D:\GitMaster\WareHouseCrm\Warehouse.BL\obj\Debug\net6.0\ref\Warehouse.BL.dll
+D:\GitMaster\WareHouseCrm\Warehouse.BL\obj\Debug\net6.0\Warehouse.BL.pdb

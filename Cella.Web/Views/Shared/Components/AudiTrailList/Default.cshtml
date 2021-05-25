@@ -1,0 +1,42 @@
+﻿@model IEnumerable< WarehouseDal.Models.WareHouseAuditTrail>
+
+<div class="row">
+    <div class="table-wrapper-scroll-y my-custom-scrollbar" style="width:100%;">
+
+        @if (Model.Count() == 0)
+        {
+            <div class="card-body">
+                <div class="alert alert-info alert">
+                    <h5><i class="icon fas fa-info"></i> No Records</h5>
+                    Sorry there are no records to view
+                </div>
+            </div>
+        }
+        else
+        {
+            <table id="audTrailTable" class="table table-striped table-bordered dt-responsive">
+                <thead>
+                    <tr>
+                        <th>@Html.DisplayNameFor(model => model.CreatedDate)</th>
+                        <th>@Html.DisplayNameFor(model => model.CreatedBy)</th>
+                        <th>Action</th>
+                        <th>@Html.DisplayNameFor(model => model.Update)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+        }
+    </div>
+</div>
+<!-- /.card-body -->
+<div class="card-footer">
+</div>
+<!-- /.card-footer-->
+<!-- /.card -->

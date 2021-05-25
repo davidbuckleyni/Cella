@@ -1,0 +1,154 @@
+﻿@model Cella.Models.StockItemVm
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_AdminLteLayoutWithoutDashIcons.cshtml";
+}
+
+
+<h1>Products </h1>
+<div class="pull-right" style="float:right">
+
+    @if (Model.UserPermissions.Any(w => w.Action == "Create" && w.Authorized == true))
+    {
+        <a class="btn bg-blue" href="/StockItems/Create">
+            <i class="fa fa-plus-square"></i>
+            Add new
+        </a>
+    }
+    else
+    { 
+
+    <button type="button" id="delete-selected" disabled="disabled" title="You do not have permissions contact manager!." class="btn bg-red">
+
+
+        <i class="fa fa-plus-square"></i>
+        Add
+       </button>
+
+    }
+    <button type="submit" name="download-catalog-pdf" class="btn bg-purple" formaction="/Admin/Product/DownloadCatalogPDF">
+        <i class="fa fa-file-pdf-o"></i>
+        Download catalog as PDF
+    </button>
+    <div class="btn-group">
+        <button type="button" class="btn btn-success">
+            <i class="fa fa-download"></i>
+            Export
+        </button>
+        <button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+            <span class="caret"></span>
+            <span class="sr-only">&nbsp;</span>
+        </button>
+        <ul class="dropdown-menu" role="menu">
+            <li>
+                <button type="submit" name="exportxml-all" formaction="/Admin/Product/ExportToXml">
+                    <i class="fa fa-file-code-o"></i>
+                    Export to XML (all found)
+                </button>
+            </li>
+            <li>
+                <button type="button" id="exportxml-selected">
+                    <i class="fa fa-file-code-o"></i>
+                    Export to XML (selected)
+                </button>
+            </li>
+            <li class="divider"></li>
+            <li>
+                <button type="submit" name="exportexcel-all" formaction="/Admin/Product/ExportToExcel">
+                    <i class="fa fa-file-excel-o"></i>
+                    Export to Excel (all found)
+                </button>
+            </li>
+            <li>
+                <button type="button" id="exportexcel-selected">
+                    <i class="fa fa-file-excel-o"></i>
+                    Export to Excel (selected)
+                </button>
+            </li>
+        </ul>
+    </div>
+    <button type="button" name="importexcel" class="btn bg-olive" data-toggle="modal" data-target="#importexcel-window">
+        <i class="fa fa-upload"></i>
+        Import
+    </button>
+    @if (Model.UserPermissions.Any(w => w.Action == "Delete" && w.Authorized == true))
+    {
+        <button type="button" id="delete-selected" class="btn bg-red">
+            <i class="fa fa-trash-o"></i>
+            Delete (selected)
+        </button>
+    }
+    else
+    {
+
+        <button type="button" id="delete-selected" disabled="disabled" title="You do not have permissions contact manager!." class="btn bg-red">
+            <i class="fa fa-trash-o"></i>
+            Delete
+        </button>
+    }
+
+</div>
+
+<div class="padding-top:10px;"></div>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    Image
+                </th>
+
+                <th>
+                    @Html.DisplayNameFor(model => model.StockItems.First().Name)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.StockItems.First().StockCode)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.StockItems.First().BarCode)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.StockItems.First().SKU)
+                </th>
+              
+                <th>
+                    @Html.DisplayNameFor(model => model.StockItems.First().ShortDescription)
+                </th>
+                <th>
+                    Action
+                </th>
+
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.StockItems)
+            {
+            <tr>
+                <td>
+                   <img src="https://via.placeholder.com/100" />
+
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.StockCode)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.BarCode)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.SKU)
+                </td>
+               
+             
+
+                <td>
+                    
+
+                    <a class="btn btn-default" asp-action="Edit"   asp-route-id="@item.Id" ><i class="fa fa-pencil"></i>Edit</a>                    
+                </td>
+            </tr>
+            }
+        </tbody>
+    </table>

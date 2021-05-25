@@ -1,0 +1,93 @@
+﻿@model  Cella.Models.SystemSetup
+@{
+    ViewData["Title"] = "Setup";
+    Layout = "~/Views/Shared/_AdminLteLayoutWithoutDashIcons.cshtml";
+}
+<div class="row">
+    <div class="col-12 col-sm-12">
+        <div class="card card-primary card-tabs">
+            <div class="card-header p-0 pt-1">
+                <ul class="nav nav-tabs" id="custom-tabs-one-tab" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link active" id="custom-tabs-one-settings-tab" data-toggle="pill" href="#custom-tabs-one-settings" role="tab" aria-controls="custom-tabs-one-settings" aria-selected="true">Settings</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="custom-tabs-one-email-tab" data-toggle="pill" href="#custom-tabs-one-email" role="tab" aria-controls="custom-tabs-one-email" aria-selected="false">Email</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="custom-tabs-one-sms-tab" data-toggle="pill" href="#custom-tabs-one-sms" role="tab" aria-controls="custom-tabs-one-messages" aria-selected="false">Sms Providers</a>
+                    </li>
+
+                </ul>
+            </div> <form asp-action="Setup">
+                <div class="card-body">
+                    <div class="tab-content" id="custom-tabs-one-tabContent">
+                        <div class="tab-pane fade show active" id="custom-tabs-one-settings" role="tabpanel" aria-labelledby="custom-tabs-one-settings-tab">
+
+                            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                            <input type="hidden" asp-for="Id" />
+                            <div class="form-group">
+                                @Html.PartialAsync("_SelectLanguagePartial.cshtml")
+                            </div>
+ 
+
+
+                            <div class="form-group">
+                                <label asp-for="GridItems" class="control-label"></label>
+                                <input asp-for="GridItems" class="form-control" />
+                                <span asp-validation-for="GridItems" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="Version" class="control-label"></label>
+                                <input asp-for="Version" class="form-control" />
+                                <span asp-validation-for="Version" class="text-danger"></span>
+                            </div>
+
+                        </div>
+                        <div class="tab-pane fade" id="custom-tabs-one-email" role="tabpanel" aria-labelledby="custom-tabs-one-email-tab">
+                            <div class="form-group">
+                                <label asp-for="SendGridApiKey" class="control-label"></label>
+                                <input asp-for="SendGridApiKey" class="form-control" />
+                                <span asp-validation-for="SendGridApiKey" class="text-danger"></span>
+                            </div>
+
+                            <div class="form-group">
+                                <label asp-for="SendGridUserName" class="control-label"></label>
+                                <input asp-for="SendGridUserName" class="form-control" />
+                                <span asp-validation-for="SendGridUserName" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="SendGridPassword" class="control-label"></label>
+                                <input asp-for="SendGridPassword" class="form-control" />
+                                <span asp-validation-for="SendGridPassword" class="text-danger"></span>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="custom-tabs-one-sms" role="tabpanel" aria-labelledby="custom-tabs-one-sms-tab">
+                            <div class="form-group">
+                                <label asp-for="TwilloUrl" class="control-label"></label>
+                                <input asp-for="TwilloUrl" class="form-control" />
+                                <span asp-validation-for="TwilloUrl" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="TwillioUserName" class="control-label"></label>
+                                <input asp-for="TwillioUserName" class="form-control" />
+                                <span asp-validation-for="TwillioUserName" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="TwillioPassword" class="control-label"></label>
+                                <input asp-for="TwillioPassword" class="form-control" />
+                                <span asp-validation-for="TwillioPassword" class="text-danger"></span>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="custom-tabs-one-settings" role="tabpanel" aria-labelledby="custom-tabs-one-settings-tab">
+                            Pellentesque vestibulum commodo nibh nec blandit. Maecenas neque magna, iaculis tempus turpis ac, ornare sodales tellus. Mauris eget blandit dolor. Quisque tincidunt venenatis vulputate. Morbi euismod molestie tristique. Vestibulum consectetur dolor a vestibulum pharetra. Donec interdum placerat urna nec pharetra. Etiam eget dapibus orci, eget aliquet urna. Nunc at consequat diam. Nunc et felis ut nisl commodo dignissim. In hac habitasse platea dictumst. Praesent imperdiet accumsan ex sit amet facilisis.
+                        </div>
+                    </div>
+                </div>
+                <!-- /.card -->      <div class="form-group">
+                    <input type="submit" value="Save" class="btn btn-primary" />
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

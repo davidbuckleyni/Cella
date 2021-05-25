@@ -1,0 +1,98 @@
+﻿@model IEnumerable< Cella.Models.SystemSetup>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_AdminLteLayout.cshtml";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Language)
+            </th>
+     
+            <th>
+                @Html.DisplayNameFor(model => model.SendGridApiKey)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SendGridUserName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SendGridPassword)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TwilloUrl)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TwillioUserName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TwillioPassword)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.UploadFolderPath)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TeannatId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.GridItems)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Version)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Language)
+            </td>
+         
+            <td>
+                @Html.DisplayFor(modelItem => item.SendGridApiKey)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SendGridUserName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SendGridPassword)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TwilloUrl)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TwillioUserName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TwillioPassword)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.UploadFolderPath)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TeannatId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.GridItems)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Version)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

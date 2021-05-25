@@ -1,0 +1,394 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = WarehouseCrm.Web
+build_property.RootNamespace = WarehouseCrm.Web
+build_property.ProjectDir = D:\GitMaster\WareHouseCrm\Warehouse.Web\
+build_property.RazorLangVersion = 5.0
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\GitMaster\WareHouseCrm\Warehouse.Web
+build_property._RazorSourceGeneratorDebug = 
+build_property._RazorSourceGeneratorLog = 
+
+[d:/GitMaster/WareHouseCrm/Warehouse.Web/Areas/Identity/Pages/Account/ConfirmEmail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Areas\Identity\Pages\Account\ConfirmEmail.cshtml
+build_metadata.AdditionalFiles.GeneratedOutputFullPath = D:\GitMaster\WareHouseCrm\Warehouse.Web\obj\Debug\net6.0\Razor\Areas\Identity\Pages\Account\ConfirmEmail.cshtml.g.cs
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/GitMaster/WareHouseCrm/Warehouse.Web/Areas/Identity/Pages/Account/ForgotPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Areas\Identity\Pages\Account\ForgotPassword.cshtml
+build_metadata.AdditionalFiles.GeneratedOutputFullPath = D:\GitMaster\WareHouseCrm\Warehouse.Web\obj\Debug\net6.0\Razor\Areas\Identity\Pages\Account\ForgotPassword.cshtml.g.cs
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/GitMaster/WareHouseCrm/Warehouse.Web/Areas/Identity/Pages/Account/ForgotPasswordConfirmation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Areas\Identity\Pages\Account\ForgotPasswordConfirmation.cshtml
+build_metadata.AdditionalFiles.GeneratedOutputFullPath = D:\GitMaster\WareHouseCrm\Warehouse.Web\obj\Debug\net6.0\Razor\Areas\Identity\Pages\Account\ForgotPasswordConfirmation.cshtml.g.cs
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/GitMaster/WareHouseCrm/Warehouse.Web/Areas/Identity/Pages/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Areas\Identity\Pages\Account\Login.cshtml
+build_metadata.AdditionalFiles.GeneratedOutputFullPath = D:\GitMaster\WareHouseCrm\Warehouse.Web\obj\Debug\net6.0\Razor\Areas\Identity\Pages\Account\Login.cshtml.g.cs
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/GitMaster/WareHouseCrm/Warehouse.Web/Areas/Identity/Pages/Account/LoginWith2fa.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Areas\Identity\Pages\Account\LoginWith2fa.cshtml
+build_metadata.AdditionalFiles.GeneratedOutputFullPath = D:\GitMaster\WareHouseCrm\Warehouse.Web\obj\Debug\net6.0\Razor\Areas\Identity\Pages\Account\LoginWith2fa.cshtml.g.cs
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/GitMaster/WareHouseCrm/Warehouse.Web/Areas/Identity/Pages/Account/Logout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Areas\Identity\Pages\Account\Logout.cshtml
+build_metadata.AdditionalFiles.GeneratedOutputFullPath = D:\GitMaster\WareHouseCrm\Warehouse.Web\obj\Debug\net6.0\Razor\Areas\Identity\Pages\Account\Logout.cshtml.g.cs
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/GitMaster/WareHouseCrm/Warehouse.Web/Areas/Identity/Pages/Account/Manage/Disable2fa.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Areas\Identity\Pages\Account\Manage\Disable2fa.cshtml
+build_metadata.AdditionalFiles.GeneratedOutputFullPath = D:\GitMaster\WareHouseCrm\Warehouse.Web\obj\Debug\net6.0\Razor\Areas\Identity\Pages\Account\Manage\Disable2fa.cshtml.g.cs
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/GitMaster/WareHouseCrm/Warehouse.Web/Areas/Identity/Pages/Account/Manage/Email.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Areas\Identity\Pages\Account\Manage\Email.cshtml
+build_metadata.AdditionalFiles.GeneratedOutputFullPath = D:\GitMaster\WareHouseCrm\Warehouse.Web\obj\Debug\net6.0\Razor\Areas\Identity\Pages\Account\Manage\Email.cshtml.g.cs
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/GitMaster/WareHouseCrm/Warehouse.Web/Areas/Identity/Pages/Account/Manage/EnableAuthenticator.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Areas\Identity\Pages\Account\Manage\EnableAuthenticator.cshtml
+build_metadata.AdditionalFiles.GeneratedOutputFullPath = D:\GitMaster\WareHouseCrm\Warehouse.Web\obj\Debug\net6.0\Razor\Areas\Identity\Pages\Account\Manage\EnableAuthenticator.cshtml.g.cs
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/GitMaster/WareHouseCrm/Warehouse.Web/Areas/Identity/Pages/Account/Manage/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Areas\Identity\Pages\Account\Manage\Index.cshtml
+build_metadata.AdditionalFiles.GeneratedOutputFullPath = D:\GitMaster\WareHouseCrm\Warehouse.Web\obj\Debug\net6.0\Razor\Areas\Identity\Pages\Account\Manage\Index.cshtml.g.cs
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/GitMaster/WareHouseCrm/Warehouse.Web/Areas/Identity/Pages/Account/Manage/PersonalData.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Areas\Identity\Pages\Account\Manage\PersonalData.cshtml
+build_metadata.AdditionalFiles.GeneratedOutputFullPath = D:\GitMaster\WareHouseCrm\Warehouse.Web\obj\Debug\net6.0\Razor\Areas\Identity\Pages\Account\Manage\PersonalData.cshtml.g.cs
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/GitMaster/WareHouseCrm/Warehouse.Web/Areas/Identity/Pages/Account/Manage/SetPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Areas\Identity\Pages\Account\Manage\SetPassword.cshtml
+build_metadata.AdditionalFiles.GeneratedOutputFullPath = D:\GitMaster\WareHouseCrm\Warehouse.Web\obj\Debug\net6.0\Razor\Areas\Identity\Pages\Account\Manage\SetPassword.cshtml.g.cs
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/GitMaster/WareHouseCrm/Warehouse.Web/Areas/Identity/Pages/Account/Manage/_ManageNav.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Areas\Identity\Pages\Account\Manage\_ManageNav.cshtml
+build_metadata.AdditionalFiles.GeneratedOutputFullPath = D:\GitMaster\WareHouseCrm\Warehouse.Web\obj\Debug\net6.0\Razor\Areas\Identity\Pages\Account\Manage\_ManageNav.cshtml.g.cs
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/GitMaster/WareHouseCrm/Warehouse.Web/Areas/Identity/Pages/Account/Manage/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Areas\Identity\Pages\Account\Manage\_ViewImports.cshtml
+build_metadata.AdditionalFiles.GeneratedOutputFullPath = D:\GitMaster\WareHouseCrm\Warehouse.Web\obj\Debug\net6.0\Razor\Areas\Identity\Pages\Account\Manage\_ViewImports.cshtml.g.cs
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/GitMaster/WareHouseCrm/Warehouse.Web/Areas/Identity/Pages/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Areas\Identity\Pages\Account\Register.cshtml
+build_metadata.AdditionalFiles.GeneratedOutputFullPath = D:\GitMaster\WareHouseCrm\Warehouse.Web\obj\Debug\net6.0\Razor\Areas\Identity\Pages\Account\Register.cshtml.g.cs
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/GitMaster/WareHouseCrm/Warehouse.Web/Areas/Identity/Pages/Account/RegisterConfirmation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Areas\Identity\Pages\Account\RegisterConfirmation.cshtml
+build_metadata.AdditionalFiles.GeneratedOutputFullPath = D:\GitMaster\WareHouseCrm\Warehouse.Web\obj\Debug\net6.0\Razor\Areas\Identity\Pages\Account\RegisterConfirmation.cshtml.g.cs
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/GitMaster/WareHouseCrm/Warehouse.Web/Areas/Identity/Pages/Account/ResetPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Areas\Identity\Pages\Account\ResetPassword.cshtml
+build_metadata.AdditionalFiles.GeneratedOutputFullPath = D:\GitMaster\WareHouseCrm\Warehouse.Web\obj\Debug\net6.0\Razor\Areas\Identity\Pages\Account\ResetPassword.cshtml.g.cs
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/GitMaster/WareHouseCrm/Warehouse.Web/Areas/Identity/Pages/Account/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Areas\Identity\Pages\Account\_ViewImports.cshtml
+build_metadata.AdditionalFiles.GeneratedOutputFullPath = D:\GitMaster\WareHouseCrm\Warehouse.Web\obj\Debug\net6.0\Razor\Areas\Identity\Pages\Account\_ViewImports.cshtml.g.cs
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/GitMaster/WareHouseCrm/Warehouse.Web/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Areas\Identity\Pages\_ValidationScriptsPartial.cshtml
+build_metadata.AdditionalFiles.GeneratedOutputFullPath = D:\GitMaster\WareHouseCrm\Warehouse.Web\obj\Debug\net6.0\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.cshtml.g.cs
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/GitMaster/WareHouseCrm/Warehouse.Web/Areas/Identity/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Areas\Identity\Pages\_ViewImports.cshtml
+build_metadata.AdditionalFiles.GeneratedOutputFullPath = D:\GitMaster\WareHouseCrm\Warehouse.Web\obj\Debug\net6.0\Razor\Areas\Identity\Pages\_ViewImports.cshtml.g.cs
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/GitMaster/WareHouseCrm/Warehouse.Web/Areas/Identity/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Areas\Identity\Pages\_ViewStart.cshtml
+build_metadata.AdditionalFiles.GeneratedOutputFullPath = D:\GitMaster\WareHouseCrm\Warehouse.Web\obj\Debug\net6.0\Razor\Areas\Identity\Pages\_ViewStart.cshtml.g.cs
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/GitMaster/WareHouseCrm/Warehouse.Web/Pages/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Pages\_ValidationScriptsPartial.cshtml
+build_metadata.AdditionalFiles.GeneratedOutputFullPath = D:\GitMaster\WareHouseCrm\Warehouse.Web\obj\Debug\net6.0\Razor\Pages\_ValidationScriptsPartial.cshtml.g.cs
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/GitMaster/WareHouseCrm/Warehouse.Web/Views/Admin/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Views\Admin\Create.cshtml
+build_metadata.AdditionalFiles.GeneratedOutputFullPath = D:\GitMaster\WareHouseCrm\Warehouse.Web\obj\Debug\net6.0\Razor\Views\Admin\Create.cshtml.g.cs
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/GitMaster/WareHouseCrm/Warehouse.Web/Views/Admin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Views\Admin\Index.cshtml
+build_metadata.AdditionalFiles.GeneratedOutputFullPath = D:\GitMaster\WareHouseCrm\Warehouse.Web\obj\Debug\net6.0\Razor\Views\Admin\Index.cshtml.g.cs
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/GitMaster/WareHouseCrm/Warehouse.Web/Views/Admin/PluginManager/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Views\Admin\PluginManager\Edit.cshtml
+build_metadata.AdditionalFiles.GeneratedOutputFullPath = D:\GitMaster\WareHouseCrm\Warehouse.Web\obj\Debug\net6.0\Razor\Views\Admin\PluginManager\Edit.cshtml.g.cs
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/GitMaster/WareHouseCrm/Warehouse.Web/Views/Admin/PluginManager/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Views\Admin\PluginManager\Index.cshtml
+build_metadata.AdditionalFiles.GeneratedOutputFullPath = D:\GitMaster\WareHouseCrm\Warehouse.Web\obj\Debug\net6.0\Razor\Views\Admin\PluginManager\Index.cshtml.g.cs
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/GitMaster/WareHouseCrm/Warehouse.Web/Views/Admin/Setup.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Views\Admin\Setup.cshtml
+build_metadata.AdditionalFiles.GeneratedOutputFullPath = D:\GitMaster\WareHouseCrm\Warehouse.Web\obj\Debug\net6.0\Razor\Views\Admin\Setup.cshtml.g.cs
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/GitMaster/WareHouseCrm/Warehouse.Web/Views/Admin/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Views\Admin\Update.cshtml
+build_metadata.AdditionalFiles.GeneratedOutputFullPath = D:\GitMaster\WareHouseCrm\Warehouse.Web\obj\Debug\net6.0\Razor\Views\Admin\Update.cshtml.g.cs
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/GitMaster/WareHouseCrm/Warehouse.Web/Views/Admin/_SelectLanguagePartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Views\Admin\_SelectLanguagePartial.cshtml
+build_metadata.AdditionalFiles.GeneratedOutputFullPath = D:\GitMaster\WareHouseCrm\Warehouse.Web\obj\Debug\net6.0\Razor\Views\Admin\_SelectLanguagePartial.cshtml.g.cs
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/GitMaster/WareHouseCrm/Warehouse.Web/Views/Companies/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Views\Companies\Create.cshtml
+build_metadata.AdditionalFiles.GeneratedOutputFullPath = D:\GitMaster\WareHouseCrm\Warehouse.Web\obj\Debug\net6.0\Razor\Views\Companies\Create.cshtml.g.cs
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/GitMaster/WareHouseCrm/Warehouse.Web/Views/Companies/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Views\Companies\Delete.cshtml
+build_metadata.AdditionalFiles.GeneratedOutputFullPath = D:\GitMaster\WareHouseCrm\Warehouse.Web\obj\Debug\net6.0\Razor\Views\Companies\Delete.cshtml.g.cs
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/GitMaster/WareHouseCrm/Warehouse.Web/Views/Companies/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Views\Companies\Details.cshtml
+build_metadata.AdditionalFiles.GeneratedOutputFullPath = D:\GitMaster\WareHouseCrm\Warehouse.Web\obj\Debug\net6.0\Razor\Views\Companies\Details.cshtml.g.cs
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/GitMaster/WareHouseCrm/Warehouse.Web/Views/Companies/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Views\Companies\Edit.cshtml
+build_metadata.AdditionalFiles.GeneratedOutputFullPath = D:\GitMaster\WareHouseCrm\Warehouse.Web\obj\Debug\net6.0\Razor\Views\Companies\Edit.cshtml.g.cs
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/GitMaster/WareHouseCrm/Warehouse.Web/Views/Companies/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Views\Companies\Index.cshtml
+build_metadata.AdditionalFiles.GeneratedOutputFullPath = D:\GitMaster\WareHouseCrm\Warehouse.Web\obj\Debug\net6.0\Razor\Views\Companies\Index.cshtml.g.cs
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/GitMaster/WareHouseCrm/Warehouse.Web/Views/FileAttachments/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Views\FileAttachments\Create.cshtml
+build_metadata.AdditionalFiles.GeneratedOutputFullPath = D:\GitMaster\WareHouseCrm\Warehouse.Web\obj\Debug\net6.0\Razor\Views\FileAttachments\Create.cshtml.g.cs
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/GitMaster/WareHouseCrm/Warehouse.Web/Views/FileAttachments/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Views\FileAttachments\Edit.cshtml
+build_metadata.AdditionalFiles.GeneratedOutputFullPath = D:\GitMaster\WareHouseCrm\Warehouse.Web\obj\Debug\net6.0\Razor\Views\FileAttachments\Edit.cshtml.g.cs
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/GitMaster/WareHouseCrm/Warehouse.Web/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Views\Home\Index.cshtml
+build_metadata.AdditionalFiles.GeneratedOutputFullPath = D:\GitMaster\WareHouseCrm\Warehouse.Web\obj\Debug\net6.0\Razor\Views\Home\Index.cshtml.g.cs
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/GitMaster/WareHouseCrm/Warehouse.Web/Views/Notifications/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Views\Notifications\Create.cshtml
+build_metadata.AdditionalFiles.GeneratedOutputFullPath = D:\GitMaster\WareHouseCrm\Warehouse.Web\obj\Debug\net6.0\Razor\Views\Notifications\Create.cshtml.g.cs
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/GitMaster/WareHouseCrm/Warehouse.Web/Views/Notifications/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Views\Notifications\Delete.cshtml
+build_metadata.AdditionalFiles.GeneratedOutputFullPath = D:\GitMaster\WareHouseCrm\Warehouse.Web\obj\Debug\net6.0\Razor\Views\Notifications\Delete.cshtml.g.cs
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/GitMaster/WareHouseCrm/Warehouse.Web/Views/Notifications/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Views\Notifications\Details.cshtml
+build_metadata.AdditionalFiles.GeneratedOutputFullPath = D:\GitMaster\WareHouseCrm\Warehouse.Web\obj\Debug\net6.0\Razor\Views\Notifications\Details.cshtml.g.cs
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/GitMaster/WareHouseCrm/Warehouse.Web/Views/Notifications/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Views\Notifications\Edit.cshtml
+build_metadata.AdditionalFiles.GeneratedOutputFullPath = D:\GitMaster\WareHouseCrm\Warehouse.Web\obj\Debug\net6.0\Razor\Views\Notifications\Edit.cshtml.g.cs
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/GitMaster/WareHouseCrm/Warehouse.Web/Views/Notifications/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Views\Notifications\Index.cshtml
+build_metadata.AdditionalFiles.GeneratedOutputFullPath = D:\GitMaster\WareHouseCrm\Warehouse.Web\obj\Debug\net6.0\Razor\Views\Notifications\Index.cshtml.g.cs
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/GitMaster/WareHouseCrm/Warehouse.Web/Views/Role/Assign.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Views\Role\Assign.cshtml
+build_metadata.AdditionalFiles.GeneratedOutputFullPath = D:\GitMaster\WareHouseCrm\Warehouse.Web\obj\Debug\net6.0\Razor\Views\Role\Assign.cshtml.g.cs
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/GitMaster/WareHouseCrm/Warehouse.Web/Views/Role/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Views\Role\Create.cshtml
+build_metadata.AdditionalFiles.GeneratedOutputFullPath = D:\GitMaster\WareHouseCrm\Warehouse.Web\obj\Debug\net6.0\Razor\Views\Role\Create.cshtml.g.cs
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/GitMaster/WareHouseCrm/Warehouse.Web/Views/Role/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Views\Role\Index.cshtml
+build_metadata.AdditionalFiles.GeneratedOutputFullPath = D:\GitMaster\WareHouseCrm\Warehouse.Web\obj\Debug\net6.0\Razor\Views\Role\Index.cshtml.g.cs
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/GitMaster/WareHouseCrm/Warehouse.Web/Views/Role/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Views\Role\Update.cshtml
+build_metadata.AdditionalFiles.GeneratedOutputFullPath = D:\GitMaster\WareHouseCrm\Warehouse.Web\obj\Debug\net6.0\Razor\Views\Role\Update.cshtml.g.cs
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/GitMaster/WareHouseCrm/Warehouse.Web/Views/Shared/AuditTrailPopupPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Views\Shared\AuditTrailPopupPartial.cshtml
+build_metadata.AdditionalFiles.GeneratedOutputFullPath = D:\GitMaster\WareHouseCrm\Warehouse.Web\obj\Debug\net6.0\Razor\Views\Shared\AuditTrailPopupPartial.cshtml.g.cs
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/GitMaster/WareHouseCrm/Warehouse.Web/Views/Shared/Components/Addresses/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Views\Shared\Components\Addresses\Default.cshtml
+build_metadata.AdditionalFiles.GeneratedOutputFullPath = D:\GitMaster\WareHouseCrm\Warehouse.Web\obj\Debug\net6.0\Razor\Views\Shared\Components\Addresses\Default.cshtml.g.cs
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/GitMaster/WareHouseCrm/Warehouse.Web/Views/Shared/Components/FileAttachmentList/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Views\Shared\Components\FileAttachmentList\Default.cshtml
+build_metadata.AdditionalFiles.GeneratedOutputFullPath = D:\GitMaster\WareHouseCrm\Warehouse.Web\obj\Debug\net6.0\Razor\Views\Shared\Components\FileAttachmentList\Default.cshtml.g.cs
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/GitMaster/WareHouseCrm/Warehouse.Web/Views/Shared/Components/FileUploadComponent/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Views\Shared\Components\FileUploadComponent\Default.cshtml
+build_metadata.AdditionalFiles.GeneratedOutputFullPath = D:\GitMaster\WareHouseCrm\Warehouse.Web\obj\Debug\net6.0\Razor\Views\Shared\Components\FileUploadComponent\Default.cshtml.g.cs
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/GitMaster/WareHouseCrm/Warehouse.Web/Views/Shared/Components/PhotosList/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Views\Shared\Components\PhotosList\Default.cshtml
+build_metadata.AdditionalFiles.GeneratedOutputFullPath = D:\GitMaster\WareHouseCrm\Warehouse.Web\obj\Debug\net6.0\Razor\Views\Shared\Components\PhotosList\Default.cshtml.g.cs
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/GitMaster/WareHouseCrm/Warehouse.Web/Views/Shared/Components/UpdateList/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Views\Shared\Components\UpdateList\Default.cshtml
+build_metadata.AdditionalFiles.GeneratedOutputFullPath = D:\GitMaster\WareHouseCrm\Warehouse.Web\obj\Debug\net6.0\Razor\Views\Shared\Components\UpdateList\Default.cshtml.g.cs
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/GitMaster/WareHouseCrm/Warehouse.Web/Views/Shared/Components/Uploader/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Views\Shared\Components\Uploader\Default.cshtml
+build_metadata.AdditionalFiles.GeneratedOutputFullPath = D:\GitMaster\WareHouseCrm\Warehouse.Web\obj\Debug\net6.0\Razor\Views\Shared\Components\Uploader\Default.cshtml.g.cs
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/GitMaster/WareHouseCrm/Warehouse.Web/Views/Shared/Components/UserDropDownComponent/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Views\Shared\Components\UserDropDownComponent\Default.cshtml
+build_metadata.AdditionalFiles.GeneratedOutputFullPath = D:\GitMaster\WareHouseCrm\Warehouse.Web\obj\Debug\net6.0\Razor\Views\Shared\Components\UserDropDownComponent\Default.cshtml.g.cs
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/GitMaster/WareHouseCrm/Warehouse.Web/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Views\Shared\Error.cshtml
+build_metadata.AdditionalFiles.GeneratedOutputFullPath = D:\GitMaster\WareHouseCrm\Warehouse.Web\obj\Debug\net6.0\Razor\Views\Shared\Error.cshtml.g.cs
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/GitMaster/WareHouseCrm/Warehouse.Web/Views/Shared/_AdminLteLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Views\Shared\_AdminLteLayout.cshtml
+build_metadata.AdditionalFiles.GeneratedOutputFullPath = D:\GitMaster\WareHouseCrm\Warehouse.Web\obj\Debug\net6.0\Razor\Views\Shared\_AdminLteLayout.cshtml.g.cs
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/GitMaster/WareHouseCrm/Warehouse.Web/Views/Shared/_AdminLteLayoutWithoutDashIcons.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Views\Shared\_AdminLteLayoutWithoutDashIcons.cshtml
+build_metadata.AdditionalFiles.GeneratedOutputFullPath = D:\GitMaster\WareHouseCrm\Warehouse.Web\obj\Debug\net6.0\Razor\Views\Shared\_AdminLteLayoutWithoutDashIcons.cshtml.g.cs
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/GitMaster/WareHouseCrm/Warehouse.Web/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Views\Shared\_Layout.cshtml
+build_metadata.AdditionalFiles.GeneratedOutputFullPath = D:\GitMaster\WareHouseCrm\Warehouse.Web\obj\Debug\net6.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/GitMaster/WareHouseCrm/Warehouse.Web/Views/Shared/_LeftMenuPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Views\Shared\_LeftMenuPartial.cshtml
+build_metadata.AdditionalFiles.GeneratedOutputFullPath = D:\GitMaster\WareHouseCrm\Warehouse.Web\obj\Debug\net6.0\Razor\Views\Shared\_LeftMenuPartial.cshtml.g.cs
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/GitMaster/WareHouseCrm/Warehouse.Web/Views/Shared/_LoginLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Views\Shared\_LoginLayout.cshtml
+build_metadata.AdditionalFiles.GeneratedOutputFullPath = D:\GitMaster\WareHouseCrm\Warehouse.Web\obj\Debug\net6.0\Razor\Views\Shared\_LoginLayout.cshtml.g.cs
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/GitMaster/WareHouseCrm/Warehouse.Web/Views/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Views\Shared\_LoginPartial.cshtml
+build_metadata.AdditionalFiles.GeneratedOutputFullPath = D:\GitMaster\WareHouseCrm\Warehouse.Web\obj\Debug\net6.0\Razor\Views\Shared\_LoginPartial.cshtml.g.cs
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/GitMaster/WareHouseCrm/Warehouse.Web/Views/Shared/_NotificationPanel.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Views\Shared\_NotificationPanel.cshtml
+build_metadata.AdditionalFiles.GeneratedOutputFullPath = D:\GitMaster\WareHouseCrm\Warehouse.Web\obj\Debug\net6.0\Razor\Views\Shared\_NotificationPanel.cshtml.g.cs
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/GitMaster/WareHouseCrm/Warehouse.Web/Views/Shared/_SelectLanguagePartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Views\Shared\_SelectLanguagePartial.cshtml
+build_metadata.AdditionalFiles.GeneratedOutputFullPath = D:\GitMaster\WareHouseCrm\Warehouse.Web\obj\Debug\net6.0\Razor\Views\Shared\_SelectLanguagePartial.cshtml.g.cs
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/GitMaster/WareHouseCrm/Warehouse.Web/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Views\Shared\_ValidationScriptsPartial.cshtml
+build_metadata.AdditionalFiles.GeneratedOutputFullPath = D:\GitMaster\WareHouseCrm\Warehouse.Web\obj\Debug\net6.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/GitMaster/WareHouseCrm/Warehouse.Web/Views/StockItems/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Views\StockItems\Create.cshtml
+build_metadata.AdditionalFiles.GeneratedOutputFullPath = D:\GitMaster\WareHouseCrm\Warehouse.Web\obj\Debug\net6.0\Razor\Views\StockItems\Create.cshtml.g.cs
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/GitMaster/WareHouseCrm/Warehouse.Web/Views/StockItems/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Views\StockItems\Delete.cshtml
+build_metadata.AdditionalFiles.GeneratedOutputFullPath = D:\GitMaster\WareHouseCrm\Warehouse.Web\obj\Debug\net6.0\Razor\Views\StockItems\Delete.cshtml.g.cs
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/GitMaster/WareHouseCrm/Warehouse.Web/Views/StockItems/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Views\StockItems\Details.cshtml
+build_metadata.AdditionalFiles.GeneratedOutputFullPath = D:\GitMaster\WareHouseCrm\Warehouse.Web\obj\Debug\net6.0\Razor\Views\StockItems\Details.cshtml.g.cs
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/GitMaster/WareHouseCrm/Warehouse.Web/Views/StockItems/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Views\StockItems\Edit.cshtml
+build_metadata.AdditionalFiles.GeneratedOutputFullPath = D:\GitMaster\WareHouseCrm\Warehouse.Web\obj\Debug\net6.0\Razor\Views\StockItems\Edit.cshtml.g.cs
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/GitMaster/WareHouseCrm/Warehouse.Web/Views/StockItems/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Views\StockItems\Index.cshtml
+build_metadata.AdditionalFiles.GeneratedOutputFullPath = D:\GitMaster\WareHouseCrm\Warehouse.Web\obj\Debug\net6.0\Razor\Views\StockItems\Index.cshtml.g.cs
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/GitMaster/WareHouseCrm/Warehouse.Web/Views/SystemSetups/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Views\SystemSetups\Create.cshtml
+build_metadata.AdditionalFiles.GeneratedOutputFullPath = D:\GitMaster\WareHouseCrm\Warehouse.Web\obj\Debug\net6.0\Razor\Views\SystemSetups\Create.cshtml.g.cs
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/GitMaster/WareHouseCrm/Warehouse.Web/Views/SystemSetups/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Views\SystemSetups\Delete.cshtml
+build_metadata.AdditionalFiles.GeneratedOutputFullPath = D:\GitMaster\WareHouseCrm\Warehouse.Web\obj\Debug\net6.0\Razor\Views\SystemSetups\Delete.cshtml.g.cs
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/GitMaster/WareHouseCrm/Warehouse.Web/Views/SystemSetups/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Views\SystemSetups\Details.cshtml
+build_metadata.AdditionalFiles.GeneratedOutputFullPath = D:\GitMaster\WareHouseCrm\Warehouse.Web\obj\Debug\net6.0\Razor\Views\SystemSetups\Details.cshtml.g.cs
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/GitMaster/WareHouseCrm/Warehouse.Web/Views/SystemSetups/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Views\SystemSetups\Edit.cshtml
+build_metadata.AdditionalFiles.GeneratedOutputFullPath = D:\GitMaster\WareHouseCrm\Warehouse.Web\obj\Debug\net6.0\Razor\Views\SystemSetups\Edit.cshtml.g.cs
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/GitMaster/WareHouseCrm/Warehouse.Web/Views/SystemSetups/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Views\SystemSetups\Index.cshtml
+build_metadata.AdditionalFiles.GeneratedOutputFullPath = D:\GitMaster\WareHouseCrm\Warehouse.Web\obj\Debug\net6.0\Razor\Views\SystemSetups\Index.cshtml.g.cs
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/GitMaster/WareHouseCrm/Warehouse.Web/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Views\_ViewImports.cshtml
+build_metadata.AdditionalFiles.GeneratedOutputFullPath = D:\GitMaster\WareHouseCrm\Warehouse.Web\obj\Debug\net6.0\Razor\Views\_ViewImports.cshtml.g.cs
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/GitMaster/WareHouseCrm/Warehouse.Web/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Views\_ViewStart.cshtml
+build_metadata.AdditionalFiles.GeneratedOutputFullPath = D:\GitMaster\WareHouseCrm\Warehouse.Web\obj\Debug\net6.0\Razor\Views\_ViewStart.cshtml.g.cs
+build_metadata.AdditionalFiles.CssScope =

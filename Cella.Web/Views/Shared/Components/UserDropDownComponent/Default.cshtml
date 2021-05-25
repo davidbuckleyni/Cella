@@ -1,0 +1,18 @@
+﻿@model IEnumerable< Cella.Models.ApplicationUser>
+    <select>        
+        <option value="" selected data-default>OIC 2</option>
+
+        @foreach (var allUsers in Model) {
+
+            <option>
+                @allUsers.FirstName @allUsers.LastName
+            </option>
+        }
+
+    </select>
+
+<style>
+    select option[data-default] {
+        color: #888;
+    }
+</style>

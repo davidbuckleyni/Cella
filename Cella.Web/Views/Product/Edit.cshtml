@@ -1,0 +1,174 @@
+﻿@model Cella.Models.Product
+
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "~/Views/Shared/_AdminLteLayout.cshtml";
+}
+
+
+<style>
+
+    .label-wrapper {
+        display: table;
+        float: right;
+        min-height: 28px;
+        text-align: right;
+    }
+
+    ico-help {
+        display: table-cell;
+        color: #3c8dbc;
+        font-size: 1.17em;
+        padding-left: 6px
+    }
+</style>
+
+<div class="row">
+    <div class="col-md-12">
+        <div class="card">
+            <div class="card-header">
+                <h5 class="card-title">Product Info</h5>
+
+                <div class="card-tools">
+                    <button type="button" class="btn btn-tool" data-card-widget="collapse">
+                        <i class="fas fa-minus"></i>
+                    </button>
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-tool dropdown-toggle" data-toggle="dropdown">
+                            <i class="fas fa-wrench"></i>
+                        </button>
+                        <div class="dropdown-menu dropdown-menu-right" role="menu">
+                            <a href="#" class="dropdown-item">Action</a>
+                            <a href="#" class="dropdown-item">Another action</a>
+                            <a href="#" class="dropdown-item">Something else here</a>
+                            <a class="dropdown-divider"></a>
+                            <a href="#" class="dropdown-item">Separated link</a>
+                        </div>
+                    </div>
+                    <button type="button" class="btn btn-tool" data-card-widget="remove">
+                        <i class="fas fa-times"></i>
+                    </button>
+                </div>
+            </div>
+            <!-- /.card-header -->
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="form-horizontal">
+                            <form asp-action="Submit">
+
+
+                                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                                <input type="hidden" asp-for="Id" />
+
+
+
+                                <div class="form-group row">
+                                    <label asp-for="Name" title="The name of the product" class="col-sm-2 col-form-label label-wrapper"></label>
+                                    <div class="col-sm-10">
+                                        <input asp-for="Name" class="form-control" />
+                                    </div>
+                                </div>
+
+                                <div class="form-group row">
+                                    <label asp-for="StockCode" title="The Stock Code of the product, this is usually a shorter code easier for customer to remember" class="col-sm-2 col-form-label label-wrapper"></label>
+                                    <div class="col-sm-10">
+                                        <input asp-for="StockCode" class="form-control" />
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label asp-for="BarCode" title="The Bar Code  is usually 13 digits sometimes less but it identifies the product when scanning through the warehouse app" class="col-sm-2 col-form-label label-wrapper"></label>
+                                    <div class="col-sm-10">
+                                        <input asp-for="BarCode" class="form-control" />
+                                    </div>
+                                </div>
+
+                                  
+                                <div class="form-group">
+                                    <label asp-for="AvailableStartDate" class="control-label"></label>
+                                    <input asp-for="AvailableStartDate" class="form-control" />
+                                    <span asp-validation-for="AvailableStartDate" class="text-danger"></span>
+                                </div>
+                                <div class="form-group">
+                                    <label asp-for="AvailableEndDate" class="control-label"></label>
+                                    <input asp-for="AvailableEndDate" class="form-control" />
+                                    <span asp-validation-for="AvailableEndDate" class="text-danger"></span>
+                                </div>
+                                <div class="form-group form-check">
+                                    <label class="form-check-label">
+                                        <input class="form-check-input" asp-for="isNew" /> @Html.DisplayNameFor(model => model.isNew)
+                                    </label>
+                                </div>
+                                <div class="form-group">
+                                    <label asp-for="AdminComment" class="control-label"></label>
+                                    <input asp-for="AdminComment" class="form-control" />
+                                    <span asp-validation-for="AdminComment" class="text-danger"></span>
+                                </div>
+ 
+                                <div class="form-group">
+                                    <label asp-for="ManufacturePartNo" class="control-label"></label>
+                                    <input asp-for="ManufacturePartNo" class="form-control" />
+                                    <span asp-validation-for="ManufacturePartNo" class="text-danger"></span>
+                                </div>
+                                <div class="form-group form-check">
+                                    <label class="form-check-label">
+                                        <input class="form-check-input" asp-for="IsShowOnHomePage" /> @Html.DisplayNameFor(model => model.IsShowOnHomePage)
+                                    </label>
+                                </div>
+                                <div class="form-group form-check">
+                                    <label class="form-check-label">
+                                        <input class="form-check-input" asp-for="isShowPrice" /> @Html.DisplayNameFor(model => model.isShowPrice)
+                                    </label>
+                                </div>
+                                <div class="form-group">
+                                    <label asp-for="WarehouseLocation" class="control-label"></label>
+                                    <input asp-for="WarehouseLocation" class="form-control" />
+                                    <span asp-validation-for="WarehouseLocation" class="text-danger"></span>
+                                </div>
+                                <div class="form-group">
+                                    <label asp-for="ProductType" class="control-label"></label>
+                                    <input asp-for="ProductType" class="form-control" />
+                                    <span asp-validation-for="ProductType" class="text-danger"></span>
+                                </div>
+                                <div class="form-group form-check">
+                                    <label class="form-check-label">
+                                        <input class="form-check-input" asp-for="isPublished" /> @Html.DisplayNameFor(model => model.isPublished)
+                                    </label>
+                                </div>
+                                <div class="form-group">
+                                    <label asp-for="SKU" class="control-label"></label>
+                                    <input asp-for="SKU" class="form-control" />
+                                    <span asp-validation-for="SKU" class="text-danger"></span>
+                                </div>
+                                <div class="form-group form-check">
+                                    <label class="form-check-label">
+                                        <input class="form-check-input" asp-for="isBackOrder" /> @Html.DisplayNameFor(model => model.isBackOrder)
+                                    </label>
+                                </div>
+                                <div class="form-group">
+                                    <input type="submit" value="Save" class="btn btn-primary" />
+                                </div>
+
+                            </form>
+                            
+                        </div>
+                        <!-- /.col -->
+                    </div>
+                <!-- /.row -->
+            </div>
+            <!-- ./card-body -->
+            <div class="card-footer">
+
+                <!-- /.row -->
+            </div>
+            <!-- /.card-footer -->
+        </div>
+        <!-- /.card -->
+        <!-- /.row -->
+            </div>
+        </div>
+    </div>
+
+        @section Scripts {
+            @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+        }

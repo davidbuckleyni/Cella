@@ -1,0 +1,183 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "D:\\GitMaster\\WareHouseCrm\\Warehouse.Web\\Warehouse.Web.csproj",
+    "projectName": "WarehouseCrm.Web",
+    "projectPath": "D:\\GitMaster\\WareHouseCrm\\Warehouse.Web\\Warehouse.Web.csproj",
+    "outputPath": "D:\\GitMaster\\WareHouseCrm\\Warehouse.Web\\obj\\",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+      "C:\\Microsoft\\Xamarin\\NuGet"
+    ],
+    "originalTargetFrameworks": [
+      "net50"
+    ],
+    "sources": {
+      "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+      "https://api.nuget.org/v3/index.json": {},
+      "https://pkgs.dev.azure.com/xamarin/public/_packaging/XamarinCommunityToolkitNightly/nuget/v3/index.json": {}
+    },
+    "frameworks": {
+      "netcoreapp5.0": {
+        "projectReferences": {
+          "D:\\GitMaster\\WareHouseCrm\\SharedResourceLib.Lng\\SharedResourceLib.Lng.csproj": {
+            "projectPath": "D:\\GitMaster\\WareHouseCrm\\SharedResourceLib.Lng\\SharedResourceLib.Lng.csproj"
+          },
+          "D:\\GitMaster\\WareHouseCrm\\Warehouse..Domain\\Warehouse.Domain.csproj": {
+            "projectPath": "D:\\GitMaster\\WareHouseCrm\\Warehouse..Domain\\Warehouse.Domain.csproj"
+          },
+          "D:\\GitMaster\\WareHouseCrm\\Warehouse.BL\\Warehouse.BL.csproj": {
+            "projectPath": "D:\\GitMaster\\WareHouseCrm\\Warehouse.BL\\Warehouse.BL.csproj"
+          },
+          "D:\\GitMaster\\WareHouseCrm\\Warehouse.Infrastructure\\Warehouse.Infrastructure\\Warehouse.Infrastructure\\Warehouse.Infrastructure.csproj": {
+            "projectPath": "D:\\GitMaster\\WareHouseCrm\\Warehouse.Infrastructure\\Warehouse.Infrastructure\\Warehouse.Infrastructure\\Warehouse.Infrastructure.csproj"
+          },
+          "D:\\GitMaster\\WareHouseCrm\\Warehouse.Models\\WarehouseDal.Models.csproj": {
+            "projectPath": "D:\\GitMaster\\WareHouseCrm\\Warehouse.Models\\WarehouseDal.Models.csproj"
+          }
+        }
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp5.0": {
+      "dependencies": {
+        "AutoMapper": {
+          "target": "Package",
+          "version": "[10.1.1, )"
+        },
+        "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+          "target": "Package",
+          "version": "[8.1.0, )"
+        },
+        "CraftyClicks.PostCode.Loookup.1.0.2": {
+          "target": "Package",
+          "version": "[1.0.2, )"
+        },
+        "LazZiya.TagHelpers": {
+          "target": "Package",
+          "version": "[5.0.0, )"
+        },
+        "Microsoft.AspNetCore.Authentication.JwtBearer": {
+          "target": "Package",
+          "version": "[5.0.0, )"
+        },
+        "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
+          "target": "Package",
+          "version": "[5.0.0, )"
+        },
+        "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+          "target": "Package",
+          "version": "[5.0.0, )"
+        },
+        "Microsoft.AspNetCore.Identity.UI": {
+          "target": "Package",
+          "version": "[5.0.0, )"
+        },
+        "Microsoft.AspNetCore.Localization": {
+          "target": "Package",
+          "version": "[2.2.0, )"
+        },
+        "Microsoft.AspNetCore.Mvc.TagHelpers": {
+          "target": "Package",
+          "version": "[2.2.0, )"
+        },
+        "Microsoft.AspNetCore.SignalR": {
+          "target": "Package",
+          "version": "[1.1.0, )"
+        },
+        "Microsoft.Bcl.AsyncInterfaces": {
+          "target": "Package",
+          "version": "[5.0.0, )"
+        },
+        "Microsoft.CodeAnalysis.CSharp.Workspaces": {
+          "target": "Package",
+          "version": "[3.9.0-1.final, )"
+        },
+        "Microsoft.EntityFrameworkCore": {
+          "target": "Package",
+          "version": "[5.0.0, )"
+        },
+        "Microsoft.EntityFrameworkCore.SqlServer": {
+          "target": "Package",
+          "version": "[5.0.0, )"
+        },
+        "Microsoft.EntityFrameworkCore.Sqlite": {
+          "target": "Package",
+          "version": "[5.0.0, )"
+        },
+        "Microsoft.EntityFrameworkCore.Tools": {
+          "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[5.0.0, )"
+        },
+        "Microsoft.Extensions.DependencyInjection": {
+          "target": "Package",
+          "version": "[5.0.0, )"
+        },
+        "Microsoft.Extensions.Localization": {
+          "target": "Package",
+          "version": "[5.0.0, )"
+        },
+        "Microsoft.Extensions.Localization.Abstractions": {
+          "target": "Package",
+          "version": "[5.0.0, )"
+        },
+        "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+          "target": "Package",
+          "version": "[5.0.0, )"
+        },
+        "Mindscape.Raygun4Net.AspNetCore": {
+          "target": "Package",
+          "version": "[6.4.1, )"
+        },
+        "NETCore.MailKit": {
+          "target": "Package",
+          "version": "[2.0.3, )"
+        },
+        "NToastNotify": {
+          "target": "Package",
+          "version": "[7.0.0, )"
+        },
+        "Newtonsoft.Json": {
+          "target": "Package",
+          "version": "[12.0.3, )"
+        },
+        "SendGrid": {
+          "target": "Package",
+          "version": "[9.21.2, )"
+        },
+        "TagHelperSamples.Bootstrap": {
+          "target": "Package",
+          "version": "[2.0.49, )"
+        }
+      },
+      "imports": [
+        "net461",
+        "net462",
+        "net47",
+        "net471",
+        "net472",
+        "net48"
+      ],
+      "assetTargetFallback": true,
+      "warn": true,
+      "frameworkReferences": {
+        "Microsoft.AspNetCore.App": {
+          "privateAssets": "none"
+        },
+        "Microsoft.NETCore.App": {
+          "privateAssets": "all"
+        }
+      },
+      "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+    }
+  }
+}

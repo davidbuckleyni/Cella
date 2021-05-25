@@ -1,0 +1,15 @@
+D:\GitMaster\RingWoodMedia\MISSystemWeb\MISSystem.Dal\bin\Debug\netcoreapp3.1\MISSystem.Dal.deps.json
+D:\GitMaster\RingWoodMedia\MISSystemWeb\MISSystem.Dal\bin\Debug\netcoreapp3.1\MISSystem.Dal.runtimeconfig.json
+D:\GitMaster\RingWoodMedia\MISSystemWeb\MISSystem.Dal\bin\Debug\netcoreapp3.1\MISSystem.Dal.runtimeconfig.dev.json
+D:\GitMaster\RingWoodMedia\MISSystemWeb\MISSystem.Dal\bin\Debug\netcoreapp3.1\MISSystem.Dal.dll
+D:\GitMaster\RingWoodMedia\MISSystemWeb\MISSystem.Dal\bin\Debug\netcoreapp3.1\MISSystem.Dal.pdb
+D:\GitMaster\RingWoodMedia\MISSystemWeb\MISSystem.Dal\bin\Debug\netcoreapp3.1\MISSystem.Models.dll
+D:\GitMaster\RingWoodMedia\MISSystemWeb\MISSystem.Dal\bin\Debug\netcoreapp3.1\MISSystem.Models.pdb
+D:\GitMaster\RingWoodMedia\MISSystemWeb\MISSystem.Dal\obj\Debug\netcoreapp3.1\MISSystem.Dal.csprojAssemblyReference.cache
+D:\GitMaster\RingWoodMedia\MISSystemWeb\MISSystem.Dal\obj\Debug\netcoreapp3.1\MISSystem.Dal.AssemblyInfoInputs.cache
+D:\GitMaster\RingWoodMedia\MISSystemWeb\MISSystem.Dal\obj\Debug\netcoreapp3.1\MISSystem.Dal.AssemblyInfo.cs
+D:\GitMaster\RingWoodMedia\MISSystemWeb\MISSystem.Dal\obj\Debug\netcoreapp3.1\MISSystem.Dal.csproj.CoreCompileInputs.cache
+D:\GitMaster\RingWoodMedia\MISSystemWeb\MISSystem.Dal\obj\Debug\netcoreapp3.1\MISSystem.Dal.csproj.CopyComplete
+D:\GitMaster\RingWoodMedia\MISSystemWeb\MISSystem.Dal\obj\Debug\netcoreapp3.1\MISSystem.Dal.dll
+D:\GitMaster\RingWoodMedia\MISSystemWeb\MISSystem.Dal\obj\Debug\netcoreapp3.1\MISSystem.Dal.pdb
+D:\GitMaster\RingWoodMedia\MISSystemWeb\MISSystem.Dal\obj\Debug\netcoreapp3.1\MISSystem.Dal.genruntimeconfig.cache

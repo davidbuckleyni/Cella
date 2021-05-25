@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "B1r+GNym2SGHTaFoC0Fn6RC1A32w1S0mxRhGbjj5sYaRY/StjrLux03kHdTdSQoG0GXq/+Q3FIz3zMIU8GyzHw==",
+  "success": true,
+  "projectFilePath": "D:\\GitMaster\\WareHouseCrm\\WareHouseCrm.PaymentProcesser.PayPal\\WareHouseCrm.PaymentProcesser.PayPal\\WareHouseCrm.PaymentProcesser.PayPalStandard.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\David's PC\\.nuget\\packages\\extcore.infrastructure\\5.0.0\\extcore.infrastructure.5.0.0.nupkg.sha512",
+    "C:\\Users\\David's PC\\.nuget\\packages\\extcore.mvc.infrastructure\\5.0.0\\extcore.mvc.infrastructure.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

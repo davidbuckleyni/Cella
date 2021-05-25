@@ -1,0 +1,30 @@
+﻿@model Cella.Models.ViewModels.UserPermissionsViewModel
+@{
+	ViewData["Title"] = "Edit Role Permission";
+}
+
+<h1>Edit Role Permission</h1>
+
+<hr />
+<div class="row">
+	<div class="col-md-4">
+		<form asp-action="EditRolePermission">
+			<div class="form-group">
+				<ul style="list-style-type: none;">
+					@for (var i = 0; i < Model.UserPermmissions.Count; i++)
+					{
+						<li>
+							
+							<input type="checkbox" checked="@Model.UserPermmissions[i].isAcitve" asp-for="@Model.UserPermmissions[i].Name" />
+							<label style="margin-left:10px;" asp-for="@Model.UserPermmissions[i].Name">@Model.UserPermmissions[i].Name</label>
+						</li>
+					}
+				</ul>
+			</div>
+			<div class="form-group">
+				<input type="submit" value="Save" class="btn btn-primary" />
+				<a asp-action="Roles">Back to List</a>
+			</div>
+		</form>
+	</div>
+</div>

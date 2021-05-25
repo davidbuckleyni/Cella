@@ -1,0 +1,58 @@
+﻿@model IEnumerable< Cella.Models.Notifications>
+
+<div class="row">
+
+
+    @if (Model.Count() == 0) {
+
+
+
+
+    } else {
+        <h2>Shared Cases</h2>
+        <table id="example" class="display table table-striped dataTable" style="width:100%">
+
+            <thead>
+
+
+                <tr>
+                    <th>ENF Number</th>
+                    <th>Date Shared</th>
+                    <th>Shared From</th>
+                    <th>Shared To</th>
+                    <th>Notes</th>
+                    <th>Action</th>
+
+                </tr>
+
+            </thead>
+            <tbody>
+
+                @foreach (var notification in Model) {
+                    <tr>
+                        <td>@notification.CaseId.ToString("D8")</td>
+                        <td>@notification.CreateDated.ToString("dd/MM/yyyy")</td>
+                        <td>@notification.SharedFromUser.FirstName</td>
+                        <td>@notification.SharedToUser.FirstName</td>
+                        <td>@notification.Message</td>
+                        <td>
+                            <a asp-action="Edit" asp-controller="Warehouses" class="btn btn-primary" style="background-color:#1e3f5a;color:white" asp-route-id="@notification.CaseId">Reply</a>
+
+                        </td>
+                    </tr>
+                }
+
+
+            </tbody>
+
+        </table>
+    }
+</div>
+    <!-- /.card-body -->
+    <div class="card-footer">
+
+    </div>
+    <!-- /.card-footer-->
+    <!-- /.card -->
+
+  

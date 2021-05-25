@@ -1,0 +1,4 @@
+D:\GitMaster\WarehouseCrmSystem\MISSystemWeb\MISSystem.Models\obj\Debug\netcoreapp3.1\WarehouseCrm.Models.csprojAssemblyReference.cache
+D:\GitMaster\WarehouseCrmSystem\MISSystemWeb\MISSystem.Models\obj\Debug\netcoreapp3.1\WarehouseCrm.Models.AssemblyInfoInputs.cache
+D:\GitMaster\WarehouseCrmSystem\MISSystemWeb\MISSystem.Models\obj\Debug\netcoreapp3.1\WarehouseCrm.Models.AssemblyInfo.cs
+D:\GitMaster\WarehouseCrmSystem\MISSystemWeb\MISSystem.Models\obj\Debug\netcoreapp3.1\WarehouseCrm.Models.csproj.CoreCompileInputs.cache

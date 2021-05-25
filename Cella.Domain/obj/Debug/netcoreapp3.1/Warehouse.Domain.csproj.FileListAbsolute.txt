@@ -1,0 +1,15 @@
+D:\GitMaster\WareHouseCrm\Warehouse..Dal\bin\Debug\netcoreapp3.1\Warehouse.Domain.deps.json
+D:\GitMaster\WareHouseCrm\Warehouse..Dal\bin\Debug\netcoreapp3.1\Warehouse.Domain.runtimeconfig.json
+D:\GitMaster\WareHouseCrm\Warehouse..Dal\bin\Debug\netcoreapp3.1\Warehouse.Domain.runtimeconfig.dev.json
+D:\GitMaster\WareHouseCrm\Warehouse..Dal\bin\Debug\netcoreapp3.1\Warehouse.Domain.dll
+D:\GitMaster\WareHouseCrm\Warehouse..Dal\bin\Debug\netcoreapp3.1\Warehouse.Domain.pdb
+D:\GitMaster\WareHouseCrm\Warehouse..Dal\bin\Debug\netcoreapp3.1\WarehouseDal.Models.dll
+D:\GitMaster\WareHouseCrm\Warehouse..Dal\bin\Debug\netcoreapp3.1\WarehouseDal.Models.pdb
+D:\GitMaster\WareHouseCrm\Warehouse..Dal\obj\Debug\netcoreapp3.1\Warehouse.Domain.csprojAssemblyReference.cache
+D:\GitMaster\WareHouseCrm\Warehouse..Dal\obj\Debug\netcoreapp3.1\Warehouse.Domain.AssemblyInfoInputs.cache
+D:\GitMaster\WareHouseCrm\Warehouse..Dal\obj\Debug\netcoreapp3.1\Warehouse.Domain.AssemblyInfo.cs
+D:\GitMaster\WareHouseCrm\Warehouse..Dal\obj\Debug\netcoreapp3.1\Warehouse.Domain.csproj.CoreCompileInputs.cache
+D:\GitMaster\WareHouseCrm\Warehouse..Dal\obj\Debug\netcoreapp3.1\Warehouse.Domain.csproj.CopyComplete
+D:\GitMaster\WareHouseCrm\Warehouse..Dal\obj\Debug\netcoreapp3.1\Warehouse.Domain.dll
+D:\GitMaster\WareHouseCrm\Warehouse..Dal\obj\Debug\netcoreapp3.1\Warehouse.Domain.pdb
+D:\GitMaster\WareHouseCrm\Warehouse..Dal\obj\Debug\netcoreapp3.1\Warehouse.Domain.genruntimeconfig.cache

@@ -1,0 +1,30 @@
+﻿@model  Cella.Models.FileAttachmentsVM
+@using MISSystem.Web.Helpers
+
+
+<form method="post" asp-controller="FileAttachments" asp-action="UploadFiles" enctype="multipart/form-data">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+
+
+    <div class="form-group">
+        <input type="file" id="FormFile" multiple="multiple" class="btn-primary float-left" name="FormFile">
+        <input type="hidden" value="@ViewBag.PoiId" id="PoiId" name="PoiId" />
+        <input type="hidden" value="@ViewBag.VesselId" id="VesselId" name="VesselId" />
+        <input type="hidden" value="@ViewBag.UploadArea" id="UploadArea" name="UploadArea" />
+        <input type="submit" id="btnUpload" class="btn-primary float-right" value="Upload Files" />
+
+
+    </div>
+
+
+</form>
+
+
+
+<style>
+
+    .fiv-cla, .fiv-viv, .fiv-sqo {
+        font-size: 4em;
+    }
+</style>

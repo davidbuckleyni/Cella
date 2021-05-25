@@ -1,0 +1,14 @@
+D:\GitMaster\RingWoodMedia\MISSystemWeb\MISSystem.BL\MISSystem.BL\bin\Release\netcoreapp3.1\MISSystem.BL.deps.json
+D:\GitMaster\RingWoodMedia\MISSystemWeb\MISSystem.BL\MISSystem.BL\bin\Release\netcoreapp3.1\MISSystem.BL.dll
+D:\GitMaster\RingWoodMedia\MISSystemWeb\MISSystem.BL\MISSystem.BL\bin\Release\netcoreapp3.1\MISSystem.BL.pdb
+D:\GitMaster\RingWoodMedia\MISSystemWeb\MISSystem.BL\MISSystem.BL\bin\Release\netcoreapp3.1\MISSystem.Dal.dll
+D:\GitMaster\RingWoodMedia\MISSystemWeb\MISSystem.BL\MISSystem.BL\bin\Release\netcoreapp3.1\MISSystem.Models.dll
+D:\GitMaster\RingWoodMedia\MISSystemWeb\MISSystem.BL\MISSystem.BL\bin\Release\netcoreapp3.1\MISSystem.Dal.pdb
+D:\GitMaster\RingWoodMedia\MISSystemWeb\MISSystem.BL\MISSystem.BL\bin\Release\netcoreapp3.1\MISSystem.Models.pdb
+D:\GitMaster\RingWoodMedia\MISSystemWeb\MISSystem.BL\MISSystem.BL\obj\Release\netcoreapp3.1\MISSystem.BL.csprojAssemblyReference.cache
+D:\GitMaster\RingWoodMedia\MISSystemWeb\MISSystem.BL\MISSystem.BL\obj\Release\netcoreapp3.1\MISSystem.BL.AssemblyInfoInputs.cache
+D:\GitMaster\RingWoodMedia\MISSystemWeb\MISSystem.BL\MISSystem.BL\obj\Release\netcoreapp3.1\MISSystem.BL.AssemblyInfo.cs
+D:\GitMaster\RingWoodMedia\MISSystemWeb\MISSystem.BL\MISSystem.BL\obj\Release\netcoreapp3.1\MISSystem.BL.csproj.CoreCompileInputs.cache
+D:\GitMaster\RingWoodMedia\MISSystemWeb\MISSystem.BL\MISSystem.BL\obj\Release\netcoreapp3.1\MISSystem.BL.csproj.CopyComplete
+D:\GitMaster\RingWoodMedia\MISSystemWeb\MISSystem.BL\MISSystem.BL\obj\Release\netcoreapp3.1\MISSystem.BL.dll
+D:\GitMaster\RingWoodMedia\MISSystemWeb\MISSystem.BL\MISSystem.BL\obj\Release\netcoreapp3.1\MISSystem.BL.pdb

@@ -1,0 +1,12 @@
+D:\GitMaster\RingWoodMedia\MISSystemWeb\MISSystem.Models\bin\Debug\netcoreapp3.1\MISSystem.Models.deps.json
+D:\GitMaster\RingWoodMedia\MISSystemWeb\MISSystem.Models\bin\Debug\netcoreapp3.1\MISSystem.Models.runtimeconfig.json
+D:\GitMaster\RingWoodMedia\MISSystemWeb\MISSystem.Models\bin\Debug\netcoreapp3.1\MISSystem.Models.runtimeconfig.dev.json
+D:\GitMaster\RingWoodMedia\MISSystemWeb\MISSystem.Models\bin\Debug\netcoreapp3.1\MISSystem.Models.dll
+D:\GitMaster\RingWoodMedia\MISSystemWeb\MISSystem.Models\bin\Debug\netcoreapp3.1\MISSystem.Models.pdb
+D:\GitMaster\RingWoodMedia\MISSystemWeb\MISSystem.Models\obj\Debug\netcoreapp3.1\MISSystem.Models.AssemblyInfoInputs.cache
+D:\GitMaster\RingWoodMedia\MISSystemWeb\MISSystem.Models\obj\Debug\netcoreapp3.1\MISSystem.Models.AssemblyInfo.cs
+D:\GitMaster\RingWoodMedia\MISSystemWeb\MISSystem.Models\obj\Debug\netcoreapp3.1\MISSystem.Models.csproj.CoreCompileInputs.cache
+D:\GitMaster\RingWoodMedia\MISSystemWeb\MISSystem.Models\obj\Debug\netcoreapp3.1\MISSystem.Models.dll
+D:\GitMaster\RingWoodMedia\MISSystemWeb\MISSystem.Models\obj\Debug\netcoreapp3.1\MISSystem.Models.pdb
+D:\GitMaster\RingWoodMedia\MISSystemWeb\MISSystem.Models\obj\Debug\netcoreapp3.1\MISSystem.Models.genruntimeconfig.cache
+D:\GitMaster\RingWoodMedia\MISSystemWeb\MISSystem.Models\obj\Debug\netcoreapp3.1\MISSystem.Models.csprojAssemblyReference.cache
