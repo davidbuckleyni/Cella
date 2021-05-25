@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Linq;
 using System.Linq.Expressions;
-using WarehouseCrm.Infrastructure.Extensions;
+using Cella.Infrastructure.Extensions;
 
-namespace WarehouseCrm.Infrastructure.Web.SmartTable
+namespace Cella.Infrastructure.Web.SmartTable
 {
     public static class SmartTableExtension
     {

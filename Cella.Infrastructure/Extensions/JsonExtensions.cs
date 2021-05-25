@@ -1,7 +1,7 @@
 ﻿using Newtonsoft.Json;
 using Newtonsoft.Json.Serialization;
 
-namespace WarehouseCrm.Infrastructure.Extensions
+namespace Cella.Infrastructure.Extensions
 {
     public static class JsonExtensions
     {

@@ -3,7 +3,7 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Reflection;
 
-namespace WarehouseCrm.Infrastructure.Extensions
+namespace Cella.Infrastructure.Extensions
 {
     public static class QueryableExtensions
     {

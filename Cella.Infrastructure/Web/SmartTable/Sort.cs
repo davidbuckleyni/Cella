@@ -1,4 +1,4 @@
-﻿namespace WarehouseCrm.Infrastructure.Web.SmartTable
+﻿namespace Cella.Infrastructure.Web.SmartTable
 {
     public class Sort
     {

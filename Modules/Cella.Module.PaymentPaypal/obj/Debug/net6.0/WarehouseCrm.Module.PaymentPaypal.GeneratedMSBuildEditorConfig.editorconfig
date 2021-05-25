@@ -1,0 +1,29 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property._SupportedPlatformList = Linux,macOS,Windows,browser
+build_property.RootNamespace = WarehouseCrm.Module.PaymentPaypal
+build_property.RootNamespace = WarehouseCrm.Module.PaymentPaypal
+build_property.ProjectDir = D:\GitMaster\WareHouseCrm\WarehouseCrm.Module.PaymentPaypal\WarehouseCrm.Module.PaymentPaypal\
+build_property.RazorLangVersion = 5.0
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\GitMaster\WareHouseCrm\WarehouseCrm.Module.PaymentPaypal\WarehouseCrm.Module.PaymentPaypal
+build_property._RazorSourceGeneratorDebug = 
+build_property._RazorSourceGeneratorLog = 
+
+[d:/GitMaster/WareHouseCrm/WarehouseCrm.Module.PaymentPaypal/WarehouseCrm.Module.PaymentPaypal/Views/PaypalExpress/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Views\PaypalExpress\Index.cshtml
+build_metadata.AdditionalFiles.GeneratedOutputFullPath = D:\GitMaster\WareHouseCrm\WarehouseCrm.Module.PaymentPaypal\WarehouseCrm.Module.PaymentPaypal\obj\Debug\net6.0\Razor\Views\PaypalExpress\Index.cshtml.g.cs
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/GitMaster/WareHouseCrm/WarehouseCrm.Module.PaymentPaypal/WarehouseCrm.Module.PaymentPaypal/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Views\_ViewImports.cshtml
+build_metadata.AdditionalFiles.GeneratedOutputFullPath = D:\GitMaster\WareHouseCrm\WarehouseCrm.Module.PaymentPaypal\WarehouseCrm.Module.PaymentPaypal\obj\Debug\net6.0\Razor\Views\_ViewImports.cshtml.g.cs
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/GitMaster/WareHouseCrm/WarehouseCrm.Module.PaymentPaypal/WarehouseCrm.Module.PaymentPaypal/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Views\_ViewStart.cshtml
+build_metadata.AdditionalFiles.GeneratedOutputFullPath = D:\GitMaster\WareHouseCrm\WarehouseCrm.Module.PaymentPaypal\WarehouseCrm.Module.PaymentPaypal\obj\Debug\net6.0\Razor\Views\_ViewStart.cshtml.g.cs
+build_metadata.AdditionalFiles.CssScope =

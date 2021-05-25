@@ -1,7 +1,7 @@
 [
 
   {
-    "id": "WarehouseCrm.Module.PaymentPaypal",
+    "id": "Cella.Module.PaymentPaypal",
     "name": "Paypal Express Payment",
     "isBundledWithHost": false,
     "thumbnail": "test",

@@ -2773,16 +2773,16 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Content Update="Modules\WarehouseCrm.Module.PaymentPaypal\module.json">
+    <Content Update="Modules\Cella.Module.PaymentPaypal\module.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
 
   <ItemGroup>
-    <None Update="Modules\WarehouseCrm.Module.PaymentPaypal\WarehouseCrm.Module.PaymentPaypal.dll">
+    <None Update="Modules\Cella.Module.PaymentPaypal\Cella.Module.PaymentPaypal.dll">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Modules\WarehouseCrm.Module.PaymentPaypal\WarehouseCrm.Module.PaymentPaypal.Views.dll">
+    <None Update="Modules\Cella.Module.PaymentPaypal\Cella.Module.PaymentPaypal.Views.dll">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Update="plugins\MvcAppPlugin1\MvcAppPlugin1.dll">

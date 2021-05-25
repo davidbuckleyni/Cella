@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using Cella.Models;
 
-namespace WarehouseCrm.Infrastructure.Modules
+namespace Cella.Infrastructure.Modules
 {
     public interface IModuleConfigurationManager
     {

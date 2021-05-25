@@ -609,9 +609,6 @@ D:\GitMaster\Cella\Cella.Web\bin\Debug\net5.0\Themes\FrontEnd\theme.json
 D:\GitMaster\Cella\Cella.Web\bin\Debug\net5.0\Themes\SampleTheme\theme.json
 D:\GitMaster\Cella\Cella.Web\bin\Debug\net5.0\Cella.Web.StaticWebAssets.xml
 D:\GitMaster\Cella\Cella.Web\bin\Debug\net5.0\Cella.Web.exe
-D:\GitMaster\Cella\Cella.Web\bin\Debug\net5.0\Modules\WarehouseCrm.Module.PaymentPaypal\module.json
-D:\GitMaster\Cella\Cella.Web\bin\Debug\net5.0\Modules\WarehouseCrm.Module.PaymentPaypal\WarehouseCrm.Module.PaymentPaypal.dll
-D:\GitMaster\Cella\Cella.Web\bin\Debug\net5.0\Modules\WarehouseCrm.Module.PaymentPaypal\WarehouseCrm.Module.PaymentPaypal.Views.dll
 D:\GitMaster\Cella\Cella.Web\bin\Debug\net5.0\plugins\MvcAppPlugin1\MvcAppPlugin1.dll
 D:\GitMaster\Cella\Cella.Web\bin\Debug\net5.0\plugins\MvcAppPlugin1\MvcAppPlugin1.Views.dll
 D:\GitMaster\Cella\Cella.Web\bin\Debug\net5.0\plugins\placeholder.txt
@@ -1083,7 +1080,6 @@ D:\GitMaster\Cella\Cella.Web\bin\Debug\net5.0\Cella.Models.pdb
 D:\GitMaster\Cella\Cella.Web\bin\Debug\net5.0\SharedResourceLib.Lng.pdb
 D:\GitMaster\Cella\Cella.Web\bin\Debug\net5.0\es\SharedResourceLib.Lng.resources.dll
 D:\GitMaster\Cella\Cella.Web\bin\Debug\net5.0\fr\SharedResourceLib.Lng.resources.dll
-D:\GitMaster\Cella\Cella.Web\obj\Debug\net5.0\Cella.Web.csprojAssemblyReference.cache
 D:\GitMaster\Cella\Cella.Web\obj\Debug\net5.0\Cella.Web.GeneratedMSBuildEditorConfig.editorconfig
 D:\GitMaster\Cella\Cella.Web\obj\Debug\net5.0\Cella.Web.AssemblyInfoInputs.cache
 D:\GitMaster\Cella\Cella.Web\obj\Debug\net5.0\Cella.Web.AssemblyInfo.cs
@@ -1198,3 +1194,7 @@ D:\GitMaster\Cella\Cella.Web\obj\Debug\net5.0\Cella.Web.dll
 D:\GitMaster\Cella\Cella.Web\obj\Debug\net5.0\ref\Cella.Web.dll
 D:\GitMaster\Cella\Cella.Web\obj\Debug\net5.0\Cella.Web.pdb
 D:\GitMaster\Cella\Cella.Web\obj\Debug\net5.0\Cella.Web.genruntimeconfig.cache
+D:\GitMaster\Cella\Cella.Web\obj\Debug\net5.0\Cella.Web.csproj.AssemblyReference.cache
+D:\GitMaster\Cella\Cella.Web\bin\Debug\net5.0\Modules\Cella.Module.PaymentPaypal\module.json
+D:\GitMaster\Cella\Cella.Web\bin\Debug\net5.0\Modules\Cella.Module.PaymentPaypal\Cella.Module.PaymentPaypal.dll
+D:\GitMaster\Cella\Cella.Web\bin\Debug\net5.0\Modules\Cella.Module.PaymentPaypal\Cella.Module.PaymentPaypal.Views.dll

@@ -20,16 +20,14 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
  
 using System.IdentityModel.Tokens.Jwt;
-using WarehouseCrm.Infrastructure.Modules;
-using WarehouseCrm.Infrastructure;
-using WarehouseCrm.Infrastructure.Web.ModelBinders;
 using Cella.Models;
 
-using Warehouse.Domain;
-using Warehouse.Infrastructure;
+using Cella.Domain;
 using Cella.Infrastructure;
+using Cella.Infrastructure.Modules;
+using Cella.Infrastructure.Web.ModelBinders;
 
-namespace WareHouseCrm.WebHost.Extensions
+namespace Cella.WebHost.Extensions
 {
     public static class ServiceCollectionExtensions
 

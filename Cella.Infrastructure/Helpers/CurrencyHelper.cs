@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Globalization;
 
-namespace WarehouseCrm.Infrastructure.Helpers
+namespace Cella.Infrastructure.Helpers
 {
     public static class CurrencyHelper
     {

@@ -2,11 +2,10 @@
 using System;
 using System.Collections.Generic;
 using System.IO;
-using Warehouse.Infrastructure;
-using Cella.Models;
 using Cella.Infrastructure;
+using Cella.Models;
 
-namespace WarehouseCrm.Infrastructure.Modules
+namespace Cella.Infrastructure.Modules
 {
     public class ModuleConfigurationManager : IModuleConfigurationManager
     {

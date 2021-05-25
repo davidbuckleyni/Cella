@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace WarehouseCrm.Infrastructure.Extensions
+namespace Cella.Infrastructure.Extensions
 {
     /// <summary>
     /// Extension methods for Dictionary.

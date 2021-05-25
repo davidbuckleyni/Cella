@@ -832,7 +832,6 @@ D:\GitMaster\Cella\Cella.Core.API\Cella.Core.API\bin\Debug\net5.0\Cella.BL.pdb
 D:\GitMaster\Cella\Cella.Core.API\Cella.Core.API\bin\Debug\net5.0\Cella.Domain.pdb
 D:\GitMaster\Cella\Cella.Core.API\Cella.Core.API\bin\Debug\net5.0\Cella.Models.pdb
 D:\GitMaster\Cella\Cella.Core.API\Cella.Core.API\bin\Debug\net5.0\Cella.Infrastructure.pdb
-D:\GitMaster\Cella\Cella.Core.API\Cella.Core.API\obj\Debug\net5.0\Cella.Core.API.csprojAssemblyReference.cache
 D:\GitMaster\Cella\Cella.Core.API\Cella.Core.API\obj\Debug\net5.0\Cella.Core.API.GeneratedMSBuildEditorConfig.editorconfig
 D:\GitMaster\Cella\Cella.Core.API\Cella.Core.API\obj\Debug\net5.0\Cella.Core.API.AssemblyInfoInputs.cache
 D:\GitMaster\Cella\Cella.Core.API\Cella.Core.API\obj\Debug\net5.0\Cella.Core.API.AssemblyInfo.cs
@@ -848,3 +847,4 @@ D:\GitMaster\Cella\Cella.Core.API\Cella.Core.API\obj\Debug\net5.0\Cella.Core.API
 D:\GitMaster\Cella\Cella.Core.API\Cella.Core.API\obj\Debug\net5.0\ref\Cella.Core.API.dll
 D:\GitMaster\Cella\Cella.Core.API\Cella.Core.API\obj\Debug\net5.0\Cella.Core.API.pdb
 D:\GitMaster\Cella\Cella.Core.API\Cella.Core.API\obj\Debug\net5.0\Cella.Core.API.genruntimeconfig.cache
+D:\GitMaster\Cella\Cella.Core.API\Cella.Core.API\obj\Debug\net5.0\Cella.Core.API.csproj.AssemblyReference.cache

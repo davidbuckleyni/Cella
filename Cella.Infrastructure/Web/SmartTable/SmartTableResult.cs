@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace WarehouseCrm.Infrastructure.Web.SmartTable
+namespace Cella.Infrastructure.Web.SmartTable
 {
     public class SmartTableResult<T>
     {

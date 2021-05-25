@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
-namespace WarehouseCrm.Infrastructure.Helpers
+namespace Cella.Infrastructure.Helpers
 {
     public static class EnumHelper
     {

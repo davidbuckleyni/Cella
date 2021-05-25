@@ -2,7 +2,7 @@
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.AspNetCore.Hosting;
 
-namespace WarehouseCrm.Infrastructure.Modules
+namespace Cella.Infrastructure.Modules
 {
     public interface IModuleInitializer
     {

@@ -2,7 +2,7 @@
 using System.Globalization;
 using System.Text;
 
-namespace WarehouseCrm.Infrastructure.Helpers
+namespace Cella.Infrastructure.Helpers
 {
     public static class StringHelper
     {

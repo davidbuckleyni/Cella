@@ -3,7 +3,7 @@ using System.Net.Http;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
 
-namespace WarehouseCrm.Infrastructure.Extensions
+namespace Cella.Infrastructure.Extensions
 {
     public static class HttpClientExtensions
     {

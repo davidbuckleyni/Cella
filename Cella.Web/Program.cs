@@ -25,7 +25,7 @@ namespace Warehouse.Web {
                         opts.UseSqlServer(config.GetConnectionString("DefaultConnection")));
                     configBuilder.Add(configSource);
                 }).Build();
-            
+
             using (var scope = host.Services.CreateScope())
             {
                 var services = scope.ServiceProvider;
@@ -36,17 +36,17 @@ namespace Warehouse.Web {
                     var userManager = services.GetRequiredService<UserManager<ApplicationUser>>();
                     var roleManager = services.GetRequiredService<RoleManager<IdentityRole>>();
                     await SeedRoles.SeedAsync(userManager, roleManager);
-                   await SeedUsers.SeedAdminUser(userManager, roleManager);
-                    
-          //          logger.LogInformation("Finished Seeding Default Data");
-        //            logger.LogInformation("Application Starting");
+                    await SeedUsers.SeedAdminUser(userManager, roleManager);
+
+                    logger.LogInformation("Finished Seeding Default Data");
+                    logger.LogInformation("Application Starting");
                 }
                 catch (Exception ex)
                 {
                     logger.LogWarning(ex, "An error occurred seeding the DB");
                 }
             }
-            host.Run();
+               host.Run();
         }
    
         public static IHostBuilder CreateHostBuilder(string[] args) =>

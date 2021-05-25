@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Warehouse.Infrastructure.Models.Plugins
+namespace Cella.Infrastructure.Models.Plugins
 {
    public  class PluginList
     {

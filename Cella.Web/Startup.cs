@@ -44,12 +44,10 @@ using Warehouse.Dal;
 using Warehouse.Domain;
 using WareHouseCrm.Web.Services;
 using WareHouseCrm.Web.AutoMapper;
-using WarehouseCrm.Infrastructure;
-using WareHouseCrm.WebHost.Extensions;
-using WarehouseCrm.WebHost.Extensions;
-using WarehouseCrm.Infrastructure.Modules;
-using Warehouse.Domain.Interfaces;
-using Warehouse.Infrastructure;
+using Cella.Infrastructure;
+using Cella.WebHost.Extensions;
+using Cella.Infrastructure.Modules;
+using Cella.Domain.Interfaces;
 using Warehouse.Web.Helpers;
 using WarehouseCrm.Web.Helpers;
 
@@ -59,8 +57,6 @@ using Cella.BL.Services;
 using Cella.Infrastructure.Web;
 using Cella.BL;
 using Cella.BL.Interfaces;
-using Cella.Models;
-using Cella.Infrastructure;
 using Cella.Domain;
 
 namespace Warehouse.Web

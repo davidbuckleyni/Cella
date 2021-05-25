@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Configuration;
 using Microsoft.AspNetCore.Mvc.Razor;
 using System.IO;
-using WarehouseCrm.Infrastructure;
+using Cella.Infrastructure;
 using Cella.Infrastructure;
 
 namespace WarehouseCrm.Web.Helpers

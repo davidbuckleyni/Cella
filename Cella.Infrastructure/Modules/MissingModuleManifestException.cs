@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace WarehouseCrm.Infrastructure.Modules
+namespace Cella.Infrastructure.Modules
 {
     public class MissingModuleManifestException : Exception
     {

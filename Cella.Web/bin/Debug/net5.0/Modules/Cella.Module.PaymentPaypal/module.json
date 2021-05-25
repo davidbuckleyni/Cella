@@ -1,0 +1,10 @@
+{
+  "id": "Cella.Module.PaymentPaypal",
+  "name": "Paypal Express Payment",
+  "isBundledWithHost": true,
+  "thumbnail": "test",
+  "isEnabled": true,
+  "order": 1,
+  "type": 4,
+  "version": "1.0.0"
+}

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Reflection;
 
-namespace WarehouseCrm.Infrastructure.Helpers
+namespace Cella.Infrastructure.Helpers
 {
     public static class ReflectionHelper
     {

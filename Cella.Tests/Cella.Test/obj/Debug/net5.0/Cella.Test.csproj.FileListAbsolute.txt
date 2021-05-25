@@ -976,7 +976,6 @@ D:\GitMaster\Cella\Cella.Tests\Cella.Test\bin\Debug\net5.0\Cella.BL.pdb
 D:\GitMaster\Cella\Cella.Tests\Cella.Test\bin\Debug\net5.0\Cella.Models.pdb
 D:\GitMaster\Cella\Cella.Tests\Cella.Test\bin\Debug\net5.0\Cella.Domain.pdb
 D:\GitMaster\Cella\Cella.Tests\Cella.Test\bin\Debug\net5.0\Cella.Infrastructure.pdb
-D:\GitMaster\Cella\Cella.Tests\Cella.Test\obj\Debug\net5.0\Cella.Test.csprojAssemblyReference.cache
 D:\GitMaster\Cella\Cella.Tests\Cella.Test\obj\Debug\net5.0\Cella.Test.GeneratedMSBuildEditorConfig.editorconfig
 D:\GitMaster\Cella\Cella.Tests\Cella.Test\obj\Debug\net5.0\Cella.Test.AssemblyInfoInputs.cache
 D:\GitMaster\Cella\Cella.Tests\Cella.Test\obj\Debug\net5.0\Cella.Test.AssemblyInfo.cs
@@ -986,3 +985,4 @@ D:\GitMaster\Cella\Cella.Tests\Cella.Test\obj\Debug\net5.0\Cella.Test.dll
 D:\GitMaster\Cella\Cella.Tests\Cella.Test\obj\Debug\net5.0\ref\Cella.Test.dll
 D:\GitMaster\Cella\Cella.Tests\Cella.Test\obj\Debug\net5.0\Cella.Test.pdb
 D:\GitMaster\Cella\Cella.Tests\Cella.Test\obj\Debug\net5.0\Cella.Test.genruntimeconfig.cache
+D:\GitMaster\Cella\Cella.Tests\Cella.Test\obj\Debug\net5.0\Cella.Test.csproj.AssemblyReference.cache

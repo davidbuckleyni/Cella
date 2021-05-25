@@ -589,7 +589,6 @@ D:\GitMaster\Cella\Cella.BL\bin\Debug\net5.0\Cella.Models.dll
 D:\GitMaster\Cella\Cella.BL\bin\Debug\net5.0\Cella.Domain.pdb
 D:\GitMaster\Cella\Cella.BL\bin\Debug\net5.0\Cella.Infrastructure.pdb
 D:\GitMaster\Cella\Cella.BL\bin\Debug\net5.0\Cella.Models.pdb
-D:\GitMaster\Cella\Cella.BL\obj\Debug\net5.0\Cella.BL.csprojAssemblyReference.cache
 D:\GitMaster\Cella\Cella.BL\obj\Debug\net5.0\Cella.BL.GeneratedMSBuildEditorConfig.editorconfig
 D:\GitMaster\Cella\Cella.BL\obj\Debug\net5.0\Cella.BL.AssemblyInfoInputs.cache
 D:\GitMaster\Cella\Cella.BL\obj\Debug\net5.0\Cella.BL.AssemblyInfo.cs
@@ -598,3 +597,4 @@ D:\GitMaster\Cella\Cella.BL\obj\Debug\net5.0\Cella.BL.csproj.CopyComplete
 D:\GitMaster\Cella\Cella.BL\obj\Debug\net5.0\Cella.BL.dll
 D:\GitMaster\Cella\Cella.BL\obj\Debug\net5.0\ref\Cella.BL.dll
 D:\GitMaster\Cella\Cella.BL\obj\Debug\net5.0\Cella.BL.pdb
+D:\GitMaster\Cella\Cella.BL\obj\Debug\net5.0\Cella.BL.csproj.AssemblyReference.cache

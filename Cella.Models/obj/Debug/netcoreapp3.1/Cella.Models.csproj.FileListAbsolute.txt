@@ -14,7 +14,6 @@ D:\GitMaster\Cella\Cella.Models\bin\Debug\netcoreapp3.1\Cella.Models.runtimeconf
 D:\GitMaster\Cella\Cella.Models\bin\Debug\netcoreapp3.1\Cella.Models.runtimeconfig.dev.json
 D:\GitMaster\Cella\Cella.Models\bin\Debug\netcoreapp3.1\Cella.Models.dll
 D:\GitMaster\Cella\Cella.Models\bin\Debug\netcoreapp3.1\Cella.Models.pdb
-D:\GitMaster\Cella\Cella.Models\obj\Debug\netcoreapp3.1\Cella.Models.csprojAssemblyReference.cache
 D:\GitMaster\Cella\Cella.Models\obj\Debug\netcoreapp3.1\Cella.Models.AssemblyInfoInputs.cache
 D:\GitMaster\Cella\Cella.Models\obj\Debug\netcoreapp3.1\Cella.Models.AssemblyInfo.cs
 D:\GitMaster\Cella\Cella.Models\obj\Debug\netcoreapp3.1\Cella.Models.csproj.CoreCompileInputs.cache

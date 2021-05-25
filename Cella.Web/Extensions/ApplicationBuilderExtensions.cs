@@ -10,12 +10,12 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Net.Http.Headers;
-using WarehouseCrm.Infrastructure;
-using Cella.Models;
-using Warehouse.Infrastructure;
 using Cella.Infrastructure;
+using Cella.Models;
+using Cella.Infrastructure;
+ 
 
-namespace WarehouseCrm.WebHost.Extensions
+namespace Cella.WebHost.Extensions
 {
     public static class ApplicationBuilderExtensions
     { 

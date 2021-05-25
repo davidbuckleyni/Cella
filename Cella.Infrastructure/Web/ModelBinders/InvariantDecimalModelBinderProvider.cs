@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Mvc.ModelBinding;
 using Microsoft.Extensions.Logging;
 
-namespace WarehouseCrm.Infrastructure.Web.ModelBinders
+namespace Cella.Infrastructure.Web.ModelBinders
 {
     public class InvariantDecimalModelBinderProvider : IModelBinderProvider
     {

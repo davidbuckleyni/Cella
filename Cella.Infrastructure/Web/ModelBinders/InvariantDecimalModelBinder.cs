@@ -5,7 +5,7 @@ using Microsoft.AspNetCore.Mvc.ModelBinding;
 using Microsoft.AspNetCore.Mvc.ModelBinding.Binders;
 using Microsoft.Extensions.Logging;
 
-namespace WarehouseCrm.Infrastructure.Web.ModelBinders
+namespace Cella.Infrastructure.Web.ModelBinders
 {
     public class InvariantDecimalModelBinder : IModelBinder
     {
