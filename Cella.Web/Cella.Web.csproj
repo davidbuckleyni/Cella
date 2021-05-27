@@ -2545,7 +2545,6 @@
     <None Include="wwwroot\Themes\FrontEnd\images\slides\slide-3-full.jpg" />
     <None Include="wwwroot\Themes\FrontEnd\images\slides\slide-3-mobile.jpg" />
     <None Include="wwwroot\Themes\FrontEnd\images\slides\slide-3.jpg" />
-    <None Include="wwwroot\Themes\FrontEnd\images\sprite.svg" />
     <None Include="wwwroot\Themes\FrontEnd\images\teammates\teammate-1.jpg" />
     <None Include="wwwroot\Themes\FrontEnd\images\teammates\teammate-2.jpg" />
     <None Include="wwwroot\Themes\FrontEnd\images\teammates\teammate-3.jpg" />
@@ -2775,6 +2774,10 @@
   <ItemGroup>
     <Content Update="Modules\Cella.Module.PaymentPaypal\module.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Views\Shared\_Layout.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
     </Content>
   </ItemGroup>
 

@@ -17,11 +17,13 @@ namespace Cella.Models
         {
 
             Goods = 1,
-            Digital = 2,
-            DownLoad = 3,
-            Voucher = 4,
-            GitfCard = 5,
-            BalancePayment = 6
+            FoodItem=2,
+            Toppings=3,
+            Digital = 4,
+            DownLoad = 5,
+            Voucher = 6,
+            GitfCard = 7
+            
         }
 
 
@@ -57,12 +59,12 @@ namespace Cella.Models
         public string? GTIN { get; set; }
 
         public string? ManufacturePartNo { get; set; }
-        public bool? IsShowOnHomePage { get; set; }
+        public bool? isShowOnHomePage { get; set; }
 
         public int? StockItemType { get; set; }
         public bool? isShowPrice { get; set; }
 
-        public bool? DisableAddToCart { get; set; }
+        public bool? canAddToCart { get; set; }
         public bool? ShowCallForPrice { get; set; }
 
         public int? WarehouseLocation { get; set; }
@@ -74,8 +76,7 @@ namespace Cella.Models
         public string? SKU { get; set; }
 
 
-        //public virtual List<FileAttachments>? Photos { get; set; }
-
+        public  bool? isFeatured { get; set; }
         public bool? isBackOrder { get; set; }
         public DateTime? CreateDate { get; set; }
         public DateTime? LastModifiedDate { get; set; }

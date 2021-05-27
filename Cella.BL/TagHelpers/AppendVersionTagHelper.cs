@@ -2,12 +2,12 @@
 using Microsoft.Extensions.Configuration;
 using Cella.Domain;
 
-namespace Cella.BL.Extensions
+namespace Cella.BL.TagHelpers
 {
     [HtmlTargetElement(Attributes = AppendVersionAttributeName)]
     public class AppendVersionTagHelper : TagHelper
     {
-        private const string AppendVersionAttributeName = "warehouse-append-version";
+        private const string AppendVersionAttributeName = "cella-append-version";
         private readonly IConfiguration _config;
 
         public AppendVersionTagHelper(IConfiguration config)

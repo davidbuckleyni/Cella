@@ -973,17 +973,11 @@ namespace Cella.Domain.Data.Migrations
                         .HasMaxLength(30)
                         .HasColumnType("nvarchar(30)");
 
-                    b.Property<bool?>("DisableAddToCart")
-                        .HasColumnType("bit");
-
                     b.Property<string>("FullDescription")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("GTIN")
                         .HasColumnType("nvarchar(max)");
-
-                    b.Property<bool?>("IsShowOnHomePage")
-                        .HasColumnType("bit");
 
                     b.Property<DateTime?>("LastModifiedDate")
                         .HasColumnType("datetime2");
@@ -1037,6 +1031,9 @@ namespace Cella.Domain.Data.Migrations
                     b.Property<int?>("WarehouseLocation")
                         .HasColumnType("int");
 
+                    b.Property<bool?>("canAddToCart")
+                        .HasColumnType("bit");
+
                     b.Property<bool?>("isActive")
                         .HasColumnType("bit");
 
@@ -1046,6 +1043,9 @@ namespace Cella.Domain.Data.Migrations
                     b.Property<bool?>("isDeleted")
                         .HasColumnType("bit");
 
+                    b.Property<bool?>("isFeatured")
+                        .HasColumnType("bit");
+
                     b.Property<bool>("isNew")
                         .HasColumnType("bit");
 
@@ -1053,6 +1053,9 @@ namespace Cella.Domain.Data.Migrations
                         .HasColumnType("bit");
 
                     b.Property<bool>("isShowCallButton")
+                        .HasColumnType("bit");
+
+                    b.Property<bool?>("isShowOnHomePage")
                         .HasColumnType("bit");
 
                     b.Property<bool?>("isShowPrice")

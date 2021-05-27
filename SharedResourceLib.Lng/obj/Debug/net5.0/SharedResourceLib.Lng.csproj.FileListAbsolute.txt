@@ -56,3 +56,4 @@ D:\GitMaster\Cella\SharedResourceLib.Lng\obj\Debug\net5.0\fr\SharedResourceLib.L
 D:\GitMaster\Cella\SharedResourceLib.Lng\obj\Debug\net5.0\SharedResourceLib.Lng.dll
 D:\GitMaster\Cella\SharedResourceLib.Lng\obj\Debug\net5.0\ref\SharedResourceLib.Lng.dll
 D:\GitMaster\Cella\SharedResourceLib.Lng\obj\Debug\net5.0\SharedResourceLib.Lng.pdb
+D:\GitMaster\Cella\SharedResourceLib.Lng\obj\Debug\net5.0\SharedResourceLib.Lng.csproj.AssemblyReference.cache
