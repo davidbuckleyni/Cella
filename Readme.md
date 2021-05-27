@@ -1,9 +1,12 @@
 
-Warehouse Crm is a project built uppon 20 years of industry best practises and standards.
+Cella Crm is a project built uppon 20 years of industry best practises and standards.
 That I have learnt allong the way in developing warehouse systems.
 
+Cella Crm
+
 ![Build passing](https://github.com/davidbuckleyni/Cella/actions/workflows/Build.yml/badge.svg)
-![Test](https://github.com/davidbuckleyni/Cella/actions/workflows/Tests/badge.svg?branch=main&event=push)
+![Test passing](https://github.com/davidbuckleyni/Cella/actions/workflows/Tests.yml/badge.svg)
+
 
 
 ## Will Inlcude
