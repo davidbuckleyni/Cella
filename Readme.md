@@ -1,5 +1,5 @@
 
-Cella Crm is a project built uppon 20 years of industry best practises and standards.
+Cella Crm is a project built upon 20 years of industry best practises and standards.
 That I have learnt allong the way in developing warehouse systems.
 
 Cella Crm
@@ -19,4 +19,11 @@ Cella Crm
 * Mobile Phone Application (Possbile Maui)
 * Driver Routes
 * Full Driver Delivery Application Possible Win Ui
+* Price Lists Price list for multi currency.
+* Full Invoicing system to save using 3rd party systems
+* Intergration with payment providers paypal,stripe to name but a view for oline store.
+* Warehouse Managment.
+
+
+Can be used to power online food ordering applications as manages stock and qtys from the warehouse can prepare Bill of materials sheets to no what to order for the next week.
 
