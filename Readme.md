@@ -3,7 +3,7 @@ Warehouse Crm is a project built uppon 20 years of industry best practises and s
 That I have learnt allong the way in developing warehouse systems.
 
 ![Build passing](https://github.com/davidbuckleyni/Cella/actions/workflows/Build.yml/badge.svg)
-![Test](https://github.com/davidbuckleyni/Cella/actions/workflows/Test/badge.svg?branch=main&event=push)
+![Test](https://github.com/davidbuckleyni/Cella/actions/workflows/Tests/badge.svg?branch=main&event=push)
 
 
 ## Will Inlcude
