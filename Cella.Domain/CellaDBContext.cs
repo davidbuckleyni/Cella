@@ -118,8 +118,10 @@ namespace Cella.Domain
          );
 
 
-
-
+            //lets add a global filter to the query we will alwayss be checking 
+            //isdelete=true and isdeleted false will need to do this for all entitys
+            modelBuilder.Entity<SalesOrder>().HasQueryFilter(q => q.isDeleted == true && q.isDeleted == false);
+            modelBuilder.Entity<SalesOrderItem>().HasQueryFilter(q => q.isDeleted == true && q.isDeleted == false);
 
             modelBuilder.Entity<SystemSetup>().HasData(
          new SystemSetup() { Id = 1, UploadFolderPath = @"~\Uploads\" });
