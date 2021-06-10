@@ -32,6 +32,45 @@ namespace Cella.Domain.Data.Migrations
                     b.ToTable("Appsettings");
                 });
 
+            modelBuilder.Entity("Cella.Domain.Localization.Language", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .UseIdentityColumn();
+
+                    b.Property<int>("DefaultCurrencyId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("DisplayOrder")
+                        .HasColumnType("int");
+
+                    b.Property<string>("FlagImageFileName")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("LanguageCulture")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("LimitedToStores")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("Name")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("Published")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("Rtl")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("UniqueSeoCode")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Language");
+                });
+
             modelBuilder.Entity("Cella.Models.Address", b =>
                 {
                     b.Property<int?>("Id")
@@ -736,6 +775,45 @@ namespace Cella.Domain.Data.Migrations
                     b.ToTable("GifCards");
                 });
 
+            modelBuilder.Entity("Cella.Models.LocaleStringResource", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .UseIdentityColumn();
+
+                    b.Property<string>("CreatedBy")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("LanguageId")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime?>("LastModifiedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("ResourceName")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("ResourceValue")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<Guid?>("StoreId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<Guid?>("TenantId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<bool>("isActive")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("isDeleted")
+                        .HasColumnType("bit");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("LocaleStringResource");
+                });
+
             modelBuilder.Entity("Cella.Models.Notifications", b =>
                 {
                     b.Property<int>("Id")
@@ -1136,8 +1214,8 @@ namespace Cella.Domain.Data.Migrations
                     b.Property<int?>("Status")
                         .HasColumnType("int");
 
-                    b.Property<int?>("StoreId")
-                        .HasColumnType("int");
+                    b.Property<Guid?>("StoreId")
+                        .HasColumnType("uniqueidentifier");
 
                     b.Property<Guid>("TeannatId")
                         .HasColumnType("uniqueidentifier");

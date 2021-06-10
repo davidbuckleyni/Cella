@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace Cella.Domain.Data.Migrations
 {
-    public partial class DatabaseSetup : Migration
+    public partial class InstallDB : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -315,6 +315,48 @@ namespace Cella.Domain.Data.Migrations
                 });
 
             migrationBuilder.CreateTable(
+                name: "Language",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    Name = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    LanguageCulture = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    UniqueSeoCode = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    FlagImageFileName = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    Rtl = table.Column<bool>(type: "bit", nullable: false),
+                    LimitedToStores = table.Column<bool>(type: "bit", nullable: false),
+                    DefaultCurrencyId = table.Column<int>(type: "int", nullable: false),
+                    Published = table.Column<bool>(type: "bit", nullable: false),
+                    DisplayOrder = table.Column<int>(type: "int", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Language", x => x.Id);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "LocaleStringResource",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    LanguageId = table.Column<int>(type: "int", nullable: false),
+                    TenantId = table.Column<Guid>(type: "uniqueidentifier", nullable: true),
+                    StoreId = table.Column<Guid>(type: "uniqueidentifier", nullable: true),
+                    ResourceName = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    ResourceValue = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    LastModifiedDate = table.Column<DateTime>(type: "datetime2", nullable: true),
+                    CreatedBy = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    isActive = table.Column<bool>(type: "bit", nullable: false),
+                    isDeleted = table.Column<bool>(type: "bit", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_LocaleStringResource", x => x.Id);
+                });
+
+            migrationBuilder.CreateTable(
                 name: "Photos",
                 columns: table => new
                 {
@@ -386,16 +428,17 @@ namespace Cella.Domain.Data.Migrations
                     Tags = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     GTIN = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     ManufacturePartNo = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    IsShowOnHomePage = table.Column<bool>(type: "bit", nullable: true),
+                    isShowOnHomePage = table.Column<bool>(type: "bit", nullable: true),
                     StockItemType = table.Column<int>(type: "int", nullable: true),
                     isShowPrice = table.Column<bool>(type: "bit", nullable: true),
-                    DisableAddToCart = table.Column<bool>(type: "bit", nullable: true),
+                    canAddToCart = table.Column<bool>(type: "bit", nullable: true),
                     ShowCallForPrice = table.Column<bool>(type: "bit", nullable: true),
                     WarehouseLocation = table.Column<int>(type: "int", nullable: true),
                     ProductType = table.Column<int>(type: "int", nullable: true),
                     isPublished = table.Column<bool>(type: "bit", nullable: true),
                     PriceListType = table.Column<int>(type: "int", nullable: true),
                     SKU = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    isFeatured = table.Column<bool>(type: "bit", nullable: true),
                     isBackOrder = table.Column<bool>(type: "bit", nullable: true),
                     CreateDate = table.Column<DateTime>(type: "datetime2", nullable: true),
                     LastModifiedDate = table.Column<DateTime>(type: "datetime2", nullable: true),
@@ -420,7 +463,7 @@ namespace Cella.Domain.Data.Migrations
                     PaymentStatus = table.Column<int>(type: "int", nullable: true),
                     BillingAddress = table.Column<int>(type: "int", nullable: true),
                     ShippingAddress = table.Column<int>(type: "int", nullable: true),
-                    StoreId = table.Column<int>(type: "int", nullable: true),
+                    StoreId = table.Column<Guid>(type: "uniqueidentifier", nullable: true),
                     CreatedOn = table.Column<DateTime>(type: "datetime2", nullable: true),
                     OrderType = table.Column<int>(type: "int", nullable: true),
                     OrderSubTotal = table.Column<decimal>(type: "decimal(18,2)", nullable: true),
@@ -1096,6 +1139,12 @@ namespace Cella.Domain.Data.Migrations
 
             migrationBuilder.DropTable(
                 name: "Genders");
+
+            migrationBuilder.DropTable(
+                name: "Language");
+
+            migrationBuilder.DropTable(
+                name: "LocaleStringResource");
 
             migrationBuilder.DropTable(
                 name: "Notifications");

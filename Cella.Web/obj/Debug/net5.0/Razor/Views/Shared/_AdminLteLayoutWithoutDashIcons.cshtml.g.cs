@@ -13,28 +13,28 @@ namespace AspNetCore
     using Microsoft.AspNetCore.Mvc.Rendering;
     using Microsoft.AspNetCore.Mvc.ViewFeatures;
 #nullable restore
-#line 1 "D:\GitMaster\Cella\Cella.Web\Views\_ViewImports.cshtml"
+#line 2 "D:\GitMaster\Cella\Cella.Web\Views\_ViewImports.cshtml"
 using Cella.Models;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 3 "D:\GitMaster\Cella\Cella.Web\Views\_ViewImports.cshtml"
+#line 4 "D:\GitMaster\Cella\Cella.Web\Views\_ViewImports.cshtml"
 using Microsoft.AspNetCore.Mvc.Localization;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 4 "D:\GitMaster\Cella\Cella.Web\Views\_ViewImports.cshtml"
+#line 5 "D:\GitMaster\Cella\Cella.Web\Views\_ViewImports.cshtml"
 using SharedResourceLib.Lng;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 11 "D:\GitMaster\Cella\Cella.Web\Views\_ViewImports.cshtml"
+#line 12 "D:\GitMaster\Cella\Cella.Web\Views\_ViewImports.cshtml"
 using Cella.BL;
 
 #line default
@@ -62,8 +62,8 @@ using System.Security.Claims;
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"a11546ec0f9374efe40b9892d898672c9f16a06f", @"/Views/Shared/_AdminLteLayoutWithoutDashIcons.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"bfaf1a045863d2adcb9f95773895f257c6a54026", @"/Views/_ViewImports.cshtml")]
-    public class Views_Shared__AdminLteLayoutWithoutDashIcons : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"04ca354717dde9a9acfd7998c075487ba9500410", @"/Views/_ViewImports.cshtml")]
+    public class Views_Shared__AdminLteLayoutWithoutDashIcons : Cella.Infrastructure.Framework.CellaRazorPage<dynamic>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("value", "1", global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_1 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("value", "2", global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -125,7 +125,7 @@ using System.Security.Claims;
         public async override global::System.Threading.Tasks.Task ExecuteAsync()
         {
             WriteLiteral("<!DOCTYPE html>\r\n<html>\r\n");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a11546ec0f9374efe40b9892d898672c9f16a06f13852", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a11546ec0f9374efe40b9892d898672c9f16a06f13849", async() => {
                 WriteLiteral("\r\n    <meta charset=\"utf-8\" />\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\r\n    <title>WMS - ");
 #nullable restore
 #line 8 "D:\GitMaster\Cella\Cella.Web\Views\Shared\_AdminLteLayoutWithoutDashIcons.cshtml"
@@ -196,7 +196,7 @@ using System.Security.Claims;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a11546ec0f9374efe40b9892d898672c9f16a06f17679", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a11546ec0f9374efe40b9892d898672c9f16a06f17676", async() => {
                 WriteLiteral("\r\n    <!-- Site wrapper -->\r\n    ");
 #nullable restore
 #line 58 "D:\GitMaster\Cella\Cella.Web\Views\Shared\_AdminLteLayoutWithoutDashIcons.cshtml"
@@ -218,9 +218,9 @@ Write(await Component.InvokeAsync("NToastNotify"));
         <li>
             <!-- SEARCH FORM -->
             ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a11546ec0f9374efe40b9892d898672c9f16a06f18606", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a11546ec0f9374efe40b9892d898672c9f16a06f18603", async() => {
                     WriteLiteral("\r\n\r\n                <div class=\"input-group input-group-lg\">\r\n                    <select id=\"searchType\">\r\n                        ");
-                    __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a11546ec0f9374efe40b9892d898672c9f16a06f19013", async() => {
+                    __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a11546ec0f9374efe40b9892d898672c9f16a06f19010", async() => {
                         WriteLiteral("All Orders");
                     }
                     );
@@ -236,7 +236,7 @@ Write(await Component.InvokeAsync("NToastNotify"));
                     Write(__tagHelperExecutionContext.Output);
                     __tagHelperExecutionContext = __tagHelperScopeManager.End();
                     WriteLiteral("\r\n                        ");
-                    __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a11546ec0f9374efe40b9892d898672c9f16a06f20329", async() => {
+                    __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a11546ec0f9374efe40b9892d898672c9f16a06f20326", async() => {
                         WriteLiteral("My Orders");
                     }
                     );
@@ -283,7 +283,7 @@ Write(await Component.InvokeAsync("NToastNotify"));
                 Write(__tagHelperExecutionContext.Output);
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\r\n        </li>\r\n        <!-- Left navbar links -->\r\n\r\n\r\n\r\n\r\n\r\n        <li>\r\n            ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a11546ec0f9374efe40b9892d898672c9f16a06f23989", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a11546ec0f9374efe40b9892d898672c9f16a06f23986", async() => {
                     WriteLiteral("Hello ");
 #nullable restore
 #line 95 "D:\GitMaster\Cella\Cella.Web\Views\Shared\_AdminLteLayoutWithoutDashIcons.cshtml"
@@ -324,7 +324,7 @@ Write(await Component.InvokeAsync("NToastNotify"));
                 <div class=""dropdown-menu dropdown-menu-lg dropdown-menu-right"">
                      <div class=""dropdown-divider""></div>
                     ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a11546ec0f9374efe40b9892d898672c9f16a06f26429", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a11546ec0f9374efe40b9892d898672c9f16a06f26426", async() => {
                     WriteLiteral("\r\n                        <i class=\"fas fa-user mr-2\"></i> Setups");
                 }
                 );
@@ -357,7 +357,7 @@ Write(await Component.InvokeAsync("NToastNotify"));
 #line hidden
 #nullable disable
                 WriteLiteral("        <a href=\"#\" class=\"dropdown-item\">\r\n\r\n    \r\n            ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a11546ec0f9374efe40b9892d898672c9f16a06f28959", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a11546ec0f9374efe40b9892d898672c9f16a06f28956", async() => {
                     WriteLiteral("\r\n                <i class=\"fas fa fa-sign-in-alt mr-2\"></i>                \r\n            ");
                 }
                 );
@@ -389,7 +389,7 @@ Write(await Component.InvokeAsync("NToastNotify"));
 #line hidden
 #nullable disable
                 WriteLiteral("        ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a11546ec0f9374efe40b9892d898672c9f16a06f31305", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a11546ec0f9374efe40b9892d898672c9f16a06f31302", async() => {
                     WriteLiteral("Login");
                 }
                 );
@@ -408,7 +408,7 @@ Write(await Component.InvokeAsync("NToastNotify"));
                 Write(__tagHelperExecutionContext.Output);
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\r\n        ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a11546ec0f9374efe40b9892d898672c9f16a06f32828", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a11546ec0f9374efe40b9892d898672c9f16a06f32825", async() => {
                     WriteLiteral("Register");
                 }
                 );
@@ -507,7 +507,7 @@ Write(await Html.PartialAsync("_LeftMenuPartial.cshtml"));
     <!-- ./wrapper -->
     <!-- jQuery -->
     ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a11546ec0f9374efe40b9892d898672c9f16a06f36834", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a11546ec0f9374efe40b9892d898672c9f16a06f36831", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -558,9 +558,9 @@ Write(RenderSection("Scripts", required: false));
 #line hidden
 #nullable disable
                 WriteLiteral("\r\n\r\n    ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("environment", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a11546ec0f9374efe40b9892d898672c9f16a06f40070", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("environment", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a11546ec0f9374efe40b9892d898672c9f16a06f40067", async() => {
                     WriteLiteral("\r\n        ");
-                    __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a11546ec0f9374efe40b9892d898672c9f16a06f40352", async() => {
+                    __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a11546ec0f9374efe40b9892d898672c9f16a06f40349", async() => {
                     }
                     );
                     __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -602,9 +602,9 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_ScriptTagHelper.AppendVersion = true;
                 Write(__tagHelperExecutionContext.Output);
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\r\n    ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("environment", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a11546ec0f9374efe40b9892d898672c9f16a06f43700", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("environment", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a11546ec0f9374efe40b9892d898672c9f16a06f43697", async() => {
                     WriteLiteral("\r\n        ");
-                    __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a11546ec0f9374efe40b9892d898672c9f16a06f43982", async() => {
+                    __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a11546ec0f9374efe40b9892d898672c9f16a06f43979", async() => {
                     }
                     );
                     __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();

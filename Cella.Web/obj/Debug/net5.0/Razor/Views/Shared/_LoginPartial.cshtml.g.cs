@@ -13,28 +13,28 @@ namespace AspNetCore
     using Microsoft.AspNetCore.Mvc.Rendering;
     using Microsoft.AspNetCore.Mvc.ViewFeatures;
 #nullable restore
-#line 1 "D:\GitMaster\Cella\Cella.Web\Views\_ViewImports.cshtml"
+#line 2 "D:\GitMaster\Cella\Cella.Web\Views\_ViewImports.cshtml"
 using Cella.Models;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 3 "D:\GitMaster\Cella\Cella.Web\Views\_ViewImports.cshtml"
+#line 4 "D:\GitMaster\Cella\Cella.Web\Views\_ViewImports.cshtml"
 using Microsoft.AspNetCore.Mvc.Localization;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 4 "D:\GitMaster\Cella\Cella.Web\Views\_ViewImports.cshtml"
+#line 5 "D:\GitMaster\Cella\Cella.Web\Views\_ViewImports.cshtml"
 using SharedResourceLib.Lng;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 11 "D:\GitMaster\Cella\Cella.Web\Views\_ViewImports.cshtml"
+#line 12 "D:\GitMaster\Cella\Cella.Web\Views\_ViewImports.cshtml"
 using Cella.BL;
 
 #line default
@@ -62,8 +62,8 @@ using Microsoft.AspNetCore.Identity;
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"36279c01a0702304b32897276f4b02b22c05fa50", @"/Views/Shared/_LoginPartial.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"bfaf1a045863d2adcb9f95773895f257c6a54026", @"/Views/_ViewImports.cshtml")]
-    public class Views_Shared__LoginPartial : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"04ca354717dde9a9acfd7998c075487ba9500410", @"/Views/_ViewImports.cshtml")]
+    public class Views_Shared__LoginPartial : Cella.Infrastructure.Framework.CellaRazorPage<dynamic>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("class", new global::Microsoft.AspNetCore.Html.HtmlString("nav-link text-dark"), global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_1 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("asp-area", "Identity", global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -108,7 +108,7 @@ using Microsoft.AspNetCore.Identity;
 #line hidden
 #nullable disable
             WriteLiteral("            <li class=\"nav-item\">\r\n                ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "36279c01a0702304b32897276f4b02b22c05fa507122", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "36279c01a0702304b32897276f4b02b22c05fa507119", async() => {
                 WriteLiteral("Hello ");
 #nullable restore
 #line 8 "D:\GitMaster\Cella\Cella.Web\Views\Shared\_LoginPartial.cshtml"
@@ -136,7 +136,7 @@ using Microsoft.AspNetCore.Identity;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n            </li>\r\n            <li class=\"nav-item\">\r\n                ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "36279c01a0702304b32897276f4b02b22c05fa509039", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "36279c01a0702304b32897276f4b02b22c05fa509036", async() => {
                 WriteLiteral("\r\n                    <button type=\"submit\" class=\"nav-link btn btn-link text-dark\">Logout</button>\r\n                ");
             }
             );
@@ -180,7 +180,7 @@ using Microsoft.AspNetCore.Identity;
 #line hidden
 #nullable disable
             WriteLiteral("            <li class=\"nav-item\">\r\n                ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "36279c01a0702304b32897276f4b02b22c05fa5012234", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "36279c01a0702304b32897276f4b02b22c05fa5012231", async() => {
                 WriteLiteral("Register");
             }
             );
@@ -199,7 +199,7 @@ using Microsoft.AspNetCore.Identity;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n            </li>\r\n            <li class=\"nav-item\">\r\n                ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "36279c01a0702304b32897276f4b02b22c05fa5013749", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "36279c01a0702304b32897276f4b02b22c05fa5013746", async() => {
                 WriteLiteral("Login");
             }
             );

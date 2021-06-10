@@ -2757,7 +2757,9 @@
     <Folder Include="Controllers\api\" />
     <Folder Include="Localization\" />
     <Folder Include="database\" />
+    <Folder Include="Localization\Installation\" />
     <Folder Include="logs\" />
+    <Folder Include="Instalation\" />
     <Folder Include="wwwroot\logs\" />
     <Folder Include="wwwroot\Uploads\" />
     <Folder Include="wwwroot\Uploads\" />
@@ -2782,6 +2784,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Update="Localization\defaultResources.nopres.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Update="Modules\Cella.Module.PaymentPaypal\Cella.Module.PaymentPaypal.dll">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>

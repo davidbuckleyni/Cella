@@ -35,8 +35,8 @@ namespace Warehouse.Web {
                 {
                     var userManager = services.GetRequiredService<UserManager<ApplicationUser>>();
                     var roleManager = services.GetRequiredService<RoleManager<IdentityRole>>();
-                //    await SeedRoles.SeedAsync(userManager, roleManager);
-                //    await SeedUsers.SeedAdminUser(userManager, roleManager);
+                //  await SeedRoles.SeedAsync(userManager, roleManager);
+            //       await SeedUsers.SeedAdminUser(userManager, roleManager);
 
                     logger.LogInformation("Finished Seeding Default Data");
                     logger.LogInformation("Application Starting");

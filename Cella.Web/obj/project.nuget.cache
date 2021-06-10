@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "kSz6nOF+FOWdKx+zuTVw0Pkfcvle4Z+kxNhb4mDcAA/ViJHMi92+C+s2vipVrNw1CBz6tSCaT3iO4r8WoPwt7Q==",
+  "dgSpecHash": "GJh04foGo8KXc/lAveTEqlxeRNFAXs+9Kftuh3/V7GSa9aIsQQT8OmgTk0TZFMDtHn12oasmr7ge+Kk7wOBZSA==",
   "success": true,
   "projectFilePath": "D:\\GitMaster\\Cella\\Cella.Web\\Cella.Web.csproj",
   "expectedPackageFiles": [
@@ -113,8 +113,8 @@
     "C:\\Users\\David\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\5.0.0\\microsoft.extensions.fileproviders.abstractions.5.0.0.nupkg.sha512",
     "C:\\Users\\David\\.nuget\\packages\\microsoft.extensions.fileproviders.composite\\2.2.0\\microsoft.extensions.fileproviders.composite.2.2.0.nupkg.sha512",
     "C:\\Users\\David\\.nuget\\packages\\microsoft.extensions.fileproviders.embedded\\5.0.0\\microsoft.extensions.fileproviders.embedded.5.0.0.nupkg.sha512",
-    "C:\\Users\\David\\.nuget\\packages\\microsoft.extensions.fileproviders.physical\\2.2.0\\microsoft.extensions.fileproviders.physical.2.2.0.nupkg.sha512",
-    "C:\\Users\\David\\.nuget\\packages\\microsoft.extensions.filesystemglobbing\\2.2.0\\microsoft.extensions.filesystemglobbing.2.2.0.nupkg.sha512",
+    "C:\\Users\\David\\.nuget\\packages\\microsoft.extensions.fileproviders.physical\\5.0.0\\microsoft.extensions.fileproviders.physical.5.0.0.nupkg.sha512",
+    "C:\\Users\\David\\.nuget\\packages\\microsoft.extensions.filesystemglobbing\\5.0.0\\microsoft.extensions.filesystemglobbing.5.0.0.nupkg.sha512",
     "C:\\Users\\David\\.nuget\\packages\\microsoft.extensions.hosting.abstractions\\2.2.0\\microsoft.extensions.hosting.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\David\\.nuget\\packages\\microsoft.extensions.identity.core\\5.0.0\\microsoft.extensions.identity.core.5.0.0.nupkg.sha512",
     "C:\\Users\\David\\.nuget\\packages\\microsoft.extensions.identity.stores\\5.0.0\\microsoft.extensions.identity.stores.5.0.0.nupkg.sha512",

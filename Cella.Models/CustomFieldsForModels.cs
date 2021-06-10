@@ -5,6 +5,18 @@ using System.Text;
 namespace Cella.Models{
    public  class CustomFieldsForModels {
 
+        public enum FieldTypeEnum
+        {
+            TextBox=0,
+            Dropdown=1,
+            RadioButton=2,
+            RadioButtonList=3,
+            CheckBox=4,            
+            CheckBoxList=5,
+            DatePicker=6,
+            TimePicker=7,
+            FileUpload=6
+        }
        public int Id { get; set; }
 
         public Guid? StoreId { get; set; }
@@ -14,7 +26,7 @@ namespace Cella.Models{
 
        public int? FormSection { get; set; }
 
-        public int? FieldType { get; set; }
+        public FieldTypeEnum? FieldType { get; set; }
 
         public string? ValidationMessage { get; set; }
 

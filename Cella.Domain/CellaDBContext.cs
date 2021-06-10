@@ -21,6 +21,9 @@ using Cella.Models.Permissions;
 using Cella.Domain.Configuration;
 using Cella.Models.ViewModels;
 
+using System.Threading;
+using Cella.Domain.Localization;
+
 namespace Cella.Domain
 {
     public class CellaDBContext : IdentityDbContext<ApplicationUser>
@@ -103,7 +106,9 @@ namespace Cella.Domain
 
         public DbSet<ShoppingCart> ShoppingCarts { get; set; }
         public DbSet<Categories> Categories { get; set; }
+        public DbSet<LocaleStringResource> LocaleStringResource { get; set; }
 
+        public DbSet<Language> Language { get; set; }
         public DbSet<ShoppingCartItems> ShoppingCartsItems { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -120,8 +125,8 @@ namespace Cella.Domain
 
             //lets add a global filter to the query we will alwayss be checking 
             //isdelete=true and isdeleted false will need to do this for all entitys
-            modelBuilder.Entity<SalesOrder>().HasQueryFilter(q => q.isDeleted == true && q.isDeleted == false);
-            modelBuilder.Entity<SalesOrderItem>().HasQueryFilter(q => q.isDeleted == true && q.isDeleted == false);
+            modelBuilder.Entity<SalesOrder>().HasQueryFilter(q => q.isDeleted == false && q.isActive == true);
+            modelBuilder.Entity<SalesOrderItem>().HasQueryFilter(q => q.isDeleted == false && q.isActive == true);
 
             modelBuilder.Entity<SystemSetup>().HasData(
          new SystemSetup() { Id = 1, UploadFolderPath = @"~\Uploads\" });
@@ -129,10 +134,28 @@ namespace Cella.Domain
 
 
         }
-
-
-
-        public void AddAudtiTrail(int caseId, string action, string user, DateTime date)
+        public  int SaveChangesSoftDelete()
+        {
+            UpdateSoftDeleteStatuses();
+            return base.SaveChanges();
+        }
+        private void UpdateSoftDeleteStatuses()
+        {
+            foreach (var entry in ChangeTracker.Entries())
+            {
+                switch (entry.State)
+                {
+                    case EntityState.Added:
+                        entry.CurrentValues["isDeleted"] = false;
+                        break;
+                    case EntityState.Deleted:
+                        entry.State = EntityState.Modified;
+                        entry.CurrentValues["isDeleted"] = true;
+                        break;
+                }
+            }
+        }
+        public void AddAudtiTrail(int caseId, string action, string user)
         {
 
             CellaAuditTrail _auditrail = new CellaAuditTrail();

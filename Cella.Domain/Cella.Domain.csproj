@@ -44,4 +44,8 @@
     <ProjectReference Include="..\Cella.Models\Cella.Models.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Data\" />
+  </ItemGroup>
+
 </Project>
