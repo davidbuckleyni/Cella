@@ -1,6 +1,8 @@
 ﻿using AutoMapper;
+using Cella.Domain;
 using Cella.Domain.Interfaces;
 using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Localization;
 using Microsoft.AspNetCore.Mvc;
 using NToastNotify;
 using System;
@@ -17,8 +19,8 @@ namespace Warehouse.Web.Controllers
         private readonly IMapper mapper;
         private readonly IToastNotification _toast;
 
-        private IDataContext _context;
-        public WarehouseController(IDataContext context, IMapper mapper, IToastNotification toast)
+        private CellaDBContext _context;
+        public WarehouseController(CellaDBContext context, IMapper mapper, IToastNotification toast)
         {
             _context = context;
 
@@ -30,6 +32,8 @@ namespace Warehouse.Web.Controllers
         // GET: ShoppingCartController
         public ActionResult Index()
         {
+
+         
             return View();
         }
 
@@ -94,8 +98,27 @@ namespace Warehouse.Web.Controllers
             return View();
         }
 
-    
 
+        [HttpPost]
+        public IActionResult SetCulture(string culture, string returnUrl)
+        {
+
+            var record = _context.Appsettings.Where(w => w.Key == Constants.FrontEndDefaultLanguageId).FirstOrDefault();
+            if (culture == "en")
+                record.Value = "1";
+
+            if (culture == "fr")
+                record.Value = "2";
+            _context.SaveChangesAsync();
+            _toast.AddSuccessToastMessage("Language changed to :" + record.Key);
+
+            Response.Cookies.Append(
+                CookieRequestCultureProvider.DefaultCookieName,
+                CookieRequestCultureProvider.MakeCookieValue(new RequestCulture(culture)),
+                new CookieOptions { Expires = DateTimeOffset.UtcNow.AddYears(1) }
+            );
+            return LocalRedirect(returnUrl);
+        }
         // POST: ShoppingCartController/Delete/5
         [HttpPost]
         [ValidateAntiForgeryToken]

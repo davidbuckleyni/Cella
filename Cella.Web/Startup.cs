@@ -107,12 +107,18 @@ namespace Warehouse.Web
         .AddDataAnnotationsLocalization();
             services.Configure<CookiePolicyOptions>(options =>
             {
+
+              
                 options.CheckConsentNeeded = context => false; // consent required
+                
         options.MinimumSameSitePolicy = SameSiteMode.None;
             });
             services.AddSession(opts =>
             {
+                opts.Cookie.Path = "/";
+                opts.Cookie.HttpOnly = false;
                 opts.Cookie.IsEssential = true; // make the session cookie Essential
+                
     });
 
             services.AddRazorPages()
@@ -130,18 +136,17 @@ namespace Warehouse.Web
             services.AddTransient<IThemeService, ThemeService>();
             services.AddTransient<ILocalizationService, Cella.Infrastructure.Services.Localization.LocalizationService>();
             services.AddTransient<CellaDBContext>();
+
+         
             services.Configure<RequestLocalizationOptions>(options =>
             {
-                var supportedCultures = new[]
-                {
-                    new CultureInfo("en-US"),
-                    new CultureInfo("en-GB"),
-                    new CultureInfo("es"),
-                    new CultureInfo("fr")
+                var cultures = new List<CultureInfo> {
+        new CultureInfo("en"),
+        new CultureInfo("fr")
                 };
-                options.DefaultRequestCulture = new RequestCulture(culture: "en-GB", uiCulture: "en-GB");
-                options.SupportedCultures = supportedCultures;
-                options.SupportedUICultures = supportedCultures;
+                options.DefaultRequestCulture = new Microsoft.AspNetCore.Localization.RequestCulture("en-GB");
+                options.SupportedCultures = cultures;
+                options.SupportedUICultures = cultures;
                 options.RequestCultureProviders = new List<IRequestCultureProvider>
         {
     new QueryStringRequestCultureProvider(),
@@ -159,7 +164,9 @@ namespace Warehouse.Web
                         return factory.Create("SharedResource", assemblyName.Name);
                     };
                 });
-            services.AddMvc().AddNToastNotifyToastr(new ToastrOptions()
+            services.AddMvc()
+              .AddViewLocalization(Microsoft.AspNetCore.Mvc.Razor.LanguageViewLocationExpanderFormat.Suffix)
+                .AddNToastNotifyToastr(new ToastrOptions()
             {
                 ProgressBar = false,
                 PositionClass = ToastPositions.TopRight,
@@ -232,22 +239,25 @@ namespace Warehouse.Web
 RoleManager<IdentityRole> roleManager)
         {
             var locOptions = app.ApplicationServices.GetService<IOptions<RequestLocalizationOptions>>();
-            //      app.UseRequestLocalization(locOptions.Value);
+              app.UseRequestLocalization(locOptions.Value);
 
 
-            var supportedCultures = new[]
-            {
-        new CultureInfo("en-US"),
-        new CultureInfo("en-GB"),
-        new CultureInfo("es"),
-        new CultureInfo("fr")
-        };
-            app.UseRequestLocalization(new RequestLocalizationOptions()
-            {
-                DefaultRequestCulture = new RequestCulture("en-GB"),
-                SupportedCultures = supportedCultures,
-                SupportedUICultures = supportedCultures
-            });
+            //    var supportedCultures = new[]
+            //    {
+            //new CultureInfo("en-US"),
+            //new CultureInfo("en-GB"),
+            //new CultureInfo("es"),
+            //new CultureInfo("fr")
+            //};
+            //    app.UseRequestLocalization(new RequestLocalizationOptions()
+            //    {
+            //        DefaultRequestCulture = new RequestCulture("en-GB"),
+            //        SupportedCultures = supportedCultures,
+            //        SupportedUICultures = supportedCultures
+            //    });
+
+            app.UseRequestLocalization(app.ApplicationServices.GetRequiredService<IOptions<RequestLocalizationOptions>>().Value);
+
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage(new DeveloperExceptionPageOptions() { SourceCodeLineCount = 30 });
@@ -261,7 +271,7 @@ RoleManager<IdentityRole> roleManager)
                 // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
                 app.UseHsts();
             }
-            app.UseCookiePolicy();
+        
 
             app.UseNToastNotify();
 

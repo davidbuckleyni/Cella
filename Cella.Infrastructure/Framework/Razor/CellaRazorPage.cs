@@ -7,6 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.AspNetCore.Http;
+using Cella.Domain;
 
 namespace Cella.Infrastructure.Framework
 {
@@ -22,15 +23,17 @@ namespace Cella.Infrastructure.Framework
         {
             get
             {
+                var serviceProviderContext = Context.RequestServices.GetRequiredService<CellaDBContext>();
 
+                Int32.TryParse(serviceProviderContext.Appsettings.Where(w => w.Key == Constants.FrontEndDefaultLanguageId).FirstOrDefault().Value, out int defaultLangId);                
                 var serviceProvider = Context.RequestServices.GetRequiredService<ILocalizationService>();
-
+                
 
                 if (_localizer == null)
                 {
                     _localizer = (format, args) =>
-                    {
-                        var resFormat = serviceProvider.GetResourceAsync(format, 2).Result;
+                    {  //we want to set the default langauge id here so whatever the user sets will always be shown.
+                        var resFormat = serviceProvider.GetResourceAsync(format, defaultLangId).Result;
                         if (string.IsNullOrEmpty(resFormat))
                         {
                             return new LocalizedString(format);

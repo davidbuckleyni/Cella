@@ -1200,3 +1200,4 @@ D:\GitMaster\Cella\Cella.Web\bin\Debug\net5.0\Modules\Cella.Module.PaymentPaypal
 D:\GitMaster\Cella\Cella.Web\bin\Debug\net5.0\Modules\Cella.Module.PaymentPaypal\Cella.Module.PaymentPaypal.Views.dll
 D:\GitMaster\Cella\Cella.Web\obj\Debug\net5.0\Razor\Views\Shared\_ShoppingCartLayout.cshtml.g.cs
 D:\GitMaster\Cella\Cella.Web\bin\Debug\net5.0\Localization\defaultResources.nopres.xml
+D:\GitMaster\Cella\Cella.Web\obj\Debug\net5.0\Razor\Themes\FrontEnd\Views\Shared\_SelectLanguagePartial.cshtml.g.cs

@@ -19,6 +19,9 @@
     <link rel="stylesheet" href="~/@Configuration["ThemesFolderName"]/@Configuration["Theme"]/vendor/photoswipe/default-skin/default-skin.css">
     <link rel="stylesheet" href="~/@Configuration["ThemesFolderName"]/@Configuration["Theme"]/vendor/select2/css/select2.min.css">
     <link rel="stylesheet" href="~/@Configuration["ThemesFolderName"]/@Configuration["Theme"]/css/style.css">
+
+    <link rel="stylesheet" href="~/@Configuration["ThemesFolderName"]/@Configuration["Theme"]/css/flag-icon-css/css/flag-icon.css">
+
     <!-- font - fontawesome -->
     <link rel="stylesheet" href="~/@Configuration["ThemesFolderName"]/@Configuration["Theme"]/vendor/fontawesome/css/all.min.css">
     <!-- font - stroyka -->
@@ -254,9 +257,14 @@
                                 </div>
                             </div>
                             <div class="topbar__item">
+
+                                 
+                                @Html.Partial("_SelectLanguagePartial.cshtml")
+
                                 <div class="topbar-dropdown">
                                     <button class="topbar-dropdown__btn" type="button">
-                                        Language: <span class="topbar__item-value">EN</span>
+
+                                        <span class="topbar__item-value">EN</span>
                                         <svg width="7px" height="5px">
                                             <use wxlink:href="/@Configuration["ThemesFolderName"]/@Configuration["Theme"]/images/sprite.svg#arrow-rounded-down-7x5"></use>
                                         </svg>

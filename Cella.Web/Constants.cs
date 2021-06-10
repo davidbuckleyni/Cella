@@ -9,6 +9,7 @@ namespace Warehouse.Web {
     public static class Constants
     {
         public const string ThemeKey = "theme";
+        public const string FrontEndDefaultLanguageId = "FrontEnd.CultureId";
 
         public const string ThemeName = "Default";
     }
