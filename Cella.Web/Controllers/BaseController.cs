@@ -24,6 +24,7 @@ namespace Warehouse.Web.Controllers {
         private UserManager<ApplicationUser> _userManager;
         private RoleManager<IdentityRole> roleManager;
         private IHttpContextAccessor _httpContextAccessor;
+      
         private CellaDBContext _context;
         private WarehouseBL _warehouseBL;
         private readonly IToastNotification _toast;

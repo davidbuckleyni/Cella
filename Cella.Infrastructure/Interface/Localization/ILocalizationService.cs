@@ -17,8 +17,8 @@ namespace Cella.Infrastructure.Interface.Localization
         /// A task that represents the asynchronous operation
         /// The task result contains a string representing the requested resource string.
         /// </returns>
-        Task<string> GetResourceAsync(string resourceKey);
-          Task InstallLanguagesAsync((string languagePackDownloadLink, int languagePackProgress) languagePackInfo, CultureInfo cultureInfo, RegionInfo regionInfo);
-
+        Task<string> GetResourceAsync(string resourceKey, int langugeID);
+        Task InstallLanguagesAsync((string languagePackDownloadLink, int languagePackProgress) languagePackInfo, CultureInfo cultureInfo, RegionInfo regionInfo);
+        Task InstallLanguagesAsync();
     }
 }

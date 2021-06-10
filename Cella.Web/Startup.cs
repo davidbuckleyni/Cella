@@ -58,6 +58,7 @@ using Cella.Infrastructure.Web;
 using Cella.BL;
 using Cella.BL.Interfaces;
 using Cella.Domain;
+using Cella.Infrastructure.Interface.Localization;
 
 namespace Warehouse.Web
 {
@@ -127,6 +128,7 @@ namespace Warehouse.Web
             services.Configure<RazorViewEngineOptions>(
                 options => { options.ViewLocationExpanders.Add(new ThemeableViewLocationExpander()); });
             services.AddTransient<IThemeService, ThemeService>();
+            services.AddTransient<ILocalizationService, Cella.Infrastructure.Services.Localization.LocalizationService>();
             services.AddTransient<CellaDBContext>();
             services.Configure<RequestLocalizationOptions>(options =>
             {

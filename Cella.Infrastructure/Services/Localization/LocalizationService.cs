@@ -83,7 +83,7 @@ namespace Cella.Infrastructure.Services.Localization
             return Directory.EnumerateFiles(directoryPath, searchPattern,
                 topDirectoryOnly ? SearchOption.TopDirectoryOnly : SearchOption.AllDirectories);
         }
-        protected virtual async Task InstallLanguagesAsync((string languagePackDownloadLink, int languagePackProgress) languagePackInfo, CultureInfo cultureInfo, RegionInfo regionInfo)
+        public async Task  InstallLanguagesAsync()
         {
             var defaultCulture = new CultureInfo(CellaInstallationDefaults.DefaultLanguageCulture);
             var defaultLanguage = new Language
@@ -94,7 +94,6 @@ namespace Cella.Infrastructure.Services.Localization
                 FlagImageFileName = $"{defaultCulture.Name.ToLower()[^2..]}.png",
                 Rtl = defaultCulture.TextInfo.IsRightToLeft,
                 Published = true,
-                
                 DisplayOrder = 1
             };
             //Install locale resources for default culture
@@ -195,20 +194,9 @@ namespace Cella.Infrastructure.Services.Localization
       //      await _staticCacheManager.RemoveByPrefixAsync(NopEntityCacheDefaults<LocaleStringResource>.Prefix);
         }
 
-        public async Task<string> GetResourceAsync(string resourceKey, int langugeID)
+        public virtual async Task<string> GetResourceAsync(string resourceKey,int langugeID)
         {
-
-            return _context.LocaleStringResource.Where(w => w.ResourceName == resourceKey && w.LanguageId == langugeID && w.isDeleted == false && w.isActive).FirstOrDefaultAsync().Result.ResourceName;
-            
-          
-
-            
-
-        }
-
-        public Task<string> GetResourceAsync(string resourceKey)
-        {
-            throw new NotImplementedException();
+            return _context.LocaleStringResource.Where(w => w.ResourceName == resourceKey && w.LanguageId == langugeID && w.isDeleted == false && w.isActive == true).FirstOrDefaultAsync().Result.ResourceValue;
         }
 
         Task ILocalizationService.InstallLanguagesAsync((string languagePackDownloadLink, int languagePackProgress) languagePackInfo, CultureInfo cultureInfo, RegionInfo regionInfo)
