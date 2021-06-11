@@ -22,9 +22,9 @@ namespace Cella.Models {
 
         [Display(Name = "Order Number")]
         public int Id { get; set; }
-        public Guid UserId { get; set; }
+        public Guid? UserId { get; set; }
 
-        public Guid TeannatId { get; set; }
+        public Guid? TeannatId { get; set; }
 
         public int? Customer { get; set; }
 

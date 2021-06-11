@@ -107,6 +107,7 @@ namespace Cella.Domain
         public DbSet<ShoppingCart> ShoppingCarts { get; set; }
         public DbSet<Categories> Categories { get; set; }
         public DbSet<LocaleStringResource> LocaleStringResource { get; set; }
+        public DbSet<Currency> Currencies { get; set; }
 
         public DbSet<Language> Language { get; set; }
         public DbSet<ShoppingCartItems> ShoppingCartsItems { get; set; }
@@ -127,7 +128,10 @@ namespace Cella.Domain
             //isdelete=true and isdeleted false will need to do this for all entitys
             modelBuilder.Entity<SalesOrder>().HasQueryFilter(q => q.isDeleted == false && q.isActive == true);
             modelBuilder.Entity<SalesOrderItem>().HasQueryFilter(q => q.isDeleted == false && q.isActive == true);
+            modelBuilder.Entity<Currency>().HasQueryFilter(q => q.isDeleted == false && q.isActive == true);
 
+
+            
             modelBuilder.Entity<SystemSetup>().HasData(
          new SystemSetup() { Id = 1, UploadFolderPath = @"~\Uploads\" });
 
