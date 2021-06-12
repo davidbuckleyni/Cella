@@ -598,6 +598,15 @@ D:\GitMaster\CellaCrm\Cella.Web\bin\Debug\net5.0\fr\SharedResourceLib.Lng.resour
 D:\GitMaster\CellaCrm\Cella.Web\obj\Debug\net5.0\Cella.Web.Views.pdb
 D:\GitMaster\CellaCrm\Cella.Web\obj\Debug\net5.0\Cella.Web.csproj.CopyComplete
 D:\GitMaster\CellaCrm\Cella.Web\obj\Debug\net5.0\Cella.Web.genruntimeconfig.cache
+D:\GitMaster\Cella\Cella.Web\obj\Debug\net5.0\Cella.Web.csproj.AssemblyReference.cache
+D:\GitMaster\Cella\Cella.Web\obj\Debug\net5.0\Cella.Web.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitMaster\Cella\Cella.Web\obj\Debug\net5.0\Cella.Web.AssemblyInfoInputs.cache
+D:\GitMaster\Cella\Cella.Web\obj\Debug\net5.0\Cella.Web.AssemblyInfo.cs
+D:\GitMaster\Cella\Cella.Web\obj\Debug\net5.0\Cella.Web.csproj.CoreCompileInputs.cache
+D:\GitMaster\Cella\Cella.Web\obj\Debug\net5.0\Cella.Web.MvcApplicationPartsAssemblyInfo.cache
+D:\GitMaster\Cella\Cella.Web\obj\Debug\net5.0\Cella.Web.RazorAssemblyInfo.cache
+D:\GitMaster\Cella\Cella.Web\obj\Debug\net5.0\Cella.Web.RazorAssemblyInfo.cs
+D:\GitMaster\Cella\Cella.Web\obj\Debug\net5.0\Cella.Web.MvcApplicationPartsAssemblyInfo.cs
 D:\GitMaster\Cella\Cella.Web\bin\Debug\net5.0\appsettings.Development.json
 D:\GitMaster\Cella\Cella.Web\bin\Debug\net5.0\appsettings.json
 D:\GitMaster\Cella\Cella.Web\bin\Debug\net5.0\bundleconfig.json
@@ -609,6 +618,10 @@ D:\GitMaster\Cella\Cella.Web\bin\Debug\net5.0\Themes\FrontEnd\theme.json
 D:\GitMaster\Cella\Cella.Web\bin\Debug\net5.0\Themes\SampleTheme\theme.json
 D:\GitMaster\Cella\Cella.Web\bin\Debug\net5.0\Cella.Web.StaticWebAssets.xml
 D:\GitMaster\Cella\Cella.Web\bin\Debug\net5.0\Cella.Web.exe
+D:\GitMaster\Cella\Cella.Web\bin\Debug\net5.0\Modules\Cella.Module.PaymentPaypal\module.json
+D:\GitMaster\Cella\Cella.Web\bin\Debug\net5.0\Localization\defaultResources.nopres.xml
+D:\GitMaster\Cella\Cella.Web\bin\Debug\net5.0\Modules\Cella.Module.PaymentPaypal\Cella.Module.PaymentPaypal.dll
+D:\GitMaster\Cella\Cella.Web\bin\Debug\net5.0\Modules\Cella.Module.PaymentPaypal\Cella.Module.PaymentPaypal.Views.dll
 D:\GitMaster\Cella\Cella.Web\bin\Debug\net5.0\plugins\MvcAppPlugin1\MvcAppPlugin1.dll
 D:\GitMaster\Cella\Cella.Web\bin\Debug\net5.0\plugins\MvcAppPlugin1\MvcAppPlugin1.Views.dll
 D:\GitMaster\Cella\Cella.Web\bin\Debug\net5.0\plugins\placeholder.txt
@@ -1080,14 +1093,6 @@ D:\GitMaster\Cella\Cella.Web\bin\Debug\net5.0\Cella.Models.pdb
 D:\GitMaster\Cella\Cella.Web\bin\Debug\net5.0\SharedResourceLib.Lng.pdb
 D:\GitMaster\Cella\Cella.Web\bin\Debug\net5.0\es\SharedResourceLib.Lng.resources.dll
 D:\GitMaster\Cella\Cella.Web\bin\Debug\net5.0\fr\SharedResourceLib.Lng.resources.dll
-D:\GitMaster\Cella\Cella.Web\obj\Debug\net5.0\Cella.Web.GeneratedMSBuildEditorConfig.editorconfig
-D:\GitMaster\Cella\Cella.Web\obj\Debug\net5.0\Cella.Web.AssemblyInfoInputs.cache
-D:\GitMaster\Cella\Cella.Web\obj\Debug\net5.0\Cella.Web.AssemblyInfo.cs
-D:\GitMaster\Cella\Cella.Web\obj\Debug\net5.0\Cella.Web.csproj.CoreCompileInputs.cache
-D:\GitMaster\Cella\Cella.Web\obj\Debug\net5.0\Cella.Web.MvcApplicationPartsAssemblyInfo.cs
-D:\GitMaster\Cella\Cella.Web\obj\Debug\net5.0\Cella.Web.MvcApplicationPartsAssemblyInfo.cache
-D:\GitMaster\Cella\Cella.Web\obj\Debug\net5.0\Cella.Web.RazorAssemblyInfo.cache
-D:\GitMaster\Cella\Cella.Web\obj\Debug\net5.0\Cella.Web.RazorAssemblyInfo.cs
 D:\GitMaster\Cella\Cella.Web\obj\Debug\net5.0\staticwebassets\Cella.Web.StaticWebAssets.Manifest.cache
 D:\GitMaster\Cella\Cella.Web\obj\Debug\net5.0\staticwebassets\Cella.Web.StaticWebAssets.xml
 D:\GitMaster\Cella\Cella.Web\obj\Debug\net5.0\scopedcss\bundle\Cella.Web.styles.css
@@ -1121,6 +1126,7 @@ D:\GitMaster\Cella\Cella.Web\obj\Debug\net5.0\Razor\Themes\Default\Views\Shared\
 D:\GitMaster\Cella\Cella.Web\obj\Debug\net5.0\Razor\Themes\Default\Views\_ViewStart.cshtml.g.cs
 D:\GitMaster\Cella\Cella.Web\obj\Debug\net5.0\Razor\Themes\FrontEnd\Views\Home\Index.cshtml.g.cs
 D:\GitMaster\Cella\Cella.Web\obj\Debug\net5.0\Razor\Themes\FrontEnd\Views\Shared\_Layout.cshtml.g.cs
+D:\GitMaster\Cella\Cella.Web\obj\Debug\net5.0\Razor\Themes\FrontEnd\Views\Shared\_SelectLanguagePartial.cshtml.g.cs
 D:\GitMaster\Cella\Cella.Web\obj\Debug\net5.0\Razor\Themes\FrontEnd\_ViewImports.cshtml.g.cs
 D:\GitMaster\Cella\Cella.Web\obj\Debug\net5.0\Razor\Views\Admin\Create.cshtml.g.cs
 D:\GitMaster\Cella\Cella.Web\obj\Debug\net5.0\Razor\Views\Admin\EditUserPermissions.cshtml.g.cs
@@ -1161,6 +1167,7 @@ D:\GitMaster\Cella\Cella.Web\obj\Debug\net5.0\Razor\Views\Role\Index.cshtml.g.cs
 D:\GitMaster\Cella\Cella.Web\obj\Debug\net5.0\Razor\Views\Role\Update.cshtml.g.cs
 D:\GitMaster\Cella\Cella.Web\obj\Debug\net5.0\Razor\Views\Shared\AuditTrailPopupPartial.cshtml.g.cs
 D:\GitMaster\Cella\Cella.Web\obj\Debug\net5.0\Razor\Views\Shared\Components\Addresses\Default.cshtml.g.cs
+D:\GitMaster\Cella\Cella.Web\obj\Debug\net5.0\Razor\Views\Shared\Components\CurrencySelector\Default.cshtml.g.cs
 D:\GitMaster\Cella\Cella.Web\obj\Debug\net5.0\Razor\Views\Shared\Components\FileAttachmentList\Default.cshtml.g.cs
 D:\GitMaster\Cella\Cella.Web\obj\Debug\net5.0\Razor\Views\Shared\Components\FileUploadComponent\Default.cshtml.g.cs
 D:\GitMaster\Cella\Cella.Web\obj\Debug\net5.0\Razor\Views\Shared\Components\PhotosList\Default.cshtml.g.cs
@@ -1177,6 +1184,7 @@ D:\GitMaster\Cella\Cella.Web\obj\Debug\net5.0\Razor\Views\Shared\_LoginLayout.cs
 D:\GitMaster\Cella\Cella.Web\obj\Debug\net5.0\Razor\Views\Shared\_LoginPartial.cshtml.g.cs
 D:\GitMaster\Cella\Cella.Web\obj\Debug\net5.0\Razor\Views\Shared\_NotificationPanel.cshtml.g.cs
 D:\GitMaster\Cella\Cella.Web\obj\Debug\net5.0\Razor\Views\Shared\_SelectLanguagePartial.cshtml.g.cs
+D:\GitMaster\Cella\Cella.Web\obj\Debug\net5.0\Razor\Views\Shared\_ShoppingCartLayout.cshtml.g.cs
 D:\GitMaster\Cella\Cella.Web\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
 D:\GitMaster\Cella\Cella.Web\obj\Debug\net5.0\Razor\Views\ShoppingCart\ShoppingBasket.cshtml.g.cs
 D:\GitMaster\Cella\Cella.Web\obj\Debug\net5.0\Razor\Views\SystemSetups\Create.cshtml.g.cs
@@ -1194,10 +1202,3 @@ D:\GitMaster\Cella\Cella.Web\obj\Debug\net5.0\Cella.Web.dll
 D:\GitMaster\Cella\Cella.Web\obj\Debug\net5.0\ref\Cella.Web.dll
 D:\GitMaster\Cella\Cella.Web\obj\Debug\net5.0\Cella.Web.pdb
 D:\GitMaster\Cella\Cella.Web\obj\Debug\net5.0\Cella.Web.genruntimeconfig.cache
-D:\GitMaster\Cella\Cella.Web\obj\Debug\net5.0\Cella.Web.csproj.AssemblyReference.cache
-D:\GitMaster\Cella\Cella.Web\bin\Debug\net5.0\Modules\Cella.Module.PaymentPaypal\module.json
-D:\GitMaster\Cella\Cella.Web\bin\Debug\net5.0\Modules\Cella.Module.PaymentPaypal\Cella.Module.PaymentPaypal.dll
-D:\GitMaster\Cella\Cella.Web\bin\Debug\net5.0\Modules\Cella.Module.PaymentPaypal\Cella.Module.PaymentPaypal.Views.dll
-D:\GitMaster\Cella\Cella.Web\obj\Debug\net5.0\Razor\Views\Shared\_ShoppingCartLayout.cshtml.g.cs
-D:\GitMaster\Cella\Cella.Web\bin\Debug\net5.0\Localization\defaultResources.nopres.xml
-D:\GitMaster\Cella\Cella.Web\obj\Debug\net5.0\Razor\Themes\FrontEnd\Views\Shared\_SelectLanguagePartial.cshtml.g.cs

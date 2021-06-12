@@ -1,0 +1,31 @@
+﻿@model Cella.Models.ViewModels.CurrencySelectorViewModel
+
+@inject Cella.Infrastructure.Interface.IWebHelper webHelper
+
+
+@if (Model.AvailableCurrencies.Count > 1)
+{
+    var returnUrl = string.IsNullOrEmpty(Context.Request.Path) ? "~/" : $"~{Context.Request.Path.Value}";
+
+
+    var currencies = Model.AvailableCurrencies.Select(x => new SelectListItem
+    {
+        Text = x.Name,
+        Value = Url.RouteUrl("ChangeCurrency", new { customercurrency = x.Id, returnUrl }, webHelper.GetCurrentRequestProtocol()),
+        Selected = x.Id.Equals(Model.CurrentCurrencyId)
+    }).ToList();
+
+        <form id="SetCurrency"
+              asp-controller="Warehouse"
+              asp-action="SetCurrency"
+              asp-route-returnUrl="@returnUrl"
+              method="post"
+              class="form-horizontal nav-link text-dark"
+              role="form">
+              <select id="customerCurrency" name="customerCurrency" asp-items="@currencies"   
+                      onchange="this.form.submit();" aria-label="@T("Currency.Selector.Label")">
+
+              </select> 
+            </form>
+    }
+    } 

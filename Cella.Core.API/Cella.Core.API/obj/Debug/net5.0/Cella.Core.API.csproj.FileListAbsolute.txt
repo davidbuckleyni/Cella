@@ -423,6 +423,12 @@ D:\GitMaster\CellaCrm\Cella.Core.API\Cella.Core.API\obj\Debug\net5.0\Cella.Core.
 D:\GitMaster\CellaCrm\Cella.Core.API\Cella.Core.API\obj\Debug\net5.0\ref\Cella.Core.API.dll
 D:\GitMaster\CellaCrm\Cella.Core.API\Cella.Core.API\obj\Debug\net5.0\Cella.Core.API.pdb
 D:\GitMaster\CellaCrm\Cella.Core.API\Cella.Core.API\obj\Debug\net5.0\Cella.Core.API.genruntimeconfig.cache
+D:\GitMaster\Cella\Cella.Core.API\Cella.Core.API\obj\Debug\net5.0\Cella.Core.API.csproj.AssemblyReference.cache
+D:\GitMaster\Cella\Cella.Core.API\Cella.Core.API\obj\Debug\net5.0\Cella.Core.API.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitMaster\Cella\Cella.Core.API\Cella.Core.API\obj\Debug\net5.0\Cella.Core.API.AssemblyInfoInputs.cache
+D:\GitMaster\Cella\Cella.Core.API\Cella.Core.API\obj\Debug\net5.0\Cella.Core.API.AssemblyInfo.cs
+D:\GitMaster\Cella\Cella.Core.API\Cella.Core.API\obj\Debug\net5.0\Cella.Core.API.csproj.CoreCompileInputs.cache
+D:\GitMaster\Cella\Cella.Core.API\Cella.Core.API\obj\Debug\net5.0\Cella.Core.API.MvcApplicationPartsAssemblyInfo.cache
 D:\GitMaster\Cella\Cella.Core.API\Cella.Core.API\bin\Debug\net5.0\appsettings.Development.json
 D:\GitMaster\Cella\Cella.Core.API\Cella.Core.API\bin\Debug\net5.0\appsettings.json
 D:\GitMaster\Cella\Cella.Core.API\Cella.Core.API\bin\Debug\net5.0\Cella.Core.API.StaticWebAssets.xml
@@ -832,12 +838,7 @@ D:\GitMaster\Cella\Cella.Core.API\Cella.Core.API\bin\Debug\net5.0\Cella.BL.pdb
 D:\GitMaster\Cella\Cella.Core.API\Cella.Core.API\bin\Debug\net5.0\Cella.Domain.pdb
 D:\GitMaster\Cella\Cella.Core.API\Cella.Core.API\bin\Debug\net5.0\Cella.Models.pdb
 D:\GitMaster\Cella\Cella.Core.API\Cella.Core.API\bin\Debug\net5.0\Cella.Infrastructure.pdb
-D:\GitMaster\Cella\Cella.Core.API\Cella.Core.API\obj\Debug\net5.0\Cella.Core.API.GeneratedMSBuildEditorConfig.editorconfig
-D:\GitMaster\Cella\Cella.Core.API\Cella.Core.API\obj\Debug\net5.0\Cella.Core.API.AssemblyInfoInputs.cache
-D:\GitMaster\Cella\Cella.Core.API\Cella.Core.API\obj\Debug\net5.0\Cella.Core.API.AssemblyInfo.cs
-D:\GitMaster\Cella\Cella.Core.API\Cella.Core.API\obj\Debug\net5.0\Cella.Core.API.csproj.CoreCompileInputs.cache
 D:\GitMaster\Cella\Cella.Core.API\Cella.Core.API\obj\Debug\net5.0\Cella.Core.API.MvcApplicationPartsAssemblyInfo.cs
-D:\GitMaster\Cella\Cella.Core.API\Cella.Core.API\obj\Debug\net5.0\Cella.Core.API.MvcApplicationPartsAssemblyInfo.cache
 D:\GitMaster\Cella\Cella.Core.API\Cella.Core.API\obj\Debug\net5.0\staticwebassets\Cella.Core.API.StaticWebAssets.Manifest.cache
 D:\GitMaster\Cella\Cella.Core.API\Cella.Core.API\obj\Debug\net5.0\staticwebassets\Cella.Core.API.StaticWebAssets.xml
 D:\GitMaster\Cella\Cella.Core.API\Cella.Core.API\obj\Debug\net5.0\scopedcss\bundle\Cella.Core.API.styles.css
@@ -847,4 +848,3 @@ D:\GitMaster\Cella\Cella.Core.API\Cella.Core.API\obj\Debug\net5.0\Cella.Core.API
 D:\GitMaster\Cella\Cella.Core.API\Cella.Core.API\obj\Debug\net5.0\ref\Cella.Core.API.dll
 D:\GitMaster\Cella\Cella.Core.API\Cella.Core.API\obj\Debug\net5.0\Cella.Core.API.pdb
 D:\GitMaster\Cella\Cella.Core.API\Cella.Core.API\obj\Debug\net5.0\Cella.Core.API.genruntimeconfig.cache
-D:\GitMaster\Cella\Cella.Core.API\Cella.Core.API\obj\Debug\net5.0\Cella.Core.API.csproj.AssemblyReference.cache

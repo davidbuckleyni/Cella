@@ -4,9 +4,11 @@ using Cella.Domain.Interfaces;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Localization;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Configuration;
 using NToastNotify;
 using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Threading.Tasks;
 using Warehouse.Domain;
@@ -18,12 +20,12 @@ namespace Warehouse.Web.Controllers
     {
         private readonly IMapper mapper;
         private readonly IToastNotification _toast;
-
+        private readonly IConfiguration _config;
         private CellaDBContext _context;
-        public WarehouseController(CellaDBContext context, IMapper mapper, IToastNotification toast)
+        public WarehouseController(CellaDBContext context, IMapper mapper, IToastNotification toast, IConfiguration config)
         {
             _context = context;
-
+            _config = config;
             _toast = toast;
 
             this.mapper = mapper;
@@ -33,7 +35,7 @@ namespace Warehouse.Web.Controllers
         public ActionResult Index()
         {
 
-         
+
             return View();
         }
 
@@ -98,7 +100,24 @@ namespace Warehouse.Web.Controllers
             return View();
         }
 
+    [HttpPost]
+    public IActionResult SetCurrency(IFormCollection forms,string returnUrl)
+    {
+        string storeLocale = forms["customerCurrency"].ToString();
 
+        var record = _context.Currencies.Where(w => w.DisplayLocale == storeLocale).FirstOrDefault();
+
+        var currentLanguageId = _context.Appsettings.Where(w => w.Key == Constants.FrontEndDefaultLanguageId).FirstOrDefault();
+        if (record != null)
+        {
+            _config[Constants.FrontEndDefaultLanguageId] = record.Id.ToString();
+            currentLanguageId.Value = record.Id.ToString();
+            _context.SaveChanges();
+            _toast.AddAlertToastMessage("Currecy changed to " + record.Name); 
+        }           
+            
+        return LocalRedirect(returnUrl);
+    }
         [HttpPost]
         public IActionResult SetCulture(string culture, string returnUrl)
         {

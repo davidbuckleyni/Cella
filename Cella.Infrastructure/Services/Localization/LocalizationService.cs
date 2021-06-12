@@ -32,7 +32,7 @@ namespace Cella.Infrastructure.Services.Localization
 
             _context = cellaDBContext;
 
-        }    
+        }
         /// <summary>
         /// Determines if the string is a valid Universal Naming Convention (UNC)
         /// for a server and share path.
@@ -72,7 +72,7 @@ namespace Cella.Infrastructure.Services.Localization
             //if virtual path has slash on the end, it should be after transform the virtual path to physical path too
             var pathEnd = path.EndsWith('/') ? Path.DirectorySeparatorChar.ToString() : string.Empty;
             var provider = new PhysicalFileProvider(path);
-          
+
             return Combine(provider.Root ?? string.Empty, path) + pathEnd;
         }
         protected string WebRootPath { get; }
@@ -83,7 +83,7 @@ namespace Cella.Infrastructure.Services.Localization
             return Directory.EnumerateFiles(directoryPath, searchPattern,
                 topDirectoryOnly ? SearchOption.TopDirectoryOnly : SearchOption.AllDirectories);
         }
-        public async Task  InstallLanguagesAsync()
+        public async Task InstallLanguagesAsync()
         {
             var defaultCulture = new CultureInfo(CellaInstallationDefaults.DefaultLanguageCulture);
             var defaultLanguage = new Language
@@ -186,17 +186,23 @@ namespace Cella.Infrastructure.Services.Localization
                     lrsToInsertList[name] = lsr;
                 }
             }
-         //   await _context.LAN
-        //    await _lsrRepository.UpdateAsync(lrsToUpdateList, false);
-       //     await _lsrRepository.InsertAsync(lrsToInsertList.Values.ToList(), false);
+            //   await _context.LAN
+            //    await _lsrRepository.UpdateAsync(lrsToUpdateList, false);
+            //     await _lsrRepository.InsertAsync(lrsToInsertList.Values.ToList(), false);
 
             //clear cache
-      //      await _staticCacheManager.RemoveByPrefixAsync(NopEntityCacheDefaults<LocaleStringResource>.Prefix);
+            //      await _staticCacheManager.RemoveByPrefixAsync(NopEntityCacheDefaults<LocaleStringResource>.Prefix);
         }
 
-        public virtual async Task<string> GetResourceAsync(string resourceKey,int langugeID)
+        public virtual async Task<string> GetResourceAsync(string resourceKey, int langugeID)
         {
-            return _context.LocaleStringResource.Where(w => w.ResourceName == resourceKey && w.LanguageId == langugeID && w.isDeleted == false && w.isActive == true).FirstOrDefaultAsync().Result.ResourceValue;
+            var result = await _context.LocaleStringResource.Where(w => w.ResourceName == resourceKey && w.LanguageId == langugeID && w.isDeleted == false && w.isActive == true).FirstOrDefaultAsync();
+            var resultString = string.Empty;
+            if (result != null)
+                resultString = result.ResourceValue;
+            else
+                resultString = resourceKey;
+            return resultString;
         }
 
         Task ILocalizationService.InstallLanguagesAsync((string languagePackDownloadLink, int languagePackProgress) languagePackInfo, CultureInfo cultureInfo, RegionInfo regionInfo)
@@ -206,4 +212,4 @@ namespace Cella.Infrastructure.Services.Localization
     }
 }
 
-    
+

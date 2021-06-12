@@ -51,6 +51,13 @@ namespace Warehouse.Web.Controllers {
             GetApplicationUser();
             SetStoreId();
             SetupThemeCookie();
+            SetCurrency();
+        }
+        public void SetCurrency()
+        {
+            _httpContextAccessor.HttpContext.Request.Headers.Add("currency", "Local=en-GB");
+
+
 
         }
         public void SetupThemeCookie()

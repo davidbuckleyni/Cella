@@ -16,7 +16,7 @@ namespace Cella.Domain.Configuration
         {
             OptionsAction = optionsAction;
         }
-
+ 
         public override void Load()
         {
             var builder = new DbContextOptionsBuilder<CellaDBContext>();

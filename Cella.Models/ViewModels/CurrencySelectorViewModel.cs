@@ -11,6 +11,8 @@ namespace Cella.Models.ViewModels
             AvailableCurrencies = new List<Currency>();
         }
 
+        public string CurrencyName { get; set; }
+        public int DisplayLocale { get; set; }
         public IList<Currency> AvailableCurrencies { get; set; }
 
         public int CurrentCurrencyId { get; set; }

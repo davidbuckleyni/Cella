@@ -82,3 +82,8 @@ androidx.media.media
 androidx.lifecycle.lifecycle-livedata
 androidx.legacy.legacy-support-v4
 androidx.browser.browser
+androidx.vectordrawable.vectordrawable.aar
+androidx.vectordrawable.vectordrawable-animated.aar
+androidx.appcompat.appcompat-resources.aar
+androidx.appcompat.appcompat.aar
+androidx.browser.browser.aar

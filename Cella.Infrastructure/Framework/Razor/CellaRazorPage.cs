@@ -24,8 +24,7 @@ namespace Cella.Infrastructure.Framework
             get
             {
                 var serviceProviderContext = Context.RequestServices.GetRequiredService<CellaDBContext>();
-
-                Int32.TryParse(serviceProviderContext.Appsettings.Where(w => w.Key == Constants.FrontEndDefaultLanguageId).FirstOrDefault().Value, out int defaultLangId);                
+                Int32.TryParse(serviceProviderContext.Appsettings.Where(w => w.Key == Constants.FrontEndDefaultLanguageId).FirstOrDefault().Value, out int defaultLangId);
                 var serviceProvider = Context.RequestServices.GetRequiredService<ILocalizationService>();
                 
 

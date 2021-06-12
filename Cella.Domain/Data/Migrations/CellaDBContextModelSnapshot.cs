@@ -469,6 +469,76 @@ namespace Cella.Domain.Data.Migrations
                     b.ToTable("Countries");
                 });
 
+            modelBuilder.Entity("Cella.Models.Currency", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .UseIdentityColumn();
+
+                    b.Property<DateTime?>("CreateDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("CreatedBy")
+                        .HasMaxLength(30)
+                        .HasColumnType("nvarchar(30)");
+
+                    b.Property<DateTime?>("CreatedOnUtc")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("CurrencyCode")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("CustomFormatting")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("DisplayLocale")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int?>("DisplayOrder")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime?>("LastModifiedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Name")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<decimal?>("Rate")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.Property<int>("RoundingType")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("RoundingTypeId")
+                        .HasColumnType("int");
+
+                    b.Property<Guid?>("TeannatId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<DateTime?>("UpdatedOnUtc")
+                        .HasColumnType("datetime2");
+
+                    b.Property<Guid?>("UserId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<bool?>("isActive")
+                        .HasColumnType("bit");
+
+                    b.Property<bool?>("isDeleted")
+                        .HasColumnType("bit");
+
+                    b.Property<bool?>("isLimitedToStores")
+                        .HasColumnType("bit");
+
+                    b.Property<bool?>("isPublished")
+                        .HasColumnType("bit");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Currencies");
+                });
+
             modelBuilder.Entity("Cella.Models.CustomFieldsDataTypes", b =>
                 {
                     b.Property<int>("Id")
@@ -1051,6 +1121,9 @@ namespace Cella.Domain.Data.Migrations
                         .HasMaxLength(30)
                         .HasColumnType("nvarchar(30)");
 
+                    b.Property<decimal?>("DefaultPrice")
+                        .HasColumnType("decimal(18,2)");
+
                     b.Property<string>("FullDescription")
                         .HasColumnType("nvarchar(max)");
 
@@ -1070,6 +1143,9 @@ namespace Cella.Domain.Data.Migrations
                     b.Property<string>("Name")
                         .HasMaxLength(5000)
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<int?>("PriceList")
+                        .HasColumnType("int");
 
                     b.Property<int?>("PriceListType")
                         .HasColumnType("int");
@@ -1217,10 +1293,10 @@ namespace Cella.Domain.Data.Migrations
                     b.Property<Guid?>("StoreId")
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<Guid>("TeannatId")
+                    b.Property<Guid?>("TeannatId")
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<Guid>("UserId")
+                    b.Property<Guid?>("UserId")
                         .HasColumnType("uniqueidentifier");
 
                     b.Property<bool?>("isActive")

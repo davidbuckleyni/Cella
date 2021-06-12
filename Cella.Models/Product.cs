@@ -72,6 +72,9 @@ namespace Cella.Models
 
         public bool? isPublished { get; set; }
 
+        [DisplayFormat(DataFormatString = "{0:c}", ApplyFormatInEditMode = true)]
+        public decimal? DefaultPrice { get; set; }
+        public int? PriceList { get; set; }
         public int? PriceListType { get; set; }
         public string? SKU { get; set; }
 

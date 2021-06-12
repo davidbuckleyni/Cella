@@ -85,6 +85,7 @@ namespace Cella.BL.TagHelpers
             }
 
             var theme = _config[Constants.ThemFolderNameConfigKey] + @"/"+ _config["Theme"];
+        
             url = url.Replace("_content", theme);
 
             return url;

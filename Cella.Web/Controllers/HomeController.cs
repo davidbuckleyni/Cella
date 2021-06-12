@@ -55,9 +55,17 @@ namespace Warehouse.Web.Controllers
         }
         public IActionResult Index()
         {
-             
 
-            return View();
+
+            ProductListingsViewModel vm = new ProductListingsViewModel();
+            List<Product> productList = new List<Product>();
+            Product product = new Product();
+            product.Name = "Test";
+            product.DefaultPrice = 19.99m;
+            productList.Add(product);
+
+            vm.Products = productList;
+            return View(vm);
         }
     }
 }

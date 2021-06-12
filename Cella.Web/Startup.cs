@@ -59,6 +59,8 @@ using Cella.BL;
 using Cella.BL.Interfaces;
 using Cella.Domain;
 using Cella.Infrastructure.Interface.Localization;
+using Cella.Infrastructure.Helpers;
+using Cella.Infrastructure.Interface;
 
 namespace Warehouse.Web
 {
@@ -136,8 +138,9 @@ namespace Warehouse.Web
             services.AddTransient<IThemeService, ThemeService>();
             services.AddTransient<ILocalizationService, Cella.Infrastructure.Services.Localization.LocalizationService>();
             services.AddTransient<CellaDBContext>();
+            services.AddTransient<IWebHelper, WebHelper>();
 
-         
+
             services.Configure<RequestLocalizationOptions>(options =>
             {
                 var cultures = new List<CultureInfo> {
@@ -231,8 +234,9 @@ namespace Warehouse.Web
                 options.DefaultChallengeScheme = IdentityConstants.ApplicationScheme;
                 options.DefaultSignInScheme = IdentityConstants.ExternalScheme;
             });
-          
-    }
+
+
+        }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env, UserManager<ApplicationUser> userManager,
@@ -286,8 +290,15 @@ RoleManager<IdentityRole> roleManager)
             app.UseAuthorization();
 
 
+           
             app.UseEndpoints(endpoints =>
             {
+                //change currency
+                endpoints.MapControllerRoute(name: "ChangeCurrency",
+                    pattern: $"en-GB/changecurrency/{{customercurrency:min(0)}}",
+                    defaults: new { controller = "Common", action = "SetCurrency" });
+
+
                 endpoints.MapControllerRoute(
              name: "areas",
              pattern: "{area:exists}/{controller=Home}/{action=Index}/{id?}");
