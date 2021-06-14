@@ -8,5 +8,7 @@ namespace Cella.Models.ViewModels
     {
         public List<Categories> Categories { get; set; }
         public List<Product> Products { get; set; }
+
+        public string? Price { get; set; }
     }
 }

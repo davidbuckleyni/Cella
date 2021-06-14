@@ -11,7 +11,7 @@
     var currencies = Model.AvailableCurrencies.Select(x => new SelectListItem
     {
         Text = x.Name,
-        Value = Url.RouteUrl("ChangeCurrency", new { customercurrency = x.Id, returnUrl }, webHelper.GetCurrentRequestProtocol()),
+        Value = x.DisplayLocale,
         Selected = x.Id.Equals(Model.CurrentCurrencyId)
     }).ToList();
 

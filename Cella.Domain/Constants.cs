@@ -16,7 +16,8 @@ namespace Cella.Domain
         public const string FrontEndDefaultLanguageId = "FrontEnd.CultureId";
         public const string ThemFolderNameConfigKey = "ThemesFolderName";
         public const string DomainName = "https://localhost:44347";
-      
+        public const string GlobalCurrencyCulture = "Global.CurrencyCulture";
+
         public const string GetAllSockEndPoint = "";
     }
 }

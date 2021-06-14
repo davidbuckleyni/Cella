@@ -1144,6 +1144,9 @@ namespace Cella.Domain.Data.Migrations
                         .HasMaxLength(5000)
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("Price")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<int?>("PriceList")
                         .HasColumnType("int");
 

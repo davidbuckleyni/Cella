@@ -10,13 +10,9 @@
 Lets show a price  
 @foreach (var item in Model.Products)
 {
-   
 <li>
-    Price:
-    
-    @Html.DisplayFor(model => item.DefaultPrice)
-
-
+    Price:    
+    @item.Price
 </li>
-    }
+ 
 }

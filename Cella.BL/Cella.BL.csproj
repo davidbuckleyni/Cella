@@ -18,6 +18,7 @@
   <ItemGroup>
     <Folder Include="FileManagement\" />
     <Folder Include="Domain\" />
+    <Folder Include="Interfaces\NewFolder\" />
     <Folder Include="Permissions\Attritbutes\" />
   </ItemGroup>
 

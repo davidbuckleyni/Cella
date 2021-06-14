@@ -17,7 +17,6 @@
 
   <ItemGroup>
     <Folder Include="Plugins\" />
-    <Folder Include="Services\" />
     <Folder Include="TransForms\" />
   </ItemGroup>
 

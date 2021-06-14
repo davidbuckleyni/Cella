@@ -41,6 +41,7 @@ namespace Cella.Models
           [StringLength(2000)]
         public string? ShortDescription { get; set; }
 
+        public string? Price { get; set; }
         [StringLength(5000)]
         public string? Name { get; set; }
         public string FullDescription { get; set; }

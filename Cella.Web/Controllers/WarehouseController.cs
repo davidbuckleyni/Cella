@@ -106,10 +106,11 @@ namespace Warehouse.Web.Controllers
         string storeLocale = forms["customerCurrency"].ToString();
 
         var record = _context.Currencies.Where(w => w.DisplayLocale == storeLocale).FirstOrDefault();
-
+            
         var currentLanguageId = _context.Appsettings.Where(w => w.Key == Constants.FrontEndDefaultLanguageId).FirstOrDefault();
+
         if (record != null)
-        {
+            {
             _config[Constants.FrontEndDefaultLanguageId] = record.Id.ToString();
             currentLanguageId.Value = record.Id.ToString();
             _context.SaveChanges();
@@ -128,6 +129,8 @@ namespace Warehouse.Web.Controllers
 
             if (culture == "fr")
                 record.Value = "2";
+
+            
             _context.SaveChangesAsync();
             _toast.AddSuccessToastMessage("Language changed to :" + record.Key);
 

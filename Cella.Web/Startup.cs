@@ -61,6 +61,7 @@ using Cella.Domain;
 using Cella.Infrastructure.Interface.Localization;
 using Cella.Infrastructure.Helpers;
 using Cella.Infrastructure.Interface;
+using Cella.BL.Services.Catalog;
 
 namespace Warehouse.Web
 {
@@ -139,7 +140,7 @@ namespace Warehouse.Web
             services.AddTransient<ILocalizationService, Cella.Infrastructure.Services.Localization.LocalizationService>();
             services.AddTransient<CellaDBContext>();
             services.AddTransient<IWebHelper, WebHelper>();
-
+            services.AddTransient<IPriceFormatter, PriceFormatter>();
 
             services.Configure<RequestLocalizationOptions>(options =>
             {

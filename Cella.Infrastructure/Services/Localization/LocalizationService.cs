@@ -193,7 +193,22 @@ namespace Cella.Infrastructure.Services.Localization
             //clear cache
             //      await _staticCacheManager.RemoveByPrefixAsync(NopEntityCacheDefaults<LocaleStringResource>.Prefix);
         }
+        public virtual async Task<string> GetResourceAsync(string resourceKey, int languageId,
+           bool logIfNotFound = true, string defaultValue = "", bool returnEmptyIfNotFound = false)
+        {
 
+            if (resourceKey == null)
+                resourceKey = string.Empty;
+            resourceKey = resourceKey.Trim().ToLowerInvariant();
+            var result = await _context.LocaleStringResource.Where(w => w.ResourceName == resourceKey && w.LanguageId == languageId && w.isDeleted == false && w.isActive == true).FirstOrDefaultAsync();
+            var resultString = string.Empty;
+            if (result != null)
+                resultString = result.ResourceValue;
+            else
+                resultString = resourceKey;
+
+            return resultString;
+        }
         public virtual async Task<string> GetResourceAsync(string resourceKey, int langugeID)
         {
             var result = await _context.LocaleStringResource.Where(w => w.ResourceName == resourceKey && w.LanguageId == langugeID && w.isDeleted == false && w.isActive == true).FirstOrDefaultAsync();

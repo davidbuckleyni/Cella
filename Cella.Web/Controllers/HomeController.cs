@@ -12,6 +12,7 @@ using NToastNotify;
 using WarehouseCrm.Web.Helpers;
 using Microsoft.Extensions.Configuration;
 using Cella.Domain;
+using Cella.BL.Interfaces;
 
 namespace Warehouse.Web.Controllers
 {
@@ -19,17 +20,21 @@ namespace Warehouse.Web.Controllers
     {
         private UserManager<ApplicationUser> _userManager;
         private RoleManager<IdentityRole> _roleManager;
+        private readonly IConfiguration _config;
 
         private readonly IToastNotification _toast;
         private CellaDBContext _context;
-        
-        public HomeController(CellaDBContext context, IHttpContextAccessor httpContextAccessor, UserManager<ApplicationUser> userManager, RoleManager<IdentityRole> roleMgr, IToastNotification toast,IConfiguration config) :  base(context, httpContextAccessor, userManager, roleMgr, toast,config)
+        private readonly IPriceFormatter _priceFormatter;
+        public HomeController(CellaDBContext context, IHttpContextAccessor httpContextAccessor, UserManager<ApplicationUser> userManager, RoleManager<IdentityRole> roleMgr, IToastNotification toast,IConfiguration config, IPriceFormatter priceFormatter) :  base(context, httpContextAccessor, userManager, roleMgr, toast,config)
         { 
             _context = context;
             _context.AddPluginModulesToDB();
             _userManager = userManager;
             _roleManager = roleMgr;
+            _priceFormatter = priceFormatter;
+            _config = config;
             _toast = toast;
+
         //     AddPermissions();
 
     }
@@ -53,7 +58,7 @@ namespace Warehouse.Web.Controllers
         {
             return View(vm);
         }
-        public IActionResult Index()
+        public async Task<IActionResult> IndexAsync()
         {
 
 
@@ -61,10 +66,15 @@ namespace Warehouse.Web.Controllers
             List<Product> productList = new List<Product>();
             Product product = new Product();
             product.Name = "Test";
-            product.DefaultPrice = 19.99m;
-            productList.Add(product);
+            int.TryParse(_config[Constants.FrontEndDefaultLanguageId], out int selectedLaguage);
 
+            var currency = _context.Currencies.Where(w => w.Id == selectedLaguage).FirstOrDefault();
+            string price =await _priceFormatter.FormatPriceAsync(Convert.ToDecimal(19.99), true, currency, 1, false, false) ;
+                        
+            product.Price = price;
+            productList.Add(product);
             vm.Products = productList;
+
             return View(vm);
         }
     }
