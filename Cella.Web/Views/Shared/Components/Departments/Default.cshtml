@@ -1,0 +1,82 @@
+﻿@model Cella.Models.ViewModels.CategoriesViewModel
+@using Microsoft.Extensions.Configuration;
+@inject IConfiguration Configuration;
+<ul class="departments__links">
+    @foreach (var item in Model.Categories)
+    {
+        <li class="departments__item">
+
+
+            <a class="departments__item-link" href="">
+                @item.Name
+                <svg class="departments__item-arrow" width="6px" height="9px">
+                    <use xlink:href="/@Configuration["ThemesFolderName"]/@Configuration["Theme"]/images/sprite.svg#arrow-rounded-right-6x9"></use>
+                </svg>
+            </a>
+
+            <div class="departments__submenu departments__submenu--type--megamenu departments__submenu--size--xl">
+                <!-- .megamenu -->
+                <div class="megamenu  megamenu--departments ">
+                    <div class="megamenu__body" style="background-image: url('~/@Configuration["ThemesFolderName"]/@Configuration["Theme"]/images/megamenu/megamenu-1.jpg');">
+                        <div class="row">
+
+                            <div class="col-3">
+                                <ul class="megamenu__links megamenu__links--level--0">
+                                    <li class="megamenu__item  megamenu__item--with-submenu ">
+                                        <a href="">@item.Name</a>
+                                        <ul class="megamenu__links megamenu__links--level--1">
+                                            @foreach (var subitem in Model.Categories.Where(w => w.ParentId == item.Id).ToList())
+                                            { 
+                                                @item.ParentId
+
+                                                <li class="megamenu__item"><a href="">@subitem.Name</a></li>
+                                            }
+
+                                        </ul>
+                                    </li>
+
+                                </ul>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+                <!-- .megamenu / end -->
+            </div>     
+        </li>
+    }
+   
+        <li class="departments__item">
+            <a class="departments__item-link" href="">
+                Power Machinery
+            </a>
+        </li>
+        <li class="departments__item">
+            <a class="departments__item-link" href="">
+                Measurement
+            </a>
+        </li>
+        <li class="departments__item">
+            <a class="departments__item-link" href="">
+                Clothes & PPE
+            </a>
+        </li>
+        <li class="departments__item">
+            <a class="departments__item-link" href="">
+                Plumbing
+            </a>
+        </li>
+        <li class="departments__item">
+            <a class="departments__item-link" href="">
+                Storage & Organization
+            </a>
+        </li>
+        <li class="departments__item">
+            <a class="departments__item-link" href="">
+                Welding & Soldering
+            </a>
+        </li>
+    </ul>
+                                            </div>
+                                        </div>

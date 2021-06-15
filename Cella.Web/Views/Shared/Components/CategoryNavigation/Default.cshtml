@@ -1,0 +1,47 @@
+﻿@model Cella.Models.ViewModels.CategoriesViewModel
+@using Microsoft.Extensions.Configuration;
+@inject IConfiguration Configuration;
+<!-- .block-categories -->
+<div class="block block--highlighted block-categories block-categories--layout--classic">
+    <div class="container">
+        <div class="block-header">
+            <h3 class="block-header__title">Popular Categories</h3>
+            <div class="block-header__divider"></div>
+        </div>
+
+        @foreach(var item in Model.Categories.Where(w=>w.ParentId==0 ||w.ParentId==null).ToList())
+        { 
+        <div class="block-categories__list">
+            <div class="block-categories__item category-card category-card--layout--classic">
+                <div class="category-card__body">
+                    <div class="category-card__image">
+                        <a href=""><img src="~/@Configuration["ThemesFolderName"]/@Configuration["Theme"]/images/categories/category-1.jpg" alt=""></a>
+                    </div>
+                    <div class="category-card__content">
+                        <div class="category-card__name">
+                            <a href="">@item.Name</a>
+                        </div>
+
+                        @foreach (var subItem in Model.Categories.Where(w => w.ParentId == item.ParentId))
+                        {
+                            <ul class="category-card__links">
+
+                                <li><a href="">@subItem.Name</a></li>
+
+
+                            </ul>
+                            <div class="category-card__all">
+                                <a href="">Show All</a>
+                            </div>
+                            <div class="category-card__products">
+                                @subItem.TotalProductsCategory
+                            </div>
+                        }
+                    </div>
+                </div>
+            </div>
+            </div>
+        }
+        }
+    </div>
+</div>

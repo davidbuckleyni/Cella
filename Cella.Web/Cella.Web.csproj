@@ -2732,7 +2732,7 @@
     <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="5.0.0" />
     <PackageReference Include="Microsoft.Extensions.Localization" Version="5.0.0" />
     <PackageReference Include="Microsoft.Extensions.Localization.Abstractions" Version="5.0.0" />
-    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="5.0.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="5.0.2" />
     <PackageReference Include="Mindscape.Raygun4Net.AspNetCore" Version="6.4.1" />
     <PackageReference Include="NETCore.MailKit" Version="2.0.3" />
     <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
@@ -2760,6 +2760,8 @@
     <Folder Include="Localization\Installation\" />
     <Folder Include="logs\" />
     <Folder Include="Instalation\" />
+    <Folder Include="NewFolder\" />
+    <Folder Include="ViewComponents\" />
     <Folder Include="wwwroot\logs\" />
     <Folder Include="wwwroot\Uploads\" />
     <Folder Include="wwwroot\Uploads\" />

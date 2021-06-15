@@ -1202,3 +1202,5 @@ D:\GitMaster\Cella\Cella.Web\obj\Debug\net5.0\Cella.Web.dll
 D:\GitMaster\Cella\Cella.Web\obj\Debug\net5.0\ref\Cella.Web.dll
 D:\GitMaster\Cella\Cella.Web\obj\Debug\net5.0\Cella.Web.pdb
 D:\GitMaster\Cella\Cella.Web\obj\Debug\net5.0\Cella.Web.genruntimeconfig.cache
+D:\GitMaster\Cella\Cella.Web\obj\Debug\net5.0\Razor\Views\Shared\Components\CategoryNavigation\Default.cshtml.g.cs
+D:\GitMaster\Cella\Cella.Web\obj\Debug\net5.0\Razor\Views\Shared\Components\Departments\Default.cshtml.g.cs

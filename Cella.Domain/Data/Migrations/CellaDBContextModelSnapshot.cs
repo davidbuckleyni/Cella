@@ -274,14 +274,26 @@ namespace Cella.Domain.Data.Migrations
                     b.Property<string>("Description")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<int?>("DisplayOrder")
+                        .HasColumnType("int");
+
                     b.Property<string>("Image")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime?>("LastModifiedDate")
                         .HasColumnType("datetime2");
 
+                    b.Property<string>("MetaKeyWord")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("MetaTitle")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("Name")
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<int?>("PageSize")
+                        .HasColumnType("int");
 
                     b.Property<int?>("ParentId")
                         .HasColumnType("int");
@@ -295,16 +307,34 @@ namespace Cella.Domain.Data.Migrations
                     b.Property<Guid?>("StoreId")
                         .HasColumnType("uniqueidentifier");
 
+                    b.Property<Guid?>("TennantId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<int?>("TotalProductsCategory")
+                        .HasColumnType("int");
+
                     b.Property<int?>("Type")
                         .HasColumnType("int");
 
                     b.Property<Guid?>("UserId")
                         .HasColumnType("uniqueidentifier");
 
+                    b.Property<bool?>("canCustomerSelectPageSize")
+                        .HasColumnType("bit");
+
                     b.Property<bool?>("isActive")
                         .HasColumnType("bit");
 
                     b.Property<bool?>("isDeleted")
+                        .HasColumnType("bit");
+
+                    b.Property<bool?>("isIncludeSideMenu")
+                        .HasColumnType("bit");
+
+                    b.Property<bool?>("isShowHomePage")
+                        .HasColumnType("bit");
+
+                    b.Property<bool?>("isSubItem")
                         .HasColumnType("bit");
 
                     b.HasKey("Id");
