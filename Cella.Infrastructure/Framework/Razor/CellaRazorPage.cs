@@ -13,8 +13,7 @@ namespace Cella.Infrastructure.Framework
 {
     public abstract class CellaRazorPage<TModel> : Microsoft.AspNetCore.Mvc.Razor.RazorPage<TModel>
     {
-         private Localizer _localizer;
-        
+         private Localizer _localizer;       
 
         /// <summary>
         /// Get a localized resources
@@ -47,7 +46,6 @@ namespace Cella.Infrastructure.Framework
         }
 
     }
-
 
     /// <summary>
     /// Web view page

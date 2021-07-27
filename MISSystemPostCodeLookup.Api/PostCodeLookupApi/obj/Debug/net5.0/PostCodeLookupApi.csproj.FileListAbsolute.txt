@@ -32,4 +32,3 @@ D:\GitMaster\Cella\MISSystemPostCodeLookup.Api\PostCodeLookupApi\obj\Debug\net5.
 D:\GitMaster\Cella\MISSystemPostCodeLookup.Api\PostCodeLookupApi\obj\Debug\net5.0\PostCodeLookupApi.dll
 D:\GitMaster\Cella\MISSystemPostCodeLookup.Api\PostCodeLookupApi\obj\Debug\net5.0\ref\PostCodeLookupApi.dll
 D:\GitMaster\Cella\MISSystemPostCodeLookup.Api\PostCodeLookupApi\obj\Debug\net5.0\PostCodeLookupApi.pdb
-D:\GitMaster\Cella\MISSystemPostCodeLookup.Api\PostCodeLookupApi\obj\Debug\net5.0\PostCodeLookupApi.csproj.AssemblyReference.cache

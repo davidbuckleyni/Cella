@@ -11,7 +11,6 @@
 using System;
 using System.Reflection;
 
-[assembly: Microsoft.AspNetCore.Identity.UI.UIFrameworkAttribute("Bootstrap4")]
 [assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("aspnet-WarehouseCrm.Web-C84BE257-D3E8-4C20-BD0C-C02208BA1A4D")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("Cella.Web")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
