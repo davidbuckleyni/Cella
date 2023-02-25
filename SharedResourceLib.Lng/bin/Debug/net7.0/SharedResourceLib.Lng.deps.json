@@ -1,0 +1,49 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "SharedResourceLib.Lng/1.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Localization.Abstractions": "5.0.0"
+        },
+        "runtime": {
+          "SharedResourceLib.Lng.dll": {}
+        },
+        "resources": {
+          "es/SharedResourceLib.Lng.resources.dll": {
+            "locale": "es"
+          },
+          "fr/SharedResourceLib.Lng.resources.dll": {
+            "locale": "fr"
+          }
+        }
+      },
+      "Microsoft.Extensions.Localization.Abstractions/5.0.0": {
+        "runtime": {
+          "lib/net5.0/Microsoft.Extensions.Localization.Abstractions.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.52605"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SharedResourceLib.Lng/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Extensions.Localization.Abstractions/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Uey8VI3FbPFLiLh+mnFN13DTbQASSuzV3ZeN9Oma2Y4YW7OBWjU9LAsvPISRBQHrwztXegSoCacFWqB9o992xQ==",
+      "path": "microsoft.extensions.localization.abstractions/5.0.0",
+      "hashPath": "microsoft.extensions.localization.abstractions.5.0.0.nupkg.sha512"
+    }
+  }
+}

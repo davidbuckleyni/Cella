@@ -1,8 +1,8 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
-    <AssemblyName>Cella.Models</AssemblyName>
+	  <TargetFramework>net7.0</TargetFramework>
+	  <AssemblyName>Cella.Models</AssemblyName>
   </PropertyGroup>
 
   <ItemGroup>

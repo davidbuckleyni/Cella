@@ -7,8 +7,8 @@
   
   
   <PropertyGroup>
-    <TargetFramework>net5.0</TargetFramework>
-    <UserSecretsId>aspnet-WarehouseCrm.Web-C84BE257-D3E8-4C20-BD0C-C02208BA1A4D</UserSecretsId>
+	  <TargetFramework>net7.0</TargetFramework>
+	  <UserSecretsId>aspnet-WarehouseCrm.Web-C84BE257-D3E8-4C20-BD0C-C02208BA1A4D</UserSecretsId>
     <AspNetCoreModuleName>AspNetCoreModule</AspNetCoreModuleName>
     <AspNetCoreHostingModel>OutOfProcess</AspNetCoreHostingModel>
     <AssemblyName>Cella.Web</AssemblyName>
