@@ -1,17 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
-using System.Threading.Tasks;
-using System.Web.Mvc;
-using System.Web;
-using Microsoft.AspNetCore.Mvc;
 using System.Security.Claims;
 using Microsoft.AspNetCore.Mvc.Filters;
 using Microsoft.AspNetCore.Routing;
 using Microsoft.Extensions.DependencyInjection;
-using RedirectToRouteResult = Microsoft.AspNetCore.Mvc.RedirectToRouteResult;
-using Warehouse.Web.Controllers;
-using Cella.Models;
 using Cella.Models.ViewModels;
 using Cella.BL;
 using Cella.Domain;
