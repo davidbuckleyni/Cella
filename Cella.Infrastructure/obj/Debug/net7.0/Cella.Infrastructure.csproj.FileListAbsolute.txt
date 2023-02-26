@@ -1,4 +1,6 @@
+D:\GitMaster\Cella\Cella.Infrastructure\bin\Debug\net7.0\SQLitePCL.Ext.dll
 D:\GitMaster\Cella\Cella.Infrastructure\bin\Debug\net7.0\Cella.Infrastructure.deps.json
+D:\GitMaster\Cella\Cella.Infrastructure\bin\Debug\net7.0\Cella.Infrastructure.runtimeconfig.json
 D:\GitMaster\Cella\Cella.Infrastructure\bin\Debug\net7.0\Cella.Infrastructure.dll
 D:\GitMaster\Cella\Cella.Infrastructure\bin\Debug\net7.0\Cella.Infrastructure.pdb
 D:\GitMaster\Cella\Cella.Infrastructure\bin\Debug\net7.0\Cella.Domain.dll
@@ -14,4 +16,5 @@ D:\GitMaster\Cella\Cella.Infrastructure\obj\Debug\net7.0\Cella.Infrastructure.cs
 D:\GitMaster\Cella\Cella.Infrastructure\obj\Debug\net7.0\Cella.Infrastructure.dll
 D:\GitMaster\Cella\Cella.Infrastructure\obj\Debug\net7.0\refint\Cella.Infrastructure.dll
 D:\GitMaster\Cella\Cella.Infrastructure\obj\Debug\net7.0\Cella.Infrastructure.pdb
+D:\GitMaster\Cella\Cella.Infrastructure\obj\Debug\net7.0\Cella.Infrastructure.genruntimeconfig.cache
 D:\GitMaster\Cella\Cella.Infrastructure\obj\Debug\net7.0\ref\Cella.Infrastructure.dll

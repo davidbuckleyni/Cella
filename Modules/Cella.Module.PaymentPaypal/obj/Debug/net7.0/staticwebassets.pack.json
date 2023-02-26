@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\GitMaster\\Cella\\Modules\\Cella.Module.PaymentPaypal\\wwwroot\\background.png",
+      "PackagePath": "staticwebassets\\background.png"
+    },
+    {
+      "Id": "D:\\GitMaster\\Cella\\Modules\\Cella.Module.PaymentPaypal\\wwwroot\\exampleJsInterop.js",
+      "PackagePath": "staticwebassets\\exampleJsInterop.js"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.Cella.Module.PaymentPaypal.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.Cella.Module.PaymentPaypal.props",
+      "PackagePath": "build\\Cella.Module.PaymentPaypal.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.Cella.Module.PaymentPaypal.props",
+      "PackagePath": "buildMultiTargeting\\Cella.Module.PaymentPaypal.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.Cella.Module.PaymentPaypal.props",
+      "PackagePath": "buildTransitive\\Cella.Module.PaymentPaypal.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

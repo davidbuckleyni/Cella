@@ -1,4 +1,6 @@
+D:\GitMaster\Cella\Cella.BL\bin\Debug\net7.0\SQLitePCL.Ext.dll
 D:\GitMaster\Cella\Cella.BL\bin\Debug\net7.0\Cella.BL.deps.json
+D:\GitMaster\Cella\Cella.BL\bin\Debug\net7.0\Cella.BL.runtimeconfig.json
 D:\GitMaster\Cella\Cella.BL\bin\Debug\net7.0\Cella.BL.dll
 D:\GitMaster\Cella\Cella.BL\bin\Debug\net7.0\Cella.BL.pdb
 D:\GitMaster\Cella\Cella.BL\bin\Debug\net7.0\refs\Microsoft.AspNetCore.Antiforgery.dll
@@ -312,4 +314,5 @@ D:\GitMaster\Cella\Cella.BL\obj\Debug\net7.0\Cella.BL.csproj.CopyComplete
 D:\GitMaster\Cella\Cella.BL\obj\Debug\net7.0\Cella.BL.dll
 D:\GitMaster\Cella\Cella.BL\obj\Debug\net7.0\refint\Cella.BL.dll
 D:\GitMaster\Cella\Cella.BL\obj\Debug\net7.0\Cella.BL.pdb
+D:\GitMaster\Cella\Cella.BL\obj\Debug\net7.0\Cella.BL.genruntimeconfig.cache
 D:\GitMaster\Cella\Cella.BL\obj\Debug\net7.0\ref\Cella.BL.dll

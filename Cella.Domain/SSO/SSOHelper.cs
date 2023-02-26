@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.DirectoryServices;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -14,8 +13,7 @@ namespace Cella.Domain
         {
             string adPath = $"LDAP://{domain}/DC={company},DC={domainController}";
 
-            DirectorySearcher mySearcher;
-            SearchResult resEnt;
+           
 
         }
 

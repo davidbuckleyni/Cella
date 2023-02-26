@@ -12,7 +12,7 @@ build_property.RootNamespace = Cella.Web
 build_property.ProjectDir = D:\GitMaster\Cella\Cella.Web\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
-build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = true
 build_property.MSBuildProjectDirectory = D:\GitMaster\Cella\Cella.Web
 build_property._RazorSourceGeneratorDebug = 
 
@@ -208,14 +208,6 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcGFuaWVzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/GitMaster/Cella/Cella.Web/Views/FileAttachments/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmlsZUF0dGFjaG1lbnRzXENyZWF0ZS5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/GitMaster/Cella/Cella.Web/Views/FileAttachments/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmlsZUF0dGFjaG1lbnRzXEVkaXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
 [D:/GitMaster/Cella/Cella.Web/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -298,14 +290,6 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/GitMaster/Cella/Cella.Web/Views/Shared/Components/Departments/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcRGVwYXJ0bWVudHNcRGVmYXVsdC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/GitMaster/Cella/Cella.Web/Views/Shared/Components/FileAttachmentList/Default.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcRmlsZUF0dGFjaG1lbnRMaXN0XERlZmF1bHQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/GitMaster/Cella/Cella.Web/Views/Shared/Components/FileUploadComponent/Default.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcRmlsZVVwbG9hZENvbXBvbmVudFxEZWZhdWx0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/GitMaster/Cella/Cella.Web/Views/Shared/Components/PhotosList/Default.cshtml]

@@ -12,7 +12,6 @@ using Dapper.Contrib;
 using SQLitePCL;
 using SQLite;
 using System.IO;
-using AutoMapper;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using System.Threading.Tasks;
 using System.Security.Claims;

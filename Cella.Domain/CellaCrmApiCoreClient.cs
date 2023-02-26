@@ -1,5 +1,4 @@
-﻿using AutoMapper.Configuration;
-using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Http;
 using Newtonsoft.Json;
 using RestSharp;
 using RestSharp.Authenticators;
@@ -13,6 +12,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Cella.Domain.Interfaces;
 using Cella.Models;
+using Microsoft.Extensions.Configuration;
 
 namespace Cella.Domain
 {
@@ -38,30 +38,30 @@ namespace Cella.Domain
         public string token { get; set; }
         public async void AddAuthenicationHeader()
         {
-            string bearerToken = await GenerateBarrerToken();
-            client.Authenticator = new JwtAuthenticator(bearerToken);
+        //    string bearerToken = await GenerateBarrerToken();
+          //  client.Authenticator = new JwtAuthenticator(bearerToken);
 
         }
 
-        public async Task<string> GenerateBarrerToken()
-        {
-            var json = JsonConvert.SerializeObject(User);            
-            var httpContent = new StringContent(json, Encoding.UTF8, "application/json");
-            // Do the actual request and await the response
-            var request = new RestRequest("authentication", Method.POST);
-            request.AddParameter("application/json", httpContent, ParameterType.RequestBody);
-            RestResponse response = (RestResponse)client.Execute(request);
-            HttpStatusCode statusCode = response.StatusCode;
+        //public async Task<string> GenerateBarrerToken()
+        //{
+        //    var json = JsonConvert.SerializeObject(User);            
+        //    var httpContent = new StringContent(json, Encoding.UTF8, "application/json");
+        //    // Do the actual request and await the response
+        // //   var request = new RestRequest("authentication", Method.POST);
+        //    request.AddParameter("application/json", httpContent, ParameterType.RequestBody);
+        //    RestResponse response = (RestResponse)client.Execute(request);
+        //    HttpStatusCode statusCode = response.StatusCode;
 
-            if (statusCode == System.Net.HttpStatusCode.OK)
-            {
+        //    if (statusCode == System.Net.HttpStatusCode.OK)
+        //    {
 
-                var jsonContent = JsonConvert.DeserializeObject<string>(response.Content);
-                var tok = JsonConvert.DeserializeObject<AuthenicationResponseOjbect>(jsonContent);
-                token = tok.JwtToken;
-            }
-            return token;
-        }
+        //        var jsonContent = JsonConvert.DeserializeObject<string>(response.Content);
+        //        var tok = JsonConvert.DeserializeObject<AuthenicationResponseOjbect>(jsonContent);
+        //        token = tok.JwtToken;
+        //    }
+        //    return token;
+        //}
 
 
     }

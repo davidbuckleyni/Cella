@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "62PE+8jCuJZUSe8496oWYadGHF4MiNQmMXBE0L/vUzN9jB9nIr1BejbFxk5/lcFNI8y2AknNr1WtbLzo4fhFDw==",
+  "dgSpecHash": "2d7M/hB6H2TG059o/b4MbyeiMPkWfsuzoX/9ARz/yto3NpxV/jGxdEVY4ZuN+KrIaEGZ7tG7bol/3jJpgbwyrQ==",
   "success": true,
   "projectFilePath": "D:\\GitMaster\\Cella\\SharedResourceLib.Lng\\SharedResourceLib.Lng.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\DavidB\\.nuget\\packages\\microsoft.extensions.localization.abstractions\\5.0.0\\microsoft.extensions.localization.abstractions.5.0.0.nupkg.sha512"
+    "C:\\Users\\DavidB\\.nuget\\packages\\microsoft.extensions.localization.abstractions\\7.0.3\\microsoft.extensions.localization.abstractions.7.0.3.nupkg.sha512"
   ],
   "logs": []
 }

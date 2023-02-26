@@ -45,9 +45,57 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
-            "Microsoft.AspNet.Mvc": {
+            "ComputerInfo": {
               "target": "Package",
-              "version": "[5.2.7, )"
+              "version": "[0.1.0-prerelease, )"
+            },
+            "CronEspresso": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.123, )"
+            },
+            "Dapper.Contrib": {
+              "target": "Package",
+              "version": "[2.0.78, )"
+            },
+            "ElmahCore": {
+              "target": "Package",
+              "version": "[2.0.7, )"
+            },
+            "ElmahCore.Sql": {
+              "target": "Package",
+              "version": "[2.0.7, )"
+            },
+            "FileHelpers": {
+              "target": "Package",
+              "version": "[3.5.1, )"
+            },
+            "Hangfire.AspNetCore": {
+              "target": "Package",
+              "version": "[1.8.0-beta4, )"
+            },
+            "Hangfire.Core": {
+              "target": "Package",
+              "version": "[1.8.0-beta4, )"
+            },
+            "Hangfire.SqlServer": {
+              "target": "Package",
+              "version": "[1.8.0-beta4, )"
+            },
+            "MailKit": {
+              "target": "Package",
+              "version": "[3.0.0-preview1, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "Microsoft.AspNetCore.Components.QuickGrid": {
+              "target": "Package",
+              "version": "[0.1.0-alpha.22351.1, )"
             },
             "Microsoft.AspNetCore.Identity": {
               "target": "Package",
@@ -55,37 +103,103 @@
             },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[5.0.0, )"
+              "version": "[7.0.1, )"
             },
-            "Microsoft.Bcl.AsyncInterfaces": {
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
               "target": "Package",
-              "version": "[5.0.0, )"
+              "version": "[6.0.10, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[5.0.0, )"
+              "version": "[7.0.1, )"
             },
-            "Microsoft.EntityFrameworkCore.Relational": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
-              "version": "[5.0.0, )"
+              "version": "[7.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational.Design": {
+              "target": "Package",
+              "version": "[2.0.0-preview1-final, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[5.0.0, )"
+              "version": "[7.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer.Design": {
+              "target": "Package",
+              "version": "[2.0.0-preview1-final, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[5.0.0, )"
+              "version": "[7.0.1, )"
             },
-            "Microsoft.Extensions.Localization.Abstractions": {
+            "Microsoft.Extensions.Configuration.Abstractions": {
               "target": "Package",
-              "version": "[5.0.0, )"
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Mindscape.Raygun4Net.AspNetCore": {
+              "target": "Package",
+              "version": "[6.6.2, )"
+            },
+            "Mindscape.Raygun4Net.WebApi": {
+              "target": "Package",
+              "version": "[5.11.1, )"
+            },
+            "NCrontab.Advanced": {
+              "target": "Package",
+              "version": "[1.3.28, )"
+            },
+            "NLog": {
+              "target": "Package",
+              "version": "[5.0.0-preview.3, )"
+            },
+            "NLog.Web": {
+              "target": "Package",
+              "version": "[5.0.0-preview.3, )"
             },
             "Newtonsoft.Json": {
               "target": "Package",
-              "version": "[12.0.3, )"
+              "version": "[13.0.1, )"
+            },
+            "PushNotifications.Server": {
+              "target": "Package",
+              "version": "[1.3.18-pre, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            },
+            "Swashbuckle.AspNetCore.Swagger": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerUI": {
+              "target": "Package",
+              "version": "[6.2.1, )"
+            },
+            "Syncfusion.EJ2.AspNet.Core": {
+              "target": "Package",
+              "version": "[19.3.0.55, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.2, )"
+            },
+            "System.Net.Http": {
+              "target": "Package",
+              "version": "[4.3.4, )"
+            },
+            "ncrontab": {
+              "target": "Package",
+              "version": "[3.3.1, )"
             }
           },
           "imports": [

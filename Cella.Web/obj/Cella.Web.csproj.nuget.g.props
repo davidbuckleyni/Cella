@@ -13,18 +13,43 @@
     <SourceRoot Include="C:\Users\DavidB\.nuget\packages\" />
     <SourceRoot Include="C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages\" />
   </ItemGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Content Include="$(NuGetPackageRoot)ntoastnotify\8.0.0\contentFiles\any\net6.0\wwwroot\noty.js" Condition="Exists('$(NuGetPackageRoot)ntoastnotify\8.0.0\contentFiles\any\net6.0\wwwroot\noty.js')">
+      <NuGetPackageId>NToastNotify</NuGetPackageId>
+      <NuGetPackageVersion>8.0.0</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>wwwroot\noty.js</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)ntoastnotify\8.0.0\contentFiles\any\net6.0\wwwroot\toastr.js" Condition="Exists('$(NuGetPackageRoot)ntoastnotify\8.0.0\contentFiles\any\net6.0\wwwroot\toastr.js')">
+      <NuGetPackageId>NToastNotify</NuGetPackageId>
+      <NuGetPackageVersion>8.0.0</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>wwwroot\toastr.js</Link>
+    </Content>
+  </ItemGroup>
   <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <Import Project="$(NuGetPackageRoot)ntoastnotify\7.0.0\buildTransitive\NToastNotify.props" Condition="Exists('$(NuGetPackageRoot)ntoastnotify\7.0.0\buildTransitive\NToastNotify.props')" />
+    <Import Project="$(NuGetPackageRoot)ntoastnotify\8.0.0\buildTransitive\NToastNotify.props" Condition="Exists('$(NuGetPackageRoot)ntoastnotify\8.0.0\buildTransitive\NToastNotify.props')" />
     <Import Project="$(NuGetPackageRoot)nswag.msbuild\13.0.5\build\NSwag.MSBuild.props" Condition="Exists('$(NuGetPackageRoot)nswag.msbuild\13.0.5\build\NSwag.MSBuild.props')" />
     <Import Project="$(NuGetPackageRoot)microsoft.extensions.apidescription.client\3.0.0\build\Microsoft.Extensions.ApiDescription.Client.props" Condition="Exists('$(NuGetPackageRoot)microsoft.extensions.apidescription.client\3.0.0\build\Microsoft.Extensions.ApiDescription.Client.props')" />
     <Import Project="$(NuGetPackageRoot)nswag.apidescription.client\13.0.5\build\NSwag.ApiDescription.Client.props" Condition="Exists('$(NuGetPackageRoot)nswag.apidescription.client\13.0.5\build\NSwag.ApiDescription.Client.props')" />
-    <Import Project="$(NuGetPackageRoot)microsoft.entityframeworkcore.design\5.0.0\build\netcoreapp3.0\Microsoft.EntityFrameworkCore.Design.props" Condition="Exists('$(NuGetPackageRoot)microsoft.entityframeworkcore.design\5.0.0\build\netcoreapp3.0\Microsoft.EntityFrameworkCore.Design.props')" />
-    <Import Project="$(NuGetPackageRoot)microsoft.aspnetcore.identity.ui\5.0.0\buildTransitive\Microsoft.AspNetCore.Identity.UI.props" Condition="Exists('$(NuGetPackageRoot)microsoft.aspnetcore.identity.ui\5.0.0\buildTransitive\Microsoft.AspNetCore.Identity.UI.props')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.entityframeworkcore\7.0.3\buildTransitive\net6.0\Microsoft.EntityFrameworkCore.props" Condition="Exists('$(NuGetPackageRoot)microsoft.entityframeworkcore\7.0.3\buildTransitive\net6.0\Microsoft.EntityFrameworkCore.props')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.entityframeworkcore.design\7.0.3\build\net6.0\Microsoft.EntityFrameworkCore.Design.props" Condition="Exists('$(NuGetPackageRoot)microsoft.entityframeworkcore.design\7.0.3\build\net6.0\Microsoft.EntityFrameworkCore.Design.props')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.aspnetcore.identity.ui\7.0.3\build\Microsoft.AspNetCore.Identity.UI.props" Condition="Exists('$(NuGetPackageRoot)microsoft.aspnetcore.identity.ui\7.0.3\build\Microsoft.AspNetCore.Identity.UI.props')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.aspnetcore.components.quickgrid\0.1.0-alpha.22351.1\buildTransitive\Microsoft.AspNetCore.Components.QuickGrid.props" Condition="Exists('$(NuGetPackageRoot)microsoft.aspnetcore.components.quickgrid\0.1.0-alpha.22351.1\buildTransitive\Microsoft.AspNetCore.Components.QuickGrid.props')" />
   </ImportGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <PkgMicrosoft_CodeAnalysis_Analyzers Condition=" '$(PkgMicrosoft_CodeAnalysis_Analyzers)' == '' ">C:\Users\DavidB\.nuget\packages\microsoft.codeanalysis.analyzers\3.0.0</PkgMicrosoft_CodeAnalysis_Analyzers>
+    <PkgjQuery Condition=" '$(PkgjQuery)' == '' ">C:\Users\DavidB\.nuget\packages\jquery\1.6.3</PkgjQuery>
+    <PkgMicrosoft_CodeAnalysis_Analyzers Condition=" '$(PkgMicrosoft_CodeAnalysis_Analyzers)' == '' ">C:\Users\DavidB\.nuget\packages\microsoft.codeanalysis.analyzers\3.3.3</PkgMicrosoft_CodeAnalysis_Analyzers>
     <PkgMicrosoft_AspNetCore_Razor_Design Condition=" '$(PkgMicrosoft_AspNetCore_Razor_Design)' == '' ">C:\Users\DavidB\.nuget\packages\microsoft.aspnetcore.razor.design\2.2.0</PkgMicrosoft_AspNetCore_Razor_Design>
+    <PkgMicrosoft_Extensions_ApiDescription_Server Condition=" '$(PkgMicrosoft_Extensions_ApiDescription_Server)' == '' ">C:\Users\DavidB\.nuget\packages\microsoft.extensions.apidescription.server\3.0.0</PkgMicrosoft_Extensions_ApiDescription_Server>
+    <PkgSQLitePCL Condition=" '$(PkgSQLitePCL)' == '' ">C:\Users\DavidB\.nuget\packages\sqlitepcl\3.8.7.2</PkgSQLitePCL>
     <PkgNSwag_MSBuild Condition=" '$(PkgNSwag_MSBuild)' == '' ">C:\Users\DavidB\.nuget\packages\nswag.msbuild\13.0.5</PkgNSwag_MSBuild>
-    <PkgMicrosoft_EntityFrameworkCore_Tools Condition=" '$(PkgMicrosoft_EntityFrameworkCore_Tools)' == '' ">C:\Users\DavidB\.nuget\packages\microsoft.entityframeworkcore.tools\5.0.0</PkgMicrosoft_EntityFrameworkCore_Tools>
+    <PkgMicrosoft_CodeAnalysis_AnalyzerUtilities Condition=" '$(PkgMicrosoft_CodeAnalysis_AnalyzerUtilities)' == '' ">C:\Users\DavidB\.nuget\packages\microsoft.codeanalysis.analyzerutilities\3.3.0</PkgMicrosoft_CodeAnalysis_AnalyzerUtilities>
+    <PkgMicrosoft_EntityFrameworkCore_Tools Condition=" '$(PkgMicrosoft_EntityFrameworkCore_Tools)' == '' ">C:\Users\DavidB\.nuget\packages\microsoft.entityframeworkcore.tools\7.0.3</PkgMicrosoft_EntityFrameworkCore_Tools>
+    <PkgHangfire_SqlServer Condition=" '$(PkgHangfire_SqlServer)' == '' ">C:\Users\DavidB\.nuget\packages\hangfire.sqlserver\1.8.0-beta4</PkgHangfire_SqlServer>
   </PropertyGroup>
 </Project>

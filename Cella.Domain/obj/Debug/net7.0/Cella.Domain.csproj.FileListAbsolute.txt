@@ -1,3 +1,4 @@
+D:\GitMaster\Cella\Cella.Domain\bin\Debug\net7.0\SQLitePCL.Ext.dll
 D:\GitMaster\Cella\Cella.Domain\bin\Debug\net7.0\Cella.Domain.deps.json
 D:\GitMaster\Cella\Cella.Domain\bin\Debug\net7.0\Cella.Domain.runtimeconfig.json
 D:\GitMaster\Cella\Cella.Domain\bin\Debug\net7.0\Cella.Domain.dll
