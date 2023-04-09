@@ -1,42 +1,40 @@
 {
   "format": 1,
   "restore": {
-    "D:\\GitMaster\\Cella\\Cella.Domain\\Cella.Domain.csproj": {}
+    "C:\\Git\\cella\\Cella.Domain\\Cella.Domain.csproj": {}
   },
   "projects": {
-    "D:\\GitMaster\\Cella\\Cella.Domain\\Cella.Domain.csproj": {
+    "C:\\Git\\cella\\Cella.Domain\\Cella.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GitMaster\\Cella\\Cella.Domain\\Cella.Domain.csproj",
+        "projectUniqueName": "C:\\Git\\cella\\Cella.Domain\\Cella.Domain.csproj",
         "projectName": "Cella.Domain",
-        "projectPath": "D:\\GitMaster\\Cella\\Cella.Domain\\Cella.Domain.csproj",
-        "packagesPath": "C:\\Users\\David\\.nuget\\packages\\",
-        "outputPath": "D:\\GitMaster\\Cella\\Cella.Domain\\obj\\",
+        "projectPath": "C:\\Git\\cella\\Cella.Domain\\Cella.Domain.csproj",
+        "packagesPath": "C:\\Users\\davidb\\.nuget\\packages\\",
+        "outputPath": "C:\\Git\\cella\\Cella.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\David\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\davidb\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://packagesource": {}
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\GitMaster\\Cella\\Cella.Models\\Cella.Models.csproj": {
-                "projectPath": "D:\\GitMaster\\Cella\\Cella.Models\\Cella.Models.csproj"
+              "C:\\Git\\cella\\Cella.Models\\Cella.Models.csproj": {
+                "projectPath": "C:\\Git\\cella\\Cella.Models\\Cella.Models.csproj"
               }
             }
           }
@@ -132,7 +130,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -141,36 +140,34 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.300-preview.23122.5\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\GitMaster\\Cella\\Cella.Models\\Cella.Models.csproj": {
+    "C:\\Git\\cella\\Cella.Models\\Cella.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GitMaster\\Cella\\Cella.Models\\Cella.Models.csproj",
+        "projectUniqueName": "C:\\Git\\cella\\Cella.Models\\Cella.Models.csproj",
         "projectName": "Cella.Models",
-        "projectPath": "D:\\GitMaster\\Cella\\Cella.Models\\Cella.Models.csproj",
-        "packagesPath": "C:\\Users\\David\\.nuget\\packages\\",
-        "outputPath": "D:\\GitMaster\\Cella\\Cella.Models\\obj\\",
+        "projectPath": "C:\\Git\\cella\\Cella.Models\\Cella.Models.csproj",
+        "packagesPath": "C:\\Users\\davidb\\.nuget\\packages\\",
+        "outputPath": "C:\\Git\\cella\\Cella.Models\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\David\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\davidb\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://packagesource": {}
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
@@ -237,16 +234,31 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.300-preview.23122.5\\RuntimeIdentifierGraph.json"
         }
       }
     }
