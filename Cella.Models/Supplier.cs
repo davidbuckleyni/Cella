@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Cella.Models
 {
-    public class Supplier
+    public class Supplier:BaseEntity
     {
 
         public int Id { get; set; }
@@ -32,13 +32,6 @@ namespace Cella.Models
 
         public bool? CanSupplierBackOrder { get; set; }
 
-        public bool? isActive { get; set; }
-
-        public bool? isDeleted { get; set; }
-
-
-        public DateTime? CreatedDate { get; set; }
-
-        public string? CreatedBy { get; set; }
+      
     }
 }

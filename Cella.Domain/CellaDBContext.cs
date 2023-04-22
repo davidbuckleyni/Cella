@@ -71,6 +71,7 @@ namespace Cella.Domain
 
         public DbSet<Product> Product { get; set; }
 
+        public DbSet<StockItem> StockItem { get; set; }
 
         public DbSet<SystemSetup> SystemSetup { get; set; }
         public DbSet<Address> Address { get; set; }

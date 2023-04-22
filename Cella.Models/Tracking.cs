@@ -5,7 +5,7 @@ using System.Text;
 using Cella.Models.ViewModels;
 
 namespace Cella.Models {
-   public  class Tracking {
+   public  class Tracking :BaseEntity {
 
         public enum TrackingType
         {
@@ -66,15 +66,7 @@ namespace Cella.Models {
         public decimal? Profit { get; set; }
 
         public int? Status { get; set; }
-        public DateTime? CreateDate { get; set; }
-        public DateTime? LastModifiedDate { get; set; }
-        [StringLength(30)]
-        public string? CreatedBy { get; set; }
-
-        public bool? isActive { get; set; }
-        
-        public bool? isDeleted { get; set; }
-
+       
         public List<SalesOrderItem> Items { get; set; }
 
     }

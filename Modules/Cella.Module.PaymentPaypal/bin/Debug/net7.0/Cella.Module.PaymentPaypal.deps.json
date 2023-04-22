@@ -68,12 +68,18 @@
           "Microsoft.AspNetCore.Authentication.Core.Reference": "7.0.0.0",
           "Microsoft.AspNetCore.Authentication.Reference": "7.0.0.0",
           "Microsoft.AspNetCore.Authentication.OAuth": "7.0.0.0",
+          "Microsoft.AspNetCore.Authorization.Reference": "7.0.0.0",
           "Microsoft.AspNetCore.Authorization.Policy.Reference": "7.0.0.0",
           "Microsoft.AspNetCore.Components.Authorization": "7.0.0.0",
+          "Microsoft.AspNetCore.Components.Reference": "7.0.0.0",
+          "Microsoft.AspNetCore.Components.Forms.Reference": "7.0.0.0",
           "Microsoft.AspNetCore.Components.Server": "7.0.0.0",
+          "Microsoft.AspNetCore.Components.Web.Reference": "7.0.0.0",
           "Microsoft.AspNetCore.Connections.Abstractions": "7.0.0.0",
           "Microsoft.AspNetCore.CookiePolicy": "7.0.0.0",
           "Microsoft.AspNetCore.Cors": "7.0.0.0",
+          "Microsoft.AspNetCore.Cryptography.Internal.Reference": "7.0.0.0",
+          "Microsoft.AspNetCore.Cryptography.KeyDerivation.Reference": "7.0.0.0",
           "Microsoft.AspNetCore.DataProtection.Abstractions.Reference": "7.0.0.0",
           "Microsoft.AspNetCore.DataProtection.Reference": "7.0.0.0",
           "Microsoft.AspNetCore.DataProtection.Extensions": "7.0.0.0",
@@ -99,6 +105,7 @@
           "Microsoft.AspNetCore.Identity.Reference": "7.0.0.0",
           "Microsoft.AspNetCore.Localization": "7.0.0.0",
           "Microsoft.AspNetCore.Localization.Routing": "7.0.0.0",
+          "Microsoft.AspNetCore.Metadata.Reference": "7.0.0.0",
           "Microsoft.AspNetCore.Mvc.Abstractions.Reference": "7.0.0.0",
           "Microsoft.AspNetCore.Mvc.ApiExplorer": "7.0.0.0",
           "Microsoft.AspNetCore.Mvc.Core.Reference": "7.0.0.0",
@@ -165,6 +172,8 @@
           "Microsoft.Extensions.Hosting.Abstractions.Reference": "7.0.0.0",
           "Microsoft.Extensions.Hosting": "7.0.0.0",
           "Microsoft.Extensions.Http": "7.0.0.0",
+          "Microsoft.Extensions.Identity.Core.Reference": "7.0.0.0",
+          "Microsoft.Extensions.Identity.Stores.Reference": "7.0.0.0",
           "Microsoft.Extensions.Localization.Abstractions.Reference": "7.0.0.0",
           "Microsoft.Extensions.Localization.Reference": "7.0.0.0",
           "Microsoft.Extensions.Logging.Abstractions.Reference": "7.0.0.0",
@@ -181,6 +190,7 @@
           "Microsoft.Extensions.Options.Reference": "7.0.0.0",
           "Microsoft.Extensions.Primitives.Reference": "7.0.0.0",
           "Microsoft.Extensions.WebEncoders.Reference": "7.0.0.0",
+          "Microsoft.JSInterop.Reference": "7.0.0.0",
           "Microsoft.Net.Http.Headers.Reference": "7.0.0.0",
           "Microsoft.VisualBasic.Core": "12.0.0.0",
           "Microsoft.VisualBasic": "10.0.0.0",
@@ -742,9 +752,6 @@
             "assemblyVersion": "7.0.0.0",
             "fileVersion": "7.0.323.8009"
           }
-        },
-        "compile": {
-          "lib/net7.0/Microsoft.AspNetCore.Authorization.dll": {}
         }
       },
       "Microsoft.AspNetCore.Authorization.Policy/2.2.0": {
@@ -763,9 +770,6 @@
             "assemblyVersion": "7.0.0.0",
             "fileVersion": "7.0.323.8009"
           }
-        },
-        "compile": {
-          "lib/net7.0/Microsoft.AspNetCore.Components.dll": {}
         }
       },
       "Microsoft.AspNetCore.Components.Analyzers/7.0.3": {},
@@ -778,9 +782,6 @@
             "assemblyVersion": "7.0.0.0",
             "fileVersion": "7.0.323.8009"
           }
-        },
-        "compile": {
-          "lib/net7.0/Microsoft.AspNetCore.Components.Forms.dll": {}
         }
       },
       "Microsoft.AspNetCore.Components.QuickGrid/0.1.0-alpha.22351.1": {
@@ -810,9 +811,6 @@
             "assemblyVersion": "7.0.0.0",
             "fileVersion": "7.0.323.8009"
           }
-        },
-        "compile": {
-          "lib/net7.0/Microsoft.AspNetCore.Components.Web.dll": {}
         }
       },
       "Microsoft.AspNetCore.Cryptography.Internal/7.0.3": {
@@ -821,9 +819,6 @@
             "assemblyVersion": "7.0.0.0",
             "fileVersion": "7.0.323.8009"
           }
-        },
-        "compile": {
-          "lib/net7.0/Microsoft.AspNetCore.Cryptography.Internal.dll": {}
         }
       },
       "Microsoft.AspNetCore.Cryptography.KeyDerivation/7.0.3": {
@@ -835,9 +830,6 @@
             "assemblyVersion": "7.0.0.0",
             "fileVersion": "7.0.323.8009"
           }
-        },
-        "compile": {
-          "lib/net7.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll": {}
         }
       },
       "Microsoft.AspNetCore.DataProtection/2.2.0": {
@@ -945,9 +937,6 @@
             "assemblyVersion": "7.0.0.0",
             "fileVersion": "7.0.323.8009"
           }
-        },
-        "compile": {
-          "lib/net7.0/Microsoft.AspNetCore.Metadata.dll": {}
         }
       },
       "Microsoft.AspNetCore.Mvc.Abstractions/2.2.0": {
@@ -1511,9 +1500,6 @@
             "assemblyVersion": "7.0.0.0",
             "fileVersion": "7.0.323.8009"
           }
-        },
-        "compile": {
-          "lib/net7.0/Microsoft.Extensions.Identity.Core.dll": {}
         }
       },
       "Microsoft.Extensions.Identity.Stores/7.0.3": {
@@ -1527,9 +1513,6 @@
             "assemblyVersion": "7.0.0.0",
             "fileVersion": "7.0.323.8009"
           }
-        },
-        "compile": {
-          "lib/net7.0/Microsoft.Extensions.Identity.Stores.dll": {}
         }
       },
       "Microsoft.Extensions.Localization/2.2.0": {
@@ -1700,9 +1683,6 @@
             "assemblyVersion": "7.0.0.0",
             "fileVersion": "7.0.323.8009"
           }
-        },
-        "compile": {
-          "lib/net7.0/Microsoft.JSInterop.dll": {}
         }
       },
       "Microsoft.Net.Http.Headers/2.2.0": {
@@ -3171,6 +3151,12 @@
         },
         "compileOnly": true
       },
+      "Microsoft.AspNetCore.Authorization.Reference/7.0.0.0": {
+        "compile": {
+          "Microsoft.AspNetCore.Authorization.dll": {}
+        },
+        "compileOnly": true
+      },
       "Microsoft.AspNetCore.Authorization.Policy.Reference/7.0.0.0": {
         "compile": {
           "Microsoft.AspNetCore.Authorization.Policy.dll": {}
@@ -3183,9 +3169,27 @@
         },
         "compileOnly": true
       },
+      "Microsoft.AspNetCore.Components.Reference/7.0.0.0": {
+        "compile": {
+          "Microsoft.AspNetCore.Components.dll": {}
+        },
+        "compileOnly": true
+      },
+      "Microsoft.AspNetCore.Components.Forms.Reference/7.0.0.0": {
+        "compile": {
+          "Microsoft.AspNetCore.Components.Forms.dll": {}
+        },
+        "compileOnly": true
+      },
       "Microsoft.AspNetCore.Components.Server/7.0.0.0": {
         "compile": {
           "Microsoft.AspNetCore.Components.Server.dll": {}
+        },
+        "compileOnly": true
+      },
+      "Microsoft.AspNetCore.Components.Web.Reference/7.0.0.0": {
+        "compile": {
+          "Microsoft.AspNetCore.Components.Web.dll": {}
         },
         "compileOnly": true
       },
@@ -3204,6 +3208,18 @@
       "Microsoft.AspNetCore.Cors/7.0.0.0": {
         "compile": {
           "Microsoft.AspNetCore.Cors.dll": {}
+        },
+        "compileOnly": true
+      },
+      "Microsoft.AspNetCore.Cryptography.Internal.Reference/7.0.0.0": {
+        "compile": {
+          "Microsoft.AspNetCore.Cryptography.Internal.dll": {}
+        },
+        "compileOnly": true
+      },
+      "Microsoft.AspNetCore.Cryptography.KeyDerivation.Reference/7.0.0.0": {
+        "compile": {
+          "Microsoft.AspNetCore.Cryptography.KeyDerivation.dll": {}
         },
         "compileOnly": true
       },
@@ -3354,6 +3370,12 @@
       "Microsoft.AspNetCore.Localization.Routing/7.0.0.0": {
         "compile": {
           "Microsoft.AspNetCore.Localization.Routing.dll": {}
+        },
+        "compileOnly": true
+      },
+      "Microsoft.AspNetCore.Metadata.Reference/7.0.0.0": {
+        "compile": {
+          "Microsoft.AspNetCore.Metadata.dll": {}
         },
         "compileOnly": true
       },
@@ -3753,6 +3775,18 @@
         },
         "compileOnly": true
       },
+      "Microsoft.Extensions.Identity.Core.Reference/7.0.0.0": {
+        "compile": {
+          "Microsoft.Extensions.Identity.Core.dll": {}
+        },
+        "compileOnly": true
+      },
+      "Microsoft.Extensions.Identity.Stores.Reference/7.0.0.0": {
+        "compile": {
+          "Microsoft.Extensions.Identity.Stores.dll": {}
+        },
+        "compileOnly": true
+      },
       "Microsoft.Extensions.Localization.Abstractions.Reference/7.0.0.0": {
         "compile": {
           "Microsoft.Extensions.Localization.Abstractions.dll": {}
@@ -3846,6 +3880,12 @@
       "Microsoft.Extensions.WebEncoders.Reference/7.0.0.0": {
         "compile": {
           "Microsoft.Extensions.WebEncoders.dll": {}
+        },
+        "compileOnly": true
+      },
+      "Microsoft.JSInterop.Reference/7.0.0.0": {
+        "compile": {
+          "Microsoft.JSInterop.dll": {}
         },
         "compileOnly": true
       },
@@ -6561,6 +6601,11 @@
       "serviceable": false,
       "sha512": ""
     },
+    "Microsoft.AspNetCore.Authorization.Reference/7.0.0.0": {
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+    },
     "Microsoft.AspNetCore.Authorization.Policy.Reference/7.0.0.0": {
       "type": "referenceassembly",
       "serviceable": false,
@@ -6571,7 +6616,22 @@
       "serviceable": false,
       "sha512": ""
     },
+    "Microsoft.AspNetCore.Components.Reference/7.0.0.0": {
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.AspNetCore.Components.Forms.Reference/7.0.0.0": {
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+    },
     "Microsoft.AspNetCore.Components.Server/7.0.0.0": {
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.AspNetCore.Components.Web.Reference/7.0.0.0": {
       "type": "referenceassembly",
       "serviceable": false,
       "sha512": ""
@@ -6587,6 +6647,16 @@
       "sha512": ""
     },
     "Microsoft.AspNetCore.Cors/7.0.0.0": {
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.AspNetCore.Cryptography.Internal.Reference/7.0.0.0": {
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.AspNetCore.Cryptography.KeyDerivation.Reference/7.0.0.0": {
       "type": "referenceassembly",
       "serviceable": false,
       "sha512": ""
@@ -6712,6 +6782,11 @@
       "sha512": ""
     },
     "Microsoft.AspNetCore.Localization.Routing/7.0.0.0": {
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.AspNetCore.Metadata.Reference/7.0.0.0": {
       "type": "referenceassembly",
       "serviceable": false,
       "sha512": ""
@@ -7046,6 +7121,16 @@
       "serviceable": false,
       "sha512": ""
     },
+    "Microsoft.Extensions.Identity.Core.Reference/7.0.0.0": {
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Extensions.Identity.Stores.Reference/7.0.0.0": {
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+    },
     "Microsoft.Extensions.Localization.Abstractions.Reference/7.0.0.0": {
       "type": "referenceassembly",
       "serviceable": false,
@@ -7122,6 +7207,11 @@
       "sha512": ""
     },
     "Microsoft.Extensions.WebEncoders.Reference/7.0.0.0": {
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.JSInterop.Reference/7.0.0.0": {
       "type": "referenceassembly",
       "serviceable": false,
       "sha512": ""

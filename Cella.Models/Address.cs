@@ -6,7 +6,7 @@ using System.Net.Sockets;
 using System.Text;
 
 namespace Cella.Models{
-    public class Address {
+    public class Address :BaseEntity {
 
         public enum AddressType
         {
@@ -54,17 +54,9 @@ namespace Cella.Models{
         public DateTime? ModfiedDate { get; set; }
 
 
-        public Int32 WarehouseId { get; set; }
+        public Int32? WarehouseId { get; set; }
 
-        public DateTime CreateDate { get; set; }
-
-        public DateTime LastModifiedDate { get; set; }
-        [StringLength(30)]
-        public string CreatedBy { get; set; }
-
-        public bool isActive { get; set; }
-
-        public bool isDeleted { get; set; }
+   
 
     }
 

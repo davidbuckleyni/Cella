@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Text;
 
 namespace Cella.Models {
-   public  class SalesOrderItem {
+   public  class SalesOrderItem :BaseEntity {
 
     
         public int Id { get; set; }
@@ -26,14 +26,7 @@ namespace Cella.Models {
         public string Currency { get; set; }
 
        public DateTime OrderDate { get; set; }
-       public DateTime? CreateDate { get; set; }
-       public DateTime? LastModifiedDate { get; set; }
-       [StringLength(30)]
-       public string? CreatedBy { get; set; }
-
-       public bool isActive { get; set; }
-
-       public bool isDeleted { get; set; }
+     
 
 
     }

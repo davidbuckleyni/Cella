@@ -6,7 +6,7 @@ using System.Text;
 
 namespace Cella.Models
 {
-    public class Customer
+    public class Customer :BaseEntity
     {
 
         public int Id { get; set; }
@@ -34,16 +34,11 @@ namespace Cella.Models
          public DateTime StartDate { get; set; }
 
         public DateTime EndDate { get; set; }
-        public DateTime LastModified { get; set; }
-
+   
         public bool isOptOut { get; set; }
 
         public bool isGpdr { get; set; }
-   public string CreatedBy { get; set; }
-
-        public bool isActive { get; set; }
-
-        public bool isDeleted { get; set; }
+ 
 
 
     }

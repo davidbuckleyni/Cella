@@ -702,3 +702,10 @@ D:\GitMaster\Cella\Cella.Web\obj\Debug\net7.0\refint\Cella.Web.dll
 D:\GitMaster\Cella\Cella.Web\obj\Debug\net7.0\Cella.Web.pdb
 D:\GitMaster\Cella\Cella.Web\obj\Debug\net7.0\Cella.Web.genruntimeconfig.cache
 D:\GitMaster\Cella\Cella.Web\obj\Debug\net7.0\ref\Cella.Web.dll
+D:\GitMaster\Cella\Cella.Web\bin\Debug\net7.0\refs\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\GitMaster\Cella\Cella.Web\bin\Debug\net7.0\refs\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\GitMaster\Cella\Cella.Web\bin\Debug\net7.0\refs\Microsoft.Extensions.FileProviders.Embedded.dll
+D:\GitMaster\Cella\Cella.Web\bin\Debug\net7.0\refs\Microsoft.Extensions.Identity.Core.dll
+D:\GitMaster\Cella\Cella.Web\bin\Debug\net7.0\refs\Microsoft.Extensions.Identity.Stores.dll
+D:\GitMaster\Cella\Cella.Web\bin\Debug\net7.0\refs\Microsoft.Extensions.Localization.Abstractions.dll
+D:\GitMaster\Cella\Cella.Web\bin\Debug\net7.0\refs\Microsoft.Extensions.Localization.dll

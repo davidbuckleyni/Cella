@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Cella.Models
 {
-    public class Stores
+    public class Stores :BaseEntity
     {
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public Guid Id { get; set; }
@@ -22,14 +22,6 @@ namespace Cella.Models
 
         public Customer AdminContact { get; set; }
 
-        public DateTime LastMofiedBy { get; set; }
-
-        public DateTime CreatedDate { get; set; }
-
-        public string CreatedBy { get; set; }
-
-        public bool isAcitve { get; set; }
-
-        public bool isDeleted { get; set; }
+     
     }
 }

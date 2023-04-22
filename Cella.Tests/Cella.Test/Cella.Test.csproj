@@ -63,7 +63,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
-    <ProjectReference Include="..\..\Cella.BL\Cella.BL.csproj" />
+    <ProjectReference Include="..\..\Cella.Services\Cella.Services.csproj" />
     <ProjectReference Include="..\..\Cella.Models\Cella.Models.csproj" />
   </ItemGroup>
 

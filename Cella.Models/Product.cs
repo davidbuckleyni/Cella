@@ -22,7 +22,7 @@ namespace Cella.Models
             Digital = 4,
             DownLoad = 5,
             Voucher = 6,
-            GitfCard = 7
+            GitftCard = 7
             
         }
 
