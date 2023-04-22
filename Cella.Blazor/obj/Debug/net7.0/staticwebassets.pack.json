@@ -1,0 +1,77 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\GitMaster\\Cella\\Cella.Blazor\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Cella.Blazor.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Cella.Blazor.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\GitMaster\\Cella\\Cella.Blazor\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\GitMaster\\Cella\\Cella.Blazor\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\GitMaster\\Cella\\Cella.Blazor\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "PackagePath": "staticwebassets\\css\\open-iconic"
+    },
+    {
+      "Id": "D:\\GitMaster\\Cella\\Cella.Blazor\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "PackagePath": "staticwebassets\\css\\open-iconic"
+    },
+    {
+      "Id": "D:\\GitMaster\\Cella\\Cella.Blazor\\wwwroot\\css\\open-iconic\\README.md",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\README.md"
+    },
+    {
+      "Id": "D:\\GitMaster\\Cella\\Cella.Blazor\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\GitMaster\\Cella\\Cella.Blazor\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
+    },
+    {
+      "Id": "D:\\GitMaster\\Cella\\Cella.Blazor\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
+    },
+    {
+      "Id": "D:\\GitMaster\\Cella\\Cella.Blazor\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
+    },
+    {
+      "Id": "D:\\GitMaster\\Cella\\Cella.Blazor\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
+    },
+    {
+      "Id": "D:\\GitMaster\\Cella\\Cella.Blazor\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
+    },
+    {
+      "Id": "D:\\GitMaster\\Cella\\Cella.Blazor\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\GitMaster\\Cella\\Cella.Blazor\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.Cella.Blazor.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.Cella.Blazor.props",
+      "PackagePath": "build\\Cella.Blazor.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.Cella.Blazor.props",
+      "PackagePath": "buildMultiTargeting\\Cella.Blazor.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.Cella.Blazor.props",
+      "PackagePath": "buildTransitive\\Cella.Blazor.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

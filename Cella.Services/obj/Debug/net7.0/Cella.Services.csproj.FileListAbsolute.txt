@@ -1,0 +1,5 @@
+D:\GitMaster\Cella\Cella.Services\obj\Debug\net7.0\Cella.Services.csproj.AssemblyReference.cache
+D:\GitMaster\Cella\Cella.Services\obj\Debug\net7.0\Cella.Services.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitMaster\Cella\Cella.Services\obj\Debug\net7.0\Cella.Services.AssemblyInfoInputs.cache
+D:\GitMaster\Cella\Cella.Services\obj\Debug\net7.0\Cella.Services.AssemblyInfo.cs
+D:\GitMaster\Cella\Cella.Services\obj\Debug\net7.0\Cella.Services.csproj.CoreCompileInputs.cache

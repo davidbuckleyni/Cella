@@ -6,7 +6,7 @@ namespace Cella.Models;
 public abstract class BaseEntity
 {
 
-    public bool? IsDeleted { get; set; }
+    public bool? isDeleted { get; set; }
 
     public bool? IsActive { get; set; }
 
