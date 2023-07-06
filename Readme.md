@@ -25,5 +25,5 @@ Cella Crm
 * Warehouse Managment.
 
 
-Can be used to power online food ordering applications as manages stock and qtys from the warehouse can prepare Bill of materials sheets to no what to order for the next week.
+Can be used to power online food ordering applications,hotels , booking sites etc  as manages stock and qtys from the warehouse can prepare Bill of materials sheets to no what to order for the next week.
 
