@@ -6,7 +6,7 @@ Cella Crm
 
 ![Build passing](https://github.com/davidbuckleyni/Cella/actions/workflows/Build.yml/badge.svg)
 ![Test passing](https://github.com/davidbuckleyni/Cella/actions/workflows/Tests.yml/badge.svg)
-![net](https://img.shields.io/badge/dotnet-5-blue)
+![net](https://img.shields.io/badge/dotnet-7-purple)
 ![net](https://img.shields.io/badge/c-sharp-green)
 
 
