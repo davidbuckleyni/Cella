@@ -44,9 +44,9 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\DavidB\\.nuget\\packages\\": {},
+    "C:\\Users\\davidb\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files (x86)\\Syncfusion\\Essential Studio\\WPF\\21.1.35\\ToolboxNuGetPackages": {}
+    "C:\\Program Files (x86)\\Syncfusion\\Essential Studio\\WPF\\22.1.34\\ToolboxNuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
@@ -54,15 +54,15 @@
       "projectUniqueName": "D:\\GitMaster\\Cella\\SharedResourceLib.Lng\\SharedResourceLib.Lng.csproj",
       "projectName": "SharedResourceLib.Lng",
       "projectPath": "D:\\GitMaster\\Cella\\SharedResourceLib.Lng\\SharedResourceLib.Lng.csproj",
-      "packagesPath": "C:\\Users\\DavidB\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\davidb\\.nuget\\packages\\",
       "outputPath": "D:\\GitMaster\\Cella\\SharedResourceLib.Lng\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files (x86)\\Syncfusion\\Essential Studio\\WPF\\21.1.35\\ToolboxNuGetPackages"
+        "C:\\Program Files (x86)\\Syncfusion\\Essential Studio\\WPF\\22.1.34\\ToolboxNuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\DavidB\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\davidb\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Syncfusion Toolbox for WPF.config"
@@ -72,10 +72,9 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files (x86)\\Syncfusion\\Essential Studio\\WinUI\\21.1.35\\NuGetPackages": {},
+        "C:\\Program Files (x86)\\Syncfusion\\Essential Studio\\WinUI\\22.1.34\\NuGetPackages": {},
         "C:\\Program Files\\dotnet\\library-packs": {},
-        "https://api.nuget.org/v3/index.json": {},
-        "https://nuget.telerik.com/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net7.0": {
@@ -114,7 +113,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.300-preview.23179.2\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
       }
     }
   }

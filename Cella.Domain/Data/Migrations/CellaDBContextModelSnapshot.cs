@@ -98,18 +98,20 @@ namespace Cella.Domain.Data.Migrations
                     b.Property<string>("CompanyName")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<DateTime>("CreateDate")
-                        .HasColumnType("datetime2");
+                    b.Property<bool?>("CreatedBy")
+                        .HasColumnType("bit");
 
-                    b.Property<string>("CreatedBy")
-                        .HasMaxLength(30)
-                        .HasColumnType("nvarchar(30)");
+                    b.Property<DateTime?>("CreatedDate")
+                        .HasColumnType("datetime2");
 
                     b.Property<string>("HouseNumber")
                         .HasMaxLength(3)
                         .HasColumnType("nvarchar(3)");
 
-                    b.Property<DateTime>("LastModifiedDate")
+                    b.Property<bool?>("IsActive")
+                        .HasColumnType("bit");
+
+                    b.Property<DateTime?>("LastUpdateDate")
                         .HasColumnType("datetime2");
 
                     b.Property<decimal?>("Lat")
@@ -144,13 +146,10 @@ namespace Cella.Domain.Data.Migrations
                     b.Property<string>("UserId")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("WarehouseId")
+                    b.Property<int?>("WarehouseId")
                         .HasColumnType("int");
 
-                    b.Property<bool>("isActive")
-                        .HasColumnType("bit");
-
-                    b.Property<bool>("isDeleted")
+                    b.Property<bool?>("isDeleted")
                         .HasColumnType("bit");
 
                     b.HasKey("Id");
@@ -680,8 +679,11 @@ namespace Cella.Domain.Data.Migrations
                     b.Property<int?>("AddressId")
                         .HasColumnType("int");
 
-                    b.Property<string>("CreatedBy")
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<bool?>("CreatedBy")
+                        .HasColumnType("bit");
+
+                    b.Property<DateTime?>("CreatedDate")
+                        .HasColumnType("datetime2");
 
                     b.Property<string>("DailingCountryCode")
                         .HasColumnType("nvarchar(max)");
@@ -692,11 +694,14 @@ namespace Cella.Domain.Data.Migrations
                     b.Property<string>("FirstName")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<DateTime>("LastModified")
-                        .HasColumnType("datetime2");
+                    b.Property<bool?>("IsActive")
+                        .HasColumnType("bit");
 
                     b.Property<string>("LastName")
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime?>("LastUpdateDate")
+                        .HasColumnType("datetime2");
 
                     b.Property<string>("MobileNumber")
                         .HasColumnType("nvarchar(max)");
@@ -716,13 +721,10 @@ namespace Cella.Domain.Data.Migrations
                     b.Property<bool>("canSms")
                         .HasColumnType("bit");
 
-                    b.Property<bool>("isActive")
-                        .HasColumnType("bit");
-
                     b.Property<bool>("isBusinessMobile")
                         .HasColumnType("bit");
 
-                    b.Property<bool>("isDeleted")
+                    b.Property<bool?>("isDeleted")
                         .HasColumnType("bit");
 
                     b.Property<bool>("isGpdr")
@@ -1290,12 +1292,11 @@ namespace Cella.Domain.Data.Migrations
                     b.Property<Guid?>("CouponCode")
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<DateTime?>("CreateDate")
-                        .HasColumnType("datetime2");
+                    b.Property<bool?>("CreatedBy")
+                        .HasColumnType("bit");
 
-                    b.Property<string>("CreatedBy")
-                        .HasMaxLength(30)
-                        .HasColumnType("nvarchar(30)");
+                    b.Property<DateTime?>("CreatedDate")
+                        .HasColumnType("datetime2");
 
                     b.Property<DateTime?>("CreatedOn")
                         .HasColumnType("datetime2");
@@ -1314,7 +1315,10 @@ namespace Cella.Domain.Data.Migrations
                         .HasMaxLength(50)
                         .HasColumnType("nvarchar(50)");
 
-                    b.Property<DateTime?>("LastModifiedDate")
+                    b.Property<bool?>("IsActive")
+                        .HasColumnType("bit");
+
+                    b.Property<DateTime?>("LastUpdateDate")
                         .HasColumnType("datetime2");
 
                     b.Property<decimal?>("OrderShipping")
@@ -1356,9 +1360,6 @@ namespace Cella.Domain.Data.Migrations
                     b.Property<Guid?>("UserId")
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<bool?>("isActive")
-                        .HasColumnType("bit");
-
                     b.Property<bool?>("isDeleted")
                         .HasColumnType("bit");
 
@@ -1378,12 +1379,11 @@ namespace Cella.Domain.Data.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<DateTime?>("CreateDate")
-                        .HasColumnType("datetime2");
+                    b.Property<bool?>("CreatedBy")
+                        .HasColumnType("bit");
 
-                    b.Property<string>("CreatedBy")
-                        .HasMaxLength(30)
-                        .HasColumnType("nvarchar(30)");
+                    b.Property<DateTime?>("CreatedDate")
+                        .HasColumnType("datetime2");
 
                     b.Property<string>("Currency")
                         .HasMaxLength(10)
@@ -1393,7 +1393,10 @@ namespace Cella.Domain.Data.Migrations
                         .HasMaxLength(500)
                         .HasColumnType("nvarchar(500)");
 
-                    b.Property<DateTime?>("LastModifiedDate")
+                    b.Property<bool?>("IsActive")
+                        .HasColumnType("bit");
+
+                    b.Property<DateTime?>("LastUpdateDate")
                         .HasColumnType("datetime2");
 
                     b.Property<decimal>("LinePrice")
@@ -1421,10 +1424,7 @@ namespace Cella.Domain.Data.Migrations
                     b.Property<Guid?>("UserId")
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<bool>("isActive")
-                        .HasColumnType("bit");
-
-                    b.Property<bool>("isDeleted")
+                    b.Property<bool?>("isDeleted")
                         .HasColumnType("bit");
 
                     b.HasKey("Id");
@@ -1738,6 +1738,140 @@ namespace Cella.Domain.Data.Migrations
                     b.ToTable("StandardLookups");
                 });
 
+            modelBuilder.Entity("Cella.Models.StockItem", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("AdminComment")
+                        .HasMaxLength(1000)
+                        .HasColumnType("nvarchar(1000)");
+
+                    b.Property<DateTime?>("AvailableEndDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime?>("AvailableStartDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("BarCode")
+                        .HasMaxLength(60)
+                        .HasColumnType("nvarchar(60)");
+
+                    b.Property<int?>("Categories")
+                        .HasMaxLength(5000)
+                        .HasColumnType("int");
+
+                    b.Property<bool?>("CreatedBy")
+                        .HasColumnType("bit");
+
+                    b.Property<DateTime?>("CreatedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<decimal?>("DefaultPrice")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.Property<string>("FullDescription")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("GTIN")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool?>("IsActive")
+                        .HasColumnType("bit");
+
+                    b.Property<DateTime?>("LastUpdateDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("ManufacturePartNo")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Manufactures")
+                        .HasMaxLength(5000)
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Name")
+                        .HasMaxLength(5000)
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Price")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int?>("PriceList")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("PriceListType")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("ProductType")
+                        .HasColumnType("int");
+
+                    b.Property<string>("SKU")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("ShortDescription")
+                        .HasMaxLength(2000)
+                        .HasColumnType("nvarchar(2000)");
+
+                    b.Property<bool?>("ShowCallForPrice")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("StockCode")
+                        .HasMaxLength(1000)
+                        .HasColumnType("nvarchar(1000)");
+
+                    b.Property<int?>("StockItemType")
+                        .HasColumnType("int");
+
+                    b.Property<Guid?>("StoreId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<int?>("SupplierId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Tags")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<Guid?>("UserId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<int?>("WarehouseLocation")
+                        .HasColumnType("int");
+
+                    b.Property<bool?>("canAddToCart")
+                        .HasColumnType("bit");
+
+                    b.Property<bool?>("isBackOrder")
+                        .HasColumnType("bit");
+
+                    b.Property<bool?>("isDeleted")
+                        .HasColumnType("bit");
+
+                    b.Property<bool?>("isFeatured")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("isNew")
+                        .HasColumnType("bit");
+
+                    b.Property<bool?>("isPublished")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("isShowCallButton")
+                        .HasColumnType("bit");
+
+                    b.Property<bool?>("isShowOnHomePage")
+                        .HasColumnType("bit");
+
+                    b.Property<bool?>("isShowPrice")
+                        .HasColumnType("bit");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("StockItem");
+                });
+
             modelBuilder.Entity("Cella.Models.Stores", b =>
                 {
                     b.Property<Guid>("Id")
@@ -1747,10 +1881,10 @@ namespace Cella.Domain.Data.Migrations
                     b.Property<int?>("AdminContactId")
                         .HasColumnType("int");
 
-                    b.Property<string>("CreatedBy")
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<bool?>("CreatedBy")
+                        .HasColumnType("bit");
 
-                    b.Property<DateTime>("CreatedDate")
+                    b.Property<DateTime?>("CreatedDate")
                         .HasColumnType("datetime2");
 
                     b.Property<string>("Domain")
@@ -1759,7 +1893,10 @@ namespace Cella.Domain.Data.Migrations
                     b.Property<string>("IPAddress")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<DateTime>("LastMofiedBy")
+                    b.Property<bool?>("IsActive")
+                        .HasColumnType("bit");
+
+                    b.Property<DateTime?>("LastUpdateDate")
                         .HasColumnType("datetime2");
 
                     b.Property<string>("Name")
@@ -1771,10 +1908,7 @@ namespace Cella.Domain.Data.Migrations
                     b.Property<Guid?>("UserId")
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<bool>("isAcitve")
-                        .HasColumnType("bit");
-
-                    b.Property<bool>("isDeleted")
+                    b.Property<bool?>("isDeleted")
                         .HasColumnType("bit");
 
                     b.HasKey("Id");

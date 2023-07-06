@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "kO1J+FsY77oKOysaKagQ1Q8aTNRFWR6OUGcstTXuELs=",
+  "Hash": "hH/QWTz6ByVZCZLEa/PgqpNEVth+/wmWQpmz2GsoVDA=",
   "Source": "Cella.Module.PaymentPaypal",
   "BasePath": "_content/Cella.Module.PaymentPaypal",
   "Mode": "Default",
@@ -17,10 +17,10 @@
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\DavidB\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\0.1.0-alpha.22351.1\\staticwebassets\\Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css",
+      "Identity": "C:\\Users\\davidb\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\0.1.0-alpha.22351.1\\staticwebassets\\Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css",
       "SourceId": "Microsoft.AspNetCore.Components.QuickGrid",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\DavidB\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\0.1.0-alpha.22351.1\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\davidb\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\0.1.0-alpha.22351.1\\staticwebassets\\",
       "BasePath": "_content/Microsoft.AspNetCore.Components.QuickGrid",
       "RelativePath": "Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\DavidB\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\0.1.0-alpha.22351.1\\staticwebassets\\Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\davidb\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\0.1.0-alpha.22351.1\\staticwebassets\\Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\DavidB\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\0.1.0-alpha.22351.1\\staticwebassets\\QuickGrid.razor.js",
+      "Identity": "C:\\Users\\davidb\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\0.1.0-alpha.22351.1\\staticwebassets\\QuickGrid.razor.js",
       "SourceId": "Microsoft.AspNetCore.Components.QuickGrid",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\DavidB\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\0.1.0-alpha.22351.1\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\davidb\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\0.1.0-alpha.22351.1\\staticwebassets\\",
       "BasePath": "_content/Microsoft.AspNetCore.Components.QuickGrid",
       "RelativePath": "QuickGrid.razor.js",
       "AssetKind": "All",
@@ -48,13 +48,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\DavidB\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\0.1.0-alpha.22351.1\\staticwebassets\\QuickGrid.razor.js"
+      "OriginalItemSpec": "C:\\Users\\davidb\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\0.1.0-alpha.22351.1\\staticwebassets\\QuickGrid.razor.js"
     },
     {
-      "Identity": "C:\\Users\\DavidB\\.nuget\\packages\\ntoastnotify\\8.0.0\\staticwebassets\\noty.js",
+      "Identity": "C:\\Users\\davidb\\.nuget\\packages\\ntoastnotify\\8.0.0\\staticwebassets\\noty.js",
       "SourceId": "NToastNotify",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\DavidB\\.nuget\\packages\\ntoastnotify\\8.0.0\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\davidb\\.nuget\\packages\\ntoastnotify\\8.0.0\\staticwebassets\\",
       "BasePath": "_content/NToastNotify",
       "RelativePath": "noty.js",
       "AssetKind": "All",
@@ -65,13 +65,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\DavidB\\.nuget\\packages\\ntoastnotify\\8.0.0\\staticwebassets\\noty.js"
+      "OriginalItemSpec": "C:\\Users\\davidb\\.nuget\\packages\\ntoastnotify\\8.0.0\\staticwebassets\\noty.js"
     },
     {
-      "Identity": "C:\\Users\\DavidB\\.nuget\\packages\\ntoastnotify\\8.0.0\\staticwebassets\\toastr.js",
+      "Identity": "C:\\Users\\davidb\\.nuget\\packages\\ntoastnotify\\8.0.0\\staticwebassets\\toastr.js",
       "SourceId": "NToastNotify",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\DavidB\\.nuget\\packages\\ntoastnotify\\8.0.0\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\davidb\\.nuget\\packages\\ntoastnotify\\8.0.0\\staticwebassets\\",
       "BasePath": "_content/NToastNotify",
       "RelativePath": "toastr.js",
       "AssetKind": "All",
@@ -82,7 +82,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\DavidB\\.nuget\\packages\\ntoastnotify\\8.0.0\\staticwebassets\\toastr.js"
+      "OriginalItemSpec": "C:\\Users\\davidb\\.nuget\\packages\\ntoastnotify\\8.0.0\\staticwebassets\\toastr.js"
     },
     {
       "Identity": "D:\\GitMaster\\Cella\\Modules\\Cella.Module.PaymentPaypal\\obj\\Debug\\net7.0\\scopedcss\\bundle\\Cella.Module.PaymentPaypal.styles.css",

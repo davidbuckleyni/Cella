@@ -5,8 +5,10 @@ using Cella.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using NToastNotify;
-using Syncfusion.EJ2.Linq;
-using System.Linq''
+using System.Linq;
+using System.Threading.Tasks;
+using System.Collections.Generic;
+
 namespace Cella.BL.Services;
 
 public class StockService
@@ -55,8 +57,8 @@ public class StockService
         return isDeleted;
     }
 
-    public IEnumerable<StockItem> GetStockItems()
+    public async Task<IEnumerable<StockItem>> GetStockItems()
     {
-        return _context.StockItem.Where(w => w.isActive == true && w.isDeleted == false).ToList();
+        return _context.StockItem.Where(w => w.IsActive == true && w.isDeleted == false).AsEnumerable();
     }
 }

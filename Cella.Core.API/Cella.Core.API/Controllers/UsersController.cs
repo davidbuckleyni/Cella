@@ -5,8 +5,10 @@ using System.Linq;
 
 using Microsoft.AspNetCore.Http;
 using System;
+using System.Threading.Tasks;
 using Cella.Models;
 using Cella.Services;
+using Cella.Services.Security;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 
 namespace CellaCrm.Core.API.Controllers
@@ -45,9 +47,9 @@ namespace CellaCrm.Core.API.Controllers
 
         [AllowAnonymous]
         [HttpPost]
-        public IActionResult Authenticate([FromBody] AuthenticateRequest model) {
+        public async Task<IActionResult> Authenticate([FromBody] AuthenticateRequest model) {
 
-            var response = _userService.Authenticate(model, ipAddress());
+            var response = await _userService.Authenticate(model, ipAddress());
 
             if (response == null)
                 return BadRequest(new { message = "Username or password is incorrect" });

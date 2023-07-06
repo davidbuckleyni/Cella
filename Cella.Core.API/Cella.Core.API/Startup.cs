@@ -20,6 +20,9 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using System.Text;
 using Cella.Domain;
 using Cella.Domain.Interfaces;
+using Cella.Services.Security;
+using Cella.Models.App;
+using Microsoft.AspNetCore.Http;
 
 namespace CellaCrm.Core.API
 {
@@ -39,10 +42,36 @@ namespace CellaCrm.Core.API
    (options => options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")), ServiceLifetime.Transient);
 
             services.AddHttpContextAccessor();
+                  var appSettingsSection = Configuration.GetSection("AppSettings");
 
-       
-         
+            services.Configure<Appsettings>(appSettingsSection);
+            services.ConfigureApplicationCookie(options =>
+            {
+                // Cookie settings
+                options.Cookie.HttpOnly = true;
+                options.LoginPath = "/Identity/Account/Login";
+                options.LogoutPath = "/Identity/Account/Logout";
+                options.AccessDeniedPath = "/Identity/Account/AccessDenied";
+
+            });
+
+            services.Configure<CookiePolicyOptions>(options =>
+            {
+                // This lambda determines whether user consent for non-essential 
+                // cookies is needed for a given request.
+                options.CheckConsentNeeded = context => false;
+                // requires using Microsoft.AspNetCore.Http;
+                options.MinimumSameSitePolicy = SameSiteMode.None;
+            });
+
+            services.AddIdentity<ApplicationUser, IdentityRole>()
+                .AddEntityFrameworkStores<CellaDBContext>()
+                .AddDefaultTokenProviders();
+
             services.AddControllers();
+            
+            services.AddScoped<IUserService, UsersService>();
+
             services.AddSwaggerGen(c => {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "Cella Crm", Version = "v1" });
                 //   c.ResolveConflictingActions(apiDescriptions => apiDescriptions.First());
@@ -74,8 +103,8 @@ namespace CellaCrm.Core.API
                     }
                 });
             });
-            services.AddTransient<IUserService, UserService>();
-            
+           
+         
             var test = Configuration.GetSection(Constants.ApiSecretValue).Value;
             services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
         .AddJwtBearer(options => {
@@ -96,12 +125,10 @@ namespace CellaCrm.Core.API
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
-        {
-            if (env.IsDevelopment())
-            {
-                app.UseDeveloperExceptionPage();
+        { 
+             //   app.UseDeveloperExceptionPage();
                 app.UseSwagger();
-            }
+             
 
             app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Cella Crm"));
             

@@ -559,11 +559,9 @@ D:\GitMaster\Cella\Cella.Tests\Cella.Test\bin\Debug\net7.0\runtimes\win\lib\netc
 D:\GitMaster\Cella\Cella.Tests\Cella.Test\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 D:\GitMaster\Cella\Cella.Tests\Cella.Test\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 D:\GitMaster\Cella\Cella.Tests\Cella.Test\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
-D:\GitMaster\Cella\Cella.Tests\Cella.Test\bin\Debug\net7.0\Cella.BL.dll
 D:\GitMaster\Cella\Cella.Tests\Cella.Test\bin\Debug\net7.0\Cella.Domain.dll
 D:\GitMaster\Cella\Cella.Tests\Cella.Test\bin\Debug\net7.0\Cella.Infrastructure.dll
 D:\GitMaster\Cella\Cella.Tests\Cella.Test\bin\Debug\net7.0\Cella.Models.dll
-D:\GitMaster\Cella\Cella.Tests\Cella.Test\bin\Debug\net7.0\Cella.BL.pdb
 D:\GitMaster\Cella\Cella.Tests\Cella.Test\bin\Debug\net7.0\Cella.Models.pdb
 D:\GitMaster\Cella\Cella.Tests\Cella.Test\bin\Debug\net7.0\Cella.Domain.pdb
 D:\GitMaster\Cella\Cella.Tests\Cella.Test\bin\Debug\net7.0\Cella.Infrastructure.pdb
@@ -578,3 +576,5 @@ D:\GitMaster\Cella\Cella.Tests\Cella.Test\obj\Debug\net7.0\refint\Cella.Test.dll
 D:\GitMaster\Cella\Cella.Tests\Cella.Test\obj\Debug\net7.0\Cella.Test.pdb
 D:\GitMaster\Cella\Cella.Tests\Cella.Test\obj\Debug\net7.0\Cella.Test.genruntimeconfig.cache
 D:\GitMaster\Cella\Cella.Tests\Cella.Test\obj\Debug\net7.0\ref\Cella.Test.dll
+D:\GitMaster\Cella\Cella.Tests\Cella.Test\bin\Debug\net7.0\Cella.Services.dll
+D:\GitMaster\Cella\Cella.Tests\Cella.Test\bin\Debug\net7.0\Cella.Services.pdb

@@ -30,8 +30,3 @@ D:\GitMaster\Cella\Cella.Blazor\obj\Debug\net7.0\refint\Cella.Blazor.dll
 D:\GitMaster\Cella\Cella.Blazor\obj\Debug\net7.0\Cella.Blazor.pdb
 D:\GitMaster\Cella\Cella.Blazor\obj\Debug\net7.0\Cella.Blazor.genruntimeconfig.cache
 D:\GitMaster\Cella\Cella.Blazor\obj\Debug\net7.0\ref\Cella.Blazor.dll
-D:\GitMaster\Cella\Cella.Blazor\bin\Debug\net7.0\Radzen.Blazor.dll
-D:\GitMaster\Cella\Cella.Blazor\bin\Debug\net7.0\System.Linq.Dynamic.Core.dll
-D:\GitMaster\Cella\Cella.Blazor\obj\Debug\net7.0\Cella.Blazor.csproj.CopyComplete
-D:\GitMaster\Cella\Cella.Blazor\bin\Debug\net7.0\BouncyCastle.Crypto.dll
-D:\GitMaster\Cella\Cella.Blazor\bin\Debug\net7.0\itextsharp.dll

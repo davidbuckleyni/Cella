@@ -126,8 +126,8 @@ namespace Cella.Domain
 
             //lets add a global filter to the query we will alwayss be checking 
             //isdelete=true and isdeleted false will need to do this for all entitys
-            modelBuilder.Entity<SalesOrder>().HasQueryFilter(q => q.isDeleted == false && q.isActive == true);
-            modelBuilder.Entity<SalesOrderItem>().HasQueryFilter(q => q.isDeleted == false && q.isActive == true);
+            modelBuilder.Entity<SalesOrder>().HasQueryFilter(q => q.isDeleted == false && q.IsActive == true);
+            modelBuilder.Entity<SalesOrderItem>().HasQueryFilter(q => q.isDeleted == false && q.IsActive == true);
             modelBuilder.Entity<Currency>().HasQueryFilter(q => q.isDeleted == false && q.isActive == true);
 
 
@@ -158,6 +158,13 @@ namespace Cella.Domain
                         break;
                 }
             }
+        }
+
+        protected override void OnConfiguring(DbContextOptionsBuilder options)
+        {
+            options.UseSqlServer("Server=sql5109.site4now.net;Database=db_a828de_cellawms;User Id=db_a828de_cellawms_admin;Password=hooch2607;MultipleActiveResultSets=true;TrustServerCertificate=True");
+            options.EnableSensitiveDataLogging();
+
         }
         public void AddAudtiTrail(int caseId, string action, string user)
         {

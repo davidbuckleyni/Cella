@@ -1,72 +1,47 @@
 ﻿@page "/fetchdata"
 @using Cella.Blazor.Data
 @inject WeatherForecastService ForecastService
-@inject NotificationService NotificationService
-@using System.Linq;
-@using System.Linq.Dynamic.Core
-@using Cella.Blazor.Data
-@using System.Collections
-@using iTextSharp.text
-@using iTextSharp.text.pdf
+
 <PageTitle>Weather forecast</PageTitle>
 
 <h1>Weather forecast</h1>
 
 <p>This component demonstrates fetching data from a service.</p>
-<RadzenStack Orientation="Orientation.Horizontal" AlignItems="AlignItems.Center" Gap="1rem" Wrap="FlexWrap.Wrap">
-    <RadzenButton Click=@(args => OnClick("Primary button")) Text="Primary" ButtonStyle="ButtonStyle.Primary" />
-    <RadzenButton Click=@(args => OnClick("Secondary button")) Text="Secondary" ButtonStyle="ButtonStyle.Secondary" />
-    <RadzenButton Click=@(args => OnClick("Info button")) Text="Info" ButtonStyle="ButtonStyle.Info" />
-    <RadzenButton Click=@(args => OnClick("Success button ")) Text="Success" ButtonStyle="ButtonStyle.Success" />
-    <RadzenButton Click=@(args => OnClick("Warning button ")) Text="Warning" ButtonStyle="ButtonStyle.Warning" />
-    <RadzenButton Click=@(args => OnClick("Danger button")) Text="Danger" ButtonStyle="ButtonStyle.Danger" />
-</RadzenStack>
-
 
 @if (forecasts == null)
 {
-    <p>
-        <em>Loading...</em>
-    </p>
+    <p><em>Loading...</em></p>
 }
 else
 {
-    <RadzenDataGrid AllowFiltering="true" AllowColumnResize="true"   AllowAlternatingRows="false" FilterMode="FilterMode.Advanced" AllowSorting="true" PageSize="5" Count="1" AllowPaging="true" PagerHorizontalAlign="HorizontalAlign.Left" ShowPagingSummary="true"
-                    Data="@forecasts" TItem="WeatherForecast" ColumnWidth="300px" LogicalFilterOperator="LogicalFilterOperator.Or">
-        <Columns>
-            <RadzenDataGridColumn TItem="WeatherForecast"   Property="TemperatureC" Title="Fore Cast" Frozen="true" Width="160px" />
-              <RadzenDataGridColumn TItem="WeatherForecast" Property="Summary" Title="Summary" Frozen="true" Width="160px" />
-
-        </Columns>
-    </RadzenDataGrid>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Date</th>
+                <th>Temp. (C)</th>
+                <th>Temp. (F)</th>
+                <th>Summary</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var forecast in forecasts)
+            {
+                <tr>
+                    <td>@forecast.Date.ToShortDateString()</td>
+                    <td>@forecast.TemperatureC</td>
+                    <td>@forecast.TemperatureF</td>
+                    <td>@forecast.Summary</td>
+                </tr>
+            }
+        </tbody>
+    </table>
 }
 
-
 @code {
-    private IEnumerable<WeatherForecast>? forecasts;
-    IEnumerable<int> pageSizeOptions = new int[] { 10, 20, 30 };
-    bool showPagerSummary = true;
-    string pagingSummaryFormat = "Displaying page {0} of {1} (total {2} records)";
+    private WeatherForecast[]? forecasts;
 
-    private async Task LoadData(LoadDataArgs args)
-    {
-        var query =await ForecastService.GetForecastAsync();
-        forecasts =  query.Skip((int)args.Skip).Take((int)args.Top).ToList();
-    }
     protected override async Task OnInitializedAsync()
     {
-        forecasts = await ForecastService.GetForecastAsync();
+        forecasts = await ForecastService.GetForecastAsync(DateOnly.FromDateTime(DateTime.Now));
     }
-    private void OnClick(string text)
-    {
-        NotificationService.Notify(new NotificationMessage { Severity = NotificationSeverity.Info,  Summary = "Button Clicked", Detail = text });
-    }
-    void OnPage(PagerEventArgs args)
-    {
-    //
-    }
-
-    
-    
-    }
-} 
+}
