@@ -11,6 +11,7 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Cella.Core.API
 build_property.RootNamespace = Cella.Core.API
 build_property.ProjectDir = D:\GitMaster\Cella\Cella.Core.API\Cella.Core.API\
+build_property.EnableComHosting = 
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = true
