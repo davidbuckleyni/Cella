@@ -12,6 +12,7 @@ D:\GitMaster\Cella\SharedResourceLib.Lng\obj\Debug\net7.0\SharedResourceLib.Lng.
 D:\GitMaster\Cella\SharedResourceLib.Lng\obj\Debug\net7.0\SharedResourceLib.Lng.AssemblyInfoInputs.cache
 D:\GitMaster\Cella\SharedResourceLib.Lng\obj\Debug\net7.0\SharedResourceLib.Lng.AssemblyInfo.cs
 D:\GitMaster\Cella\SharedResourceLib.Lng\obj\Debug\net7.0\SharedResourceLib.Lng.csproj.CoreCompileInputs.cache
+D:\GitMaster\Cella\SharedResourceLib.Lng\obj\Debug\net7.0\SharedResourceLib.Lng.sourcelink.json
 D:\GitMaster\Cella\SharedResourceLib.Lng\obj\Debug\net7.0\es\SharedResourceLib.Lng.resources.dll
 D:\GitMaster\Cella\SharedResourceLib.Lng\obj\Debug\net7.0\fr\SharedResourceLib.Lng.resources.dll
 D:\GitMaster\Cella\SharedResourceLib.Lng\obj\Debug\net7.0\SharedResourceLib.Lng.dll

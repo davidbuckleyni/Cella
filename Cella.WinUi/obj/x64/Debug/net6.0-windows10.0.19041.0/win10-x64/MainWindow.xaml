@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Window
+    x:Class="Cella.WinUi.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Cella.WinUi"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+ 
+        <Grid>
+        <NavigationView x:ConnectionId='2' x:Name="MyNavigationView">
+            <NavigationView.MenuItems>
+                <NavigationViewItem Content="Home" Icon="Home"/>
+                <NavigationViewItem Content="Favorites" Icon="Favorite">
+               
+                </NavigationViewItem>
+                <!-- Add more parent items with child items here -->
+            </NavigationView.MenuItems>
+        </NavigationView>
+
+    </Grid>
+
+    
+</Window>
+

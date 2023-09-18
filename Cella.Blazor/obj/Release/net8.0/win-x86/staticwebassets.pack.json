@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\GitMaster\\Cella\\Cella.Blazor\\obj\\Release\\net8.0\\win-x86\\scopedcss\\projectbundle\\Cella.Blazor.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Cella.Blazor.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\GitMaster\\Cella\\Cella.Blazor\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "D:\\GitMaster\\Cella\\Cella.Blazor\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\GitMaster\\Cella\\Cella.Blazor\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\GitMaster\\Cella\\Cella.Blazor\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\win-x86\\staticwebassets\\msbuild.Cella.Blazor.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\win-x86\\staticwebassets\\msbuild.build.Cella.Blazor.props",
+      "PackagePath": "build\\Cella.Blazor.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\win-x86\\staticwebassets\\msbuild.buildMultiTargeting.Cella.Blazor.props",
+      "PackagePath": "buildMultiTargeting\\Cella.Blazor.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\win-x86\\staticwebassets\\msbuild.buildTransitive.Cella.Blazor.props",
+      "PackagePath": "buildTransitive\\Cella.Blazor.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

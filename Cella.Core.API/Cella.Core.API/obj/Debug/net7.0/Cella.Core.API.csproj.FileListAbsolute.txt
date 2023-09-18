@@ -373,8 +373,10 @@ D:\GitMaster\Cella\Cella.Core.API\Cella.Core.API\bin\Debug\net7.0\Newtonsoft.Jso
 D:\GitMaster\Cella\Cella.Core.API\Cella.Core.API\bin\Debug\net7.0\NLog.dll
 D:\GitMaster\Cella\Cella.Core.API\Cella.Core.API\bin\Debug\net7.0\NLog.Web.dll
 D:\GitMaster\Cella\Cella.Core.API\Cella.Core.API\bin\Debug\net7.0\NToastNotify.dll
+D:\GitMaster\Cella\Cella.Core.API\Cella.Core.API\bin\Debug\net7.0\Polly.dll
 D:\GitMaster\Cella\Cella.Core.API\Cella.Core.API\bin\Debug\net7.0\BouncyCastle.Crypto.dll
 D:\GitMaster\Cella\Cella.Core.API\Cella.Core.API\bin\Debug\net7.0\PushNotifications.Server.dll
+D:\GitMaster\Cella\Cella.Core.API\Cella.Core.API\bin\Debug\net7.0\Refit.dll
 D:\GitMaster\Cella\Cella.Core.API\Cella.Core.API\bin\Debug\net7.0\RestSharp.dll
 D:\GitMaster\Cella\Cella.Core.API\Cella.Core.API\bin\Debug\net7.0\SQLite-net.dll
 D:\GitMaster\Cella\Cella.Core.API\Cella.Core.API\bin\Debug\net7.0\SQLitePCL.dll
@@ -481,6 +483,8 @@ D:\GitMaster\Cella\Cella.Core.API\Cella.Core.API\bin\Debug\net7.0\runtimes\win\l
 D:\GitMaster\Cella\Cella.Core.API\Cella.Core.API\bin\Debug\net7.0\Cella.Domain.dll
 D:\GitMaster\Cella\Cella.Core.API\Cella.Core.API\bin\Debug\net7.0\Cella.Infrastructure.dll
 D:\GitMaster\Cella\Cella.Core.API\Cella.Core.API\bin\Debug\net7.0\Cella.Models.dll
+D:\GitMaster\Cella\Cella.Core.API\Cella.Core.API\bin\Debug\net7.0\Cella.Services.dll
+D:\GitMaster\Cella\Cella.Core.API\Cella.Core.API\bin\Debug\net7.0\Cella.Services.pdb
 D:\GitMaster\Cella\Cella.Core.API\Cella.Core.API\bin\Debug\net7.0\Cella.Domain.pdb
 D:\GitMaster\Cella\Cella.Core.API\Cella.Core.API\bin\Debug\net7.0\Cella.Models.pdb
 D:\GitMaster\Cella\Cella.Core.API\Cella.Core.API\bin\Debug\net7.0\Cella.Infrastructure.pdb
@@ -491,13 +495,14 @@ D:\GitMaster\Cella\Cella.Core.API\Cella.Core.API\obj\Debug\net7.0\Cella.Core.API
 D:\GitMaster\Cella\Cella.Core.API\Cella.Core.API\obj\Debug\net7.0\Cella.Core.API.csproj.CoreCompileInputs.cache
 D:\GitMaster\Cella\Cella.Core.API\Cella.Core.API\obj\Debug\net7.0\Cella.Core.API.MvcApplicationPartsAssemblyInfo.cs
 D:\GitMaster\Cella\Cella.Core.API\Cella.Core.API\obj\Debug\net7.0\Cella.Core.API.MvcApplicationPartsAssemblyInfo.cache
+D:\GitMaster\Cella\Cella.Core.API\Cella.Core.API\obj\Debug\net7.0\Cella.Core.API.sourcelink.json
+D:\GitMaster\Cella\Cella.Core.API\Cella.Core.API\obj\Debug\net7.0\staticwebassets.build.json
+D:\GitMaster\Cella\Cella.Core.API\Cella.Core.API\obj\Debug\net7.0\staticwebassets.development.json
 D:\GitMaster\Cella\Cella.Core.API\Cella.Core.API\obj\Debug\net7.0\staticwebassets\msbuild.Cella.Core.API.Microsoft.AspNetCore.StaticWebAssets.props
 D:\GitMaster\Cella\Cella.Core.API\Cella.Core.API\obj\Debug\net7.0\staticwebassets\msbuild.build.Cella.Core.API.props
 D:\GitMaster\Cella\Cella.Core.API\Cella.Core.API\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Cella.Core.API.props
 D:\GitMaster\Cella\Cella.Core.API\Cella.Core.API\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Cella.Core.API.props
 D:\GitMaster\Cella\Cella.Core.API\Cella.Core.API\obj\Debug\net7.0\staticwebassets.pack.json
-D:\GitMaster\Cella\Cella.Core.API\Cella.Core.API\obj\Debug\net7.0\staticwebassets.build.json
-D:\GitMaster\Cella\Cella.Core.API\Cella.Core.API\obj\Debug\net7.0\staticwebassets.development.json
 D:\GitMaster\Cella\Cella.Core.API\Cella.Core.API\obj\Debug\net7.0\scopedcss\bundle\Cella.Core.API.styles.css
 D:\GitMaster\Cella\Cella.Core.API\Cella.Core.API\obj\Debug\net7.0\Cella.Core.API.csproj.CopyComplete
 D:\GitMaster\Cella\Cella.Core.API\Cella.Core.API\obj\Debug\net7.0\Cella.Core.API.dll
@@ -505,7 +510,3 @@ D:\GitMaster\Cella\Cella.Core.API\Cella.Core.API\obj\Debug\net7.0\refint\Cella.C
 D:\GitMaster\Cella\Cella.Core.API\Cella.Core.API\obj\Debug\net7.0\Cella.Core.API.pdb
 D:\GitMaster\Cella\Cella.Core.API\Cella.Core.API\obj\Debug\net7.0\Cella.Core.API.genruntimeconfig.cache
 D:\GitMaster\Cella\Cella.Core.API\Cella.Core.API\obj\Debug\net7.0\ref\Cella.Core.API.dll
-D:\GitMaster\Cella\Cella.Core.API\Cella.Core.API\bin\Debug\net7.0\Cella.Services.dll
-D:\GitMaster\Cella\Cella.Core.API\Cella.Core.API\bin\Debug\net7.0\Cella.Services.pdb
-D:\GitMaster\Cella\Cella.Core.API\Cella.Core.API\bin\Debug\net7.0\Polly.dll
-D:\GitMaster\Cella\Cella.Core.API\Cella.Core.API\bin\Debug\net7.0\Refit.dll

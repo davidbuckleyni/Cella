@@ -1,0 +1,34 @@
+﻿<link href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" rel="stylesheet">
+@attribute [RenderModeServer]
+
+ 
+<MudPaper Width="250px" Class="d-inline-flex py-3" Elevation="0">
+    <MudNavMenu Class="mud-width-full">
+        <MudText Typo="Typo.h6" Class="px-4">WMS Manager</MudText>
+        <MudText Typo="Typo.body2" Class="px-4 mud-text-secondary">Icons</MudText>
+        <MudDivider Class="my-2" />
+        <MudNavLink Href="/counter" Icon="@Icons.Material.Filled.Dashboard">Dashboard</MudNavLink>
+        <MudNavLink Href="/servers" Icon="@Icons.Material.Filled.Storage">Customers</MudNavLink>        
+        <MudNavGroup Title="Stock" Icon="@Icons.Material.Filled.Settings" Expanded="true">
+            <MudNavLink Href="/users" Icon="@Icons.Material.Filled.Inventory" IconColor="Color.Success">View Stock</MudNavLink>
+            
+        </MudNavGroup>
+
+        <MudNavGroup Title="Deliveries" Icon="@Icons.Material.Filled.Settings" Expanded="true">
+ 
+               <MudNavLink Href="/users" Icon="@Icons.Material.Filled.Inventory" IconColor="Color.Success">Drivers</MudNavLink>
+            <MudNavLink Href="/users" Icon="@Icons.Material.Filled.Inventory" IconColor="Color.Success">Routes</MudNavLink>
+        </MudNavGroup>
+ 
+        <MudNavGroup Title="Sales" Icon="@Icons.Material.Filled.Settings" Expanded="true">
+            <MudNavLink Href="/Salesorders" Icon="@Icons.Material.Filled.PointOfSale" IconColor="Color.Success">View Sales Orders</MudNavLink>
+            <MudNavLink Href="/Salesorders" Icon="@Icons.Material.Filled.PointOfSale" IconColor="Color.Success">Create Sales Order</MudNavLink>
+            <MudNavLink Href="/Salesorders" Icon="@Icons.Material.Filled.PointOfSale" IconColor="Color.Success">Create Sales Invoice</MudNavLink>
+        </MudNavGroup>
+    </MudNavMenu>
+</MudPaper>
+ 
+@code {
+
+  
+}

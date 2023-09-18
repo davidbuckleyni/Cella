@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "Cella.WinUi (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "Cella.WinUi (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}

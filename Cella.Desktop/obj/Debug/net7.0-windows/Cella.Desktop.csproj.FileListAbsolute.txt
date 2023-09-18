@@ -1,0 +1,9 @@
+D:\GitMaster\Cella\Cella.Desktop\obj\Debug\net7.0-windows\Cella.Desktop.Form1.resources
+D:\GitMaster\Cella\Cella.Desktop\obj\Debug\net7.0-windows\Cella._Desktop.UI.frmMain.resources
+D:\GitMaster\Cella\Cella.Desktop\obj\Debug\net7.0-windows\Cella._Desktop.UI.frmStock.resources
+D:\GitMaster\Cella\Cella.Desktop\obj\Debug\net7.0-windows\Cella.Desktop.csproj.GenerateResource.cache
+D:\GitMaster\Cella\Cella.Desktop\obj\Debug\net7.0-windows\Cella.Desktop.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitMaster\Cella\Cella.Desktop\obj\Debug\net7.0-windows\Cella.Desktop.AssemblyInfoInputs.cache
+D:\GitMaster\Cella\Cella.Desktop\obj\Debug\net7.0-windows\Cella.Desktop.AssemblyInfo.cs
+D:\GitMaster\Cella\Cella.Desktop\obj\Debug\net7.0-windows\Cella.Desktop.csproj.CoreCompileInputs.cache
+D:\GitMaster\Cella\Cella.Desktop\obj\Debug\net7.0-windows\Cella.Desktop.sourcelink.json

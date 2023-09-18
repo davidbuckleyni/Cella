@@ -10,6 +10,7 @@ D:\GitMaster\Cella\Cella.Domain\obj\Debug\net7.0\Cella.Domain.GeneratedMSBuildEd
 D:\GitMaster\Cella\Cella.Domain\obj\Debug\net7.0\Cella.Domain.AssemblyInfoInputs.cache
 D:\GitMaster\Cella\Cella.Domain\obj\Debug\net7.0\Cella.Domain.AssemblyInfo.cs
 D:\GitMaster\Cella\Cella.Domain\obj\Debug\net7.0\Cella.Domain.csproj.CoreCompileInputs.cache
+D:\GitMaster\Cella\Cella.Domain\obj\Debug\net7.0\Cella.Domain.sourcelink.json
 D:\GitMaster\Cella\Cella.Domain\obj\Debug\net7.0\Cella.Domain.csproj.CopyComplete
 D:\GitMaster\Cella\Cella.Domain\obj\Debug\net7.0\Cella.Domain.dll
 D:\GitMaster\Cella\Cella.Domain\obj\Debug\net7.0\refint\Cella.Domain.dll

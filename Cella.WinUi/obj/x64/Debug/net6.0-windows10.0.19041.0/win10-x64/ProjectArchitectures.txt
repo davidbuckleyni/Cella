@@ -1,0 +1,1 @@
+D:\GitMaster\Cella\Cella.WinUi\Cella.WinUi.csproj;x64

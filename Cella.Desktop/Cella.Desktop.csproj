@@ -2,32 +2,20 @@
 
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
-    <TargetFramework>net6.0-windows</TargetFramework>
+    <TargetFramework>net7.0-windows</TargetFramework>
     <Nullable>enable</Nullable>
-    <LangVersion>10.0</LangVersion>
-    <UseWPF>true</UseWPF>
-    <ApplicationManifest>app.manifest</ApplicationManifest>
-    <ApplicationIcon>applicationIcon.ico</ApplicationIcon>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
   <ItemGroup>
-    <Content Include="applicationIcon.ico" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <PackageReference Include="WPF-UI" Version="2.0.3" />
-    <PackageReference Include="Microsoft.Extensions.Hosting" Version="6.0.1" />
-    <PackageReference Include="CommunityToolkit.Mvvm" Version="8.0.0"/>
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Remove="Assets\applicationIcon-1024.png" />
-    <None Remove="Assets\applicationIcon-256.png" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Resource Include="Assets\applicationIcon-1024.png" />
-    <Resource Include="Assets\applicationIcon-256.png" />
+    <PackageReference Include="Syncfusion.Core.WinForms" Version="23.1.36" />
+    <PackageReference Include="Syncfusion.DataGridExport.WinForms" Version="23.1.36" />
+    <PackageReference Include="Syncfusion.Grid.Grouping.Windows" Version="23.1.36" />
+    <PackageReference Include="Syncfusion.Grid.Windows" Version="23.1.36" />
+    <PackageReference Include="Syncfusion.SfDataGrid.WinForms" Version="23.1.36" />
+    <PackageReference Include="Syncfusion.SfInput.WinForms" Version="23.1.36" />
+    <PackageReference Include="Syncfusion.Shared.Base" Version="23.1.36" />
   </ItemGroup>
 
 </Project>

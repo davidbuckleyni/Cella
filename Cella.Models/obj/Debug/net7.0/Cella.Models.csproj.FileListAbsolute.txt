@@ -7,6 +7,7 @@ D:\GitMaster\Cella\Cella.Models\obj\Debug\net7.0\Cella.Models.GeneratedMSBuildEd
 D:\GitMaster\Cella\Cella.Models\obj\Debug\net7.0\Cella.Models.AssemblyInfoInputs.cache
 D:\GitMaster\Cella\Cella.Models\obj\Debug\net7.0\Cella.Models.AssemblyInfo.cs
 D:\GitMaster\Cella\Cella.Models\obj\Debug\net7.0\Cella.Models.csproj.CoreCompileInputs.cache
+D:\GitMaster\Cella\Cella.Models\obj\Debug\net7.0\Cella.Models.sourcelink.json
 D:\GitMaster\Cella\Cella.Models\obj\Debug\net7.0\Cella.Models.dll
 D:\GitMaster\Cella\Cella.Models\obj\Debug\net7.0\refint\Cella.Models.dll
 D:\GitMaster\Cella\Cella.Models\obj\Debug\net7.0\Cella.Models.pdb

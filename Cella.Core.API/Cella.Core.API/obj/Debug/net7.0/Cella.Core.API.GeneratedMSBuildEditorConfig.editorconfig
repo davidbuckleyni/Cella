@@ -12,6 +12,7 @@ build_property.RootNamespace = Cella.Core.API
 build_property.RootNamespace = Cella.Core.API
 build_property.ProjectDir = D:\GitMaster\Cella\Cella.Core.API\Cella.Core.API\
 build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = true

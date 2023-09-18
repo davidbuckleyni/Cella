@@ -1,0 +1,7 @@
+D:\GitMaster\Cella\Cella.MudBlazor\obj\Debug\net6.0\Cella.MudBlazor.csproj.AssemblyReference.cache
+D:\GitMaster\Cella\Cella.MudBlazor\obj\Debug\net6.0\Cella.MudBlazor.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitMaster\Cella\Cella.MudBlazor\obj\Debug\net6.0\Cella.MudBlazor.AssemblyInfoInputs.cache
+D:\GitMaster\Cella\Cella.MudBlazor\obj\Debug\net6.0\Cella.MudBlazor.AssemblyInfo.cs
+D:\GitMaster\Cella\Cella.MudBlazor\obj\Debug\net6.0\Cella.MudBlazor.csproj.CoreCompileInputs.cache
+D:\GitMaster\Cella\Cella.MudBlazor\obj\Debug\net6.0\Cella.MudBlazor.MvcApplicationPartsAssemblyInfo.cache
+D:\GitMaster\Cella\Cella.MudBlazor\obj\Debug\net6.0\Cella.MudBlazor.sourcelink.json

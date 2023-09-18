@@ -3229,14 +3229,6 @@
       "PackagePath": "staticwebassets\\aspnet\\signalr\\dist\\browser\\signalr.min.js.map"
     },
     {
-      "Id": "D:\\GitMaster\\Cella\\Cella.Web\\wwwroot\\assets\\.DS_Store",
-      "PackagePath": "staticwebassets\\assets\\.DS_Store"
-    },
-    {
-      "Id": "D:\\GitMaster\\Cella\\Cella.Web\\wwwroot\\assets\\brand\\.DS_Store",
-      "PackagePath": "staticwebassets\\assets\\brand\\.DS_Store"
-    },
-    {
       "Id": "D:\\GitMaster\\Cella\\Cella.Web\\wwwroot\\assets\\brand\\coreui.svg",
       "PackagePath": "staticwebassets\\assets\\brand\\coreui.svg"
     },

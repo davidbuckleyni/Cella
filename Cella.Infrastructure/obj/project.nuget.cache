@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "7VEXEAp7M9qjrfXkJVDeMIaOqabXn5lcOD2Od+Qc5YEyZOT6b0ZpMADneN9QCFEBs3db2PvWtz3fji3xKBb6+A==",
+  "dgSpecHash": "GgIM2snq67y3a+ZF58OrRsrs2rtuE62uyt7V/FtF/LF5EBIIQmZWC2Da71VFr54pjkGqrAFK6mtYTMB+50P4tQ==",
   "success": true,
   "projectFilePath": "D:\\GitMaster\\Cella\\Cella.Infrastructure\\Cella.Infrastructure.csproj",
   "expectedPackageFiles": [
@@ -209,26 +209,6 @@
     "C:\\Users\\davidb\\.nuget\\packages\\system.windows.extensions\\5.0.0\\system.windows.extensions.5.0.0.nupkg.sha512"
   ],
   "logs": [
-    {
-      "code": "NU1901",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'Swashbuckle.AspNetCore.SwaggerUI' 6.2.1 has a known low severity vulnerability, https://github.com/advisories/GHSA-qrmm-w75w-3wpx",
-      "libraryId": "Swashbuckle.AspNetCore.SwaggerUI",
-      "targetGraphs": [
-        "net7.0"
-      ]
-    },
-    {
-      "code": "NU1901",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'System.Data.SqlClient' 4.8.2 has a known low severity vulnerability, https://github.com/advisories/GHSA-8g2p-5pqh-5jmc",
-      "libraryId": "System.Data.SqlClient",
-      "targetGraphs": [
-        "net7.0"
-      ]
-    },
     {
       "code": "NU1701",
       "level": "Warning",

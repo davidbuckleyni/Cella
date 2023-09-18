@@ -1,30 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <PropertyGroup />
   <ItemGroup>
-    <ApplicationDefinition Update="App.xaml">
-      <SubType>Designer</SubType>
-    </ApplicationDefinition>
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Update="Views\Pages\SalesOrderPage.xaml.cs">
-      <SubType>Code</SubType>
+    <Compile Update="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="UI\frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="UI\frmStock.cs">
+      <SubType>Form</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Page Update="Views\Pages\DashboardPage.xaml">
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Update="Views\Pages\DataPage.xaml">
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Update="Views\Pages\SalesOrderPage.xaml">
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Update="Views\Pages\SettingsPage.xaml">
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Update="Views\Windows\MainWindow.xaml">
+    <Page Update="UI\frmSalesOrder.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

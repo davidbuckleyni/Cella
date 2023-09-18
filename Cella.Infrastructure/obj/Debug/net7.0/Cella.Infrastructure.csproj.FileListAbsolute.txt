@@ -12,6 +12,7 @@ D:\GitMaster\Cella\Cella.Infrastructure\obj\Debug\net7.0\Cella.Infrastructure.Ge
 D:\GitMaster\Cella\Cella.Infrastructure\obj\Debug\net7.0\Cella.Infrastructure.AssemblyInfoInputs.cache
 D:\GitMaster\Cella\Cella.Infrastructure\obj\Debug\net7.0\Cella.Infrastructure.AssemblyInfo.cs
 D:\GitMaster\Cella\Cella.Infrastructure\obj\Debug\net7.0\Cella.Infrastructure.csproj.CoreCompileInputs.cache
+D:\GitMaster\Cella\Cella.Infrastructure\obj\Debug\net7.0\Cella.Infrastructure.sourcelink.json
 D:\GitMaster\Cella\Cella.Infrastructure\obj\Debug\net7.0\Cella.Infrastructure.csproj.CopyComplete
 D:\GitMaster\Cella\Cella.Infrastructure\obj\Debug\net7.0\Cella.Infrastructure.dll
 D:\GitMaster\Cella\Cella.Infrastructure\obj\Debug\net7.0\refint\Cella.Infrastructure.dll

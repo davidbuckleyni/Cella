@@ -1,8 +1,3 @@
-D:\GitMaster\Cella\Cella.Services\obj\Debug\net7.0\Cella.Services.csproj.AssemblyReference.cache
-D:\GitMaster\Cella\Cella.Services\obj\Debug\net7.0\Cella.Services.GeneratedMSBuildEditorConfig.editorconfig
-D:\GitMaster\Cella\Cella.Services\obj\Debug\net7.0\Cella.Services.AssemblyInfoInputs.cache
-D:\GitMaster\Cella\Cella.Services\obj\Debug\net7.0\Cella.Services.AssemblyInfo.cs
-D:\GitMaster\Cella\Cella.Services\obj\Debug\net7.0\Cella.Services.csproj.CoreCompileInputs.cache
 D:\GitMaster\Cella\Cella.Services\bin\Debug\net7.0\SQLitePCL.Ext.dll
 D:\GitMaster\Cella\Cella.Services\bin\Debug\net7.0\Cella.Services.deps.json
 D:\GitMaster\Cella\Cella.Services\bin\Debug\net7.0\Cella.Services.runtimeconfig.json
@@ -310,6 +305,12 @@ D:\GitMaster\Cella\Cella.Services\bin\Debug\net7.0\Cella.Models.dll
 D:\GitMaster\Cella\Cella.Services\bin\Debug\net7.0\Cella.Domain.pdb
 D:\GitMaster\Cella\Cella.Services\bin\Debug\net7.0\Cella.Infrastructure.pdb
 D:\GitMaster\Cella\Cella.Services\bin\Debug\net7.0\Cella.Models.pdb
+D:\GitMaster\Cella\Cella.Services\obj\Debug\net7.0\Cella.Services.csproj.AssemblyReference.cache
+D:\GitMaster\Cella\Cella.Services\obj\Debug\net7.0\Cella.Services.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitMaster\Cella\Cella.Services\obj\Debug\net7.0\Cella.Services.AssemblyInfoInputs.cache
+D:\GitMaster\Cella\Cella.Services\obj\Debug\net7.0\Cella.Services.AssemblyInfo.cs
+D:\GitMaster\Cella\Cella.Services\obj\Debug\net7.0\Cella.Services.csproj.CoreCompileInputs.cache
+D:\GitMaster\Cella\Cella.Services\obj\Debug\net7.0\Cella.Services.sourcelink.json
 D:\GitMaster\Cella\Cella.Services\obj\Debug\net7.0\Cella.Services.csproj.CopyComplete
 D:\GitMaster\Cella\Cella.Services\obj\Debug\net7.0\Cella.Services.dll
 D:\GitMaster\Cella\Cella.Services\obj\Debug\net7.0\refint\Cella.Services.dll

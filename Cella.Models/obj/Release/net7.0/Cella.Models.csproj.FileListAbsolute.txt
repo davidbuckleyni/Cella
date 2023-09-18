@@ -12,3 +12,4 @@ D:\GitMaster\Cella\Cella.Models\obj\Release\net7.0\refint\Cella.Models.dll
 D:\GitMaster\Cella\Cella.Models\obj\Release\net7.0\Cella.Models.pdb
 D:\GitMaster\Cella\Cella.Models\obj\Release\net7.0\Cella.Models.genruntimeconfig.cache
 D:\GitMaster\Cella\Cella.Models\obj\Release\net7.0\ref\Cella.Models.dll
+D:\GitMaster\Cella\Cella.Models\obj\Release\net7.0\Cella.Models.sourcelink.json

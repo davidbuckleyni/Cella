@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Window
+    x:Class="Cella.WinUi.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Cella.WinUi"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+ 
+        <Grid>
+        <NavigationView x:ConnectionId='2' x:Name="NavigationViewControl"                                                            
+>
+            <NavigationView.AutoSuggestBox>
+                <AutoSuggestBox x:ConnectionId='3' PlaceholderText="Search" QueryIcon="Find"  
+      x:Name="SearchTxt"                                           />
+            </NavigationView.AutoSuggestBox>
+            <NavigationView.MenuItems>
+                <NavigationViewItem Content="Home" Icon="Home"/>
+                <NavigationViewItem Content="Favorites" Icon="Favorite">
+               
+                </NavigationViewItem>
+                <NavigationViewItemHeader>
+                    
+                </NavigationViewItemHeader>
+                <NavigationViewItem x:ConnectionId='4'
+                    x:Name="SalesOrder"
+                    Content="WMS"
+                    
+                   Tag="Cella.WinUi.UI.SalesOrder">
+                    <NavigationViewItem.Icon>
+                        <FontIcon Glyph="&#xEB3C;" />
+                    </NavigationViewItem.Icon>
+                    <NavigationViewItem.MenuItems>
+                        <NavigationViewItem x:ConnectionId='5' x:Name="CreateSalesOrder" Content="Create Sales Order" Tag="Cella.WinUi.UI.SalesOrder">
+                            <NavigationViewItem.Icon>
+                                <FontIcon Glyph="&#xE8D2;" />
+                            </NavigationViewItem.Icon>
+                        </NavigationViewItem>
+                        <NavigationViewItem x:ConnectionId='6' x:Name="SalesORDERs" Content="Sales Orders" Tag="Cella.WinUi.UI.SalesOrder">
+                            <NavigationViewItem.Icon>
+                                <FontIcon Glyph="&#xED58;" />
+                            </NavigationViewItem.Icon>
+                        </NavigationViewItem>
+                        <NavigationViewItem x:ConnectionId='7' x:Name="SalesI" Content="Sales Invoice" Tag="Cella.WinUi.UI.SalesOrder">
+                            <NavigationViewItem.Icon>
+                                <FontIcon Glyph="&#xE790;" />
+                            </NavigationViewItem.Icon>
+                        </NavigationViewItem>
+                        
+                    </NavigationViewItem.MenuItems>
+                </NavigationViewItem>
+
+                <!-- Add more parent items with child items here -->
+            </NavigationView.MenuItems>
+            <Frame x:ConnectionId='8' x:Name="ContentFrame" />
+
+        </NavigationView>
+
+    </Grid>
+
+    
+</Window>
+

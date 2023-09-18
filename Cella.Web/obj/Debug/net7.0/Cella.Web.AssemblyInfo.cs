@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Cella.Web")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bf1759e8e8da6bc398b27125cb99fee8df4925f0")]
 [assembly: System.Reflection.AssemblyProductAttribute("Cella.Web")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Cella.Web")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
