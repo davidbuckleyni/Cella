@@ -3193,7 +3193,7 @@
       },
       "Cella.Models/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v7.0",
+        "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "ComputerInfo": "0.1.0-prerelease",
           "CronEspresso": "3.0.0",
@@ -8942,6 +8942,9 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "default"
       }
     },
     "frameworks": {
