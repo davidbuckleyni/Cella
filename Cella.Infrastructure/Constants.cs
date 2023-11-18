@@ -10,8 +10,8 @@ namespace Cella.Infrastructure
     {
 
 
-        public const string AppName = "The Hockey Lab";
-        public const string BaseUrl = "https://api-hockeylab.com";
+        public const string AppName = "Cella";
+        public const string BaseUrl = "https://api-cella.dotnetappdevni.com";
 
         public const string ApiSegmant = "/api";
 

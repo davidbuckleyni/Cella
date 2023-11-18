@@ -8,18 +8,19 @@ using NToastNotify;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Collections.Generic;
+using Cella.BL.Interfaces;
 
 namespace Cella.BL.Services;
 
-public class StockService
+public class StockService : IStockItemInterface
 { 
     private CellaDBContext _context;
-    private readonly IToastNotification _toast;
+    
 
-    public StockService(CellaDBContext context, IHttpContextAccessor httpContextAccessor, UserManager<ApplicationUser> userManager, RoleManager<IdentityRole> roleMgr, IToastNotification toast)
+    public StockService(CellaDBContext context, IHttpContextAccessor httpContextAccessor, UserManager<ApplicationUser> userManager, RoleManager<IdentityRole> roleMgr)
     {
         _context = context;
-        _toast = toast;
+    
     }
 
 
@@ -56,8 +57,11 @@ public class StockService
 
         return isDeleted;
     }
-
-    public async Task<IEnumerable<StockItem>> GetStockItems()
+    public async Task<IEnumerable<StockItem>> GetStockItemById(int id)
+    {
+        return _context.StockItem.Where(w => w.IsActive == true && w.isDeleted == false && w.Id==id).AsEnumerable();
+    }
+    public async Task<IEnumerable<StockItem>> GetAllStockItems()
     {
         return _context.StockItem.Where(w => w.IsActive == true && w.isDeleted == false).AsEnumerable();
     }

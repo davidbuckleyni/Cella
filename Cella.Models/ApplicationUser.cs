@@ -6,15 +6,14 @@ using System.Text;
 
 namespace Cella.Models{
    public class ApplicationUser :  IdentityUser  {
-        public string FirstName { get; set; }
-
-
+        public string? FirstName { get; set; }
+        public int? CustomerId { get; set; }    
 
         public Guid? StoreId { get; set; }        
 
-        public string LastName { get; set; }
+        public string? LastName { get; set; }
 
-        public Guid TennantId { get; set; }
+        public Guid? TennantId { get; set; }
 
  
 

@@ -15,13 +15,15 @@
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Syncfusion\\Essential Studio\\WPF\\22.1.34\\ToolboxNuGetPackages"
+          "C:\\Program Files (x86)\\Syncfusion\\Essential Studio\\WPF\\22.1.34\\ToolboxNuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
           "C:\\Users\\davidb\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Syncfusion Toolbox for WPF.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Syncfusion Toolbox for WPF.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -46,9 +48,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "default"
         }
       },
       "frameworks": {
@@ -57,7 +56,7 @@
           "dependencies": {
             "ComputerInfo": {
               "target": "Package",
-              "version": "[0.1.0-prerelease, )"
+              "version": "[0.2.0, )"
             },
             "CronEspresso": {
               "target": "Package",
@@ -65,7 +64,7 @@
             },
             "Dapper": {
               "target": "Package",
-              "version": "[2.0.123, )"
+              "version": "[2.0.151, )"
             },
             "Dapper.Contrib": {
               "target": "Package",
@@ -73,35 +72,35 @@
             },
             "ElmahCore": {
               "target": "Package",
-              "version": "[2.0.7, )"
+              "version": "[2.1.2, )"
             },
             "ElmahCore.Sql": {
               "target": "Package",
-              "version": "[2.0.7, )"
+              "version": "[2.1.2, )"
             },
             "FileHelpers": {
               "target": "Package",
-              "version": "[3.5.1, )"
+              "version": "[3.5.2, )"
             },
             "Hangfire.AspNetCore": {
               "target": "Package",
-              "version": "[1.8.0-beta4, )"
+              "version": "[1.8.5, )"
             },
             "Hangfire.Core": {
               "target": "Package",
-              "version": "[1.8.0-beta4, )"
+              "version": "[1.8.5, )"
             },
             "Hangfire.SqlServer": {
               "target": "Package",
-              "version": "[1.8.0-beta4, )"
+              "version": "[1.8.5, )"
             },
             "MailKit": {
               "target": "Package",
-              "version": "[3.0.0-preview1, )"
+              "version": "[4.2.0, )"
             },
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
-              "version": "[7.0.1, )"
+              "version": "[7.0.11, )"
             },
             "Microsoft.AspNetCore.Components.QuickGrid": {
               "target": "Package",
@@ -113,7 +112,7 @@
             },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[7.0.1, )"
+              "version": "[7.0.11, )"
             },
             "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
               "target": "Package",
@@ -121,13 +120,13 @@
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[7.0.1, )"
+              "version": "[7.0.11, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[7.0.1, )"
+              "version": "[7.0.11, )"
             },
             "Microsoft.EntityFrameworkCore.Relational.Design": {
               "target": "Package",
@@ -135,7 +134,7 @@
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[7.0.1, )"
+              "version": "[7.0.11, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer.Design": {
               "target": "Package",
@@ -145,7 +144,7 @@
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[7.0.1, )"
+              "version": "[7.0.11, )"
             },
             "Microsoft.Extensions.Configuration.Abstractions": {
               "target": "Package",
@@ -157,11 +156,11 @@
             },
             "Mindscape.Raygun4Net.AspNetCore": {
               "target": "Package",
-              "version": "[6.6.2, )"
+              "version": "[7.0.0, )"
             },
             "Mindscape.Raygun4Net.WebApi": {
               "target": "Package",
-              "version": "[5.11.1, )"
+              "version": "[7.0.0, )"
             },
             "NCrontab.Advanced": {
               "target": "Package",
@@ -169,23 +168,23 @@
             },
             "NLog": {
               "target": "Package",
-              "version": "[5.0.0-preview.3, )"
+              "version": "[5.2.4, )"
             },
             "NLog.Web": {
               "target": "Package",
-              "version": "[5.0.0-preview.3, )"
+              "version": "[5.3.4, )"
             },
             "Newtonsoft.Json": {
               "target": "Package",
-              "version": "[13.0.1, )"
+              "version": "[13.0.3, )"
             },
             "PushNotifications.Server": {
               "target": "Package",
-              "version": "[1.3.18-pre, )"
+              "version": "[1.3.35, )"
             },
             "RestSharp": {
               "target": "Package",
-              "version": "[108.0.3, )"
+              "version": "[110.2.0, )"
             },
             "SQLite": {
               "target": "Package",
@@ -197,27 +196,27 @@
             },
             "SQLitePCLRaw.core": {
               "target": "Package",
-              "version": "[2.1.4, )"
+              "version": "[2.1.6, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[5.6.3, )"
+              "version": "[6.5.0, )"
             },
             "Swashbuckle.AspNetCore.Swagger": {
               "target": "Package",
-              "version": "[6.2.3, )"
+              "version": "[6.5.0, )"
             },
             "Swashbuckle.AspNetCore.SwaggerUI": {
               "target": "Package",
-              "version": "[6.2.1, )"
+              "version": "[6.5.0, )"
             },
             "Syncfusion.EJ2.AspNet.Core": {
               "target": "Package",
-              "version": "[19.3.0.55, )"
+              "version": "[23.1.36, )"
             },
             "System.Data.SqlClient": {
               "target": "Package",
-              "version": "[4.8.2, )"
+              "version": "[4.8.5, )"
             },
             "System.Net.Http": {
               "target": "Package",
@@ -225,7 +224,7 @@
             },
             "ncrontab": {
               "target": "Package",
-              "version": "[3.3.1, )"
+              "version": "[3.3.3, )"
             },
             "sqlite-net-pcl": {
               "target": "Package",
@@ -248,7 +247,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100-rc.1.23455.8/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
@@ -263,13 +262,15 @@
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Syncfusion\\Essential Studio\\WPF\\22.1.34\\ToolboxNuGetPackages"
+          "C:\\Program Files (x86)\\Syncfusion\\Essential Studio\\WPF\\22.1.34\\ToolboxNuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
           "C:\\Users\\davidb\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Syncfusion Toolbox for WPF.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Syncfusion Toolbox for WPF.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -294,9 +295,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "default"
         }
       },
       "frameworks": {
@@ -305,7 +303,7 @@
           "dependencies": {
             "ComputerInfo": {
               "target": "Package",
-              "version": "[0.1.0-prerelease, )"
+              "version": "[0.2.0, )"
             },
             "CronEspresso": {
               "target": "Package",
@@ -313,7 +311,7 @@
             },
             "Dapper": {
               "target": "Package",
-              "version": "[2.0.123, )"
+              "version": "[2.0.151, )"
             },
             "Dapper.Contrib": {
               "target": "Package",
@@ -321,35 +319,35 @@
             },
             "ElmahCore": {
               "target": "Package",
-              "version": "[2.0.7, )"
+              "version": "[2.1.2, )"
             },
             "ElmahCore.Sql": {
               "target": "Package",
-              "version": "[2.0.7, )"
+              "version": "[2.1.2, )"
             },
             "FileHelpers": {
               "target": "Package",
-              "version": "[3.5.1, )"
+              "version": "[3.5.2, )"
             },
             "Hangfire.AspNetCore": {
               "target": "Package",
-              "version": "[1.8.0-beta4, )"
+              "version": "[1.8.5, )"
             },
             "Hangfire.Core": {
               "target": "Package",
-              "version": "[1.8.0-beta4, )"
+              "version": "[1.8.5, )"
             },
             "Hangfire.SqlServer": {
               "target": "Package",
-              "version": "[1.8.0-beta4, )"
+              "version": "[1.8.5, )"
             },
             "MailKit": {
               "target": "Package",
-              "version": "[3.0.0-preview1, )"
+              "version": "[4.2.0, )"
             },
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
-              "version": "[7.0.1, )"
+              "version": "[7.0.11, )"
             },
             "Microsoft.AspNetCore.Components.QuickGrid": {
               "target": "Package",
@@ -361,7 +359,7 @@
             },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[7.0.1, )"
+              "version": "[7.0.11, )"
             },
             "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
               "target": "Package",
@@ -369,13 +367,13 @@
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[7.0.1, )"
+              "version": "[7.0.11, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[7.0.1, )"
+              "version": "[7.0.11, )"
             },
             "Microsoft.EntityFrameworkCore.Relational.Design": {
               "target": "Package",
@@ -383,7 +381,7 @@
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[7.0.1, )"
+              "version": "[7.0.11, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer.Design": {
               "target": "Package",
@@ -393,7 +391,7 @@
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[7.0.1, )"
+              "version": "[7.0.11, )"
             },
             "Microsoft.Extensions.Configuration.Abstractions": {
               "target": "Package",
@@ -405,11 +403,11 @@
             },
             "Mindscape.Raygun4Net.AspNetCore": {
               "target": "Package",
-              "version": "[6.6.2, )"
+              "version": "[7.0.0, )"
             },
             "Mindscape.Raygun4Net.WebApi": {
               "target": "Package",
-              "version": "[5.11.1, )"
+              "version": "[7.0.0, )"
             },
             "NCrontab.Advanced": {
               "target": "Package",
@@ -417,39 +415,39 @@
             },
             "NLog": {
               "target": "Package",
-              "version": "[5.0.0-preview.3, )"
+              "version": "[5.2.4, )"
             },
             "NLog.Web": {
               "target": "Package",
-              "version": "[5.0.0-preview.3, )"
+              "version": "[5.3.4, )"
             },
             "Newtonsoft.Json": {
               "target": "Package",
-              "version": "[13.0.1, )"
+              "version": "[13.0.3, )"
             },
             "PushNotifications.Server": {
               "target": "Package",
-              "version": "[1.3.18-pre, )"
+              "version": "[1.3.35, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[5.6.3, )"
+              "version": "[6.5.0, )"
             },
             "Swashbuckle.AspNetCore.Swagger": {
               "target": "Package",
-              "version": "[6.2.3, )"
+              "version": "[6.5.0, )"
             },
             "Swashbuckle.AspNetCore.SwaggerUI": {
               "target": "Package",
-              "version": "[6.2.1, )"
+              "version": "[6.5.0, )"
             },
             "Syncfusion.EJ2.AspNet.Core": {
               "target": "Package",
-              "version": "[19.3.0.55, )"
+              "version": "[23.1.36, )"
             },
             "System.Data.SqlClient": {
               "target": "Package",
-              "version": "[4.8.2, )"
+              "version": "[4.8.5, )"
             },
             "System.Net.Http": {
               "target": "Package",
@@ -457,7 +455,7 @@
             },
             "ncrontab": {
               "target": "Package",
-              "version": "[3.3.1, )"
+              "version": "[3.3.3, )"
             }
           },
           "imports": [
@@ -476,7 +474,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100-rc.1.23455.8/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
@@ -491,13 +489,15 @@
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Syncfusion\\Essential Studio\\WPF\\22.1.34\\ToolboxNuGetPackages"
+          "C:\\Program Files (x86)\\Syncfusion\\Essential Studio\\WPF\\22.1.34\\ToolboxNuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
           "C:\\Users\\davidb\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Syncfusion Toolbox for WPF.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Syncfusion Toolbox for WPF.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -518,9 +518,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "default"
         }
       },
       "frameworks": {
@@ -529,7 +526,7 @@
           "dependencies": {
             "ComputerInfo": {
               "target": "Package",
-              "version": "[0.1.0-prerelease, )"
+              "version": "[0.2.0, )"
             },
             "CronEspresso": {
               "target": "Package",
@@ -537,7 +534,7 @@
             },
             "Dapper": {
               "target": "Package",
-              "version": "[2.0.123, )"
+              "version": "[2.0.151, )"
             },
             "Dapper.Contrib": {
               "target": "Package",
@@ -545,35 +542,35 @@
             },
             "ElmahCore": {
               "target": "Package",
-              "version": "[2.0.7, )"
+              "version": "[2.1.2, )"
             },
             "ElmahCore.Sql": {
               "target": "Package",
-              "version": "[2.0.7, )"
+              "version": "[2.1.2, )"
             },
             "FileHelpers": {
               "target": "Package",
-              "version": "[3.5.1, )"
+              "version": "[3.5.2, )"
             },
             "Hangfire.AspNetCore": {
               "target": "Package",
-              "version": "[1.8.0-beta4, )"
+              "version": "[1.8.5, )"
             },
             "Hangfire.Core": {
               "target": "Package",
-              "version": "[1.8.0-beta4, )"
+              "version": "[1.8.5, )"
             },
             "Hangfire.SqlServer": {
               "target": "Package",
-              "version": "[1.8.0-beta4, )"
+              "version": "[1.8.5, )"
             },
             "MailKit": {
               "target": "Package",
-              "version": "[3.0.0-preview1, )"
+              "version": "[4.2.0, )"
             },
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
-              "version": "[7.0.1, )"
+              "version": "[7.0.11, )"
             },
             "Microsoft.AspNetCore.Components.QuickGrid": {
               "target": "Package",
@@ -585,7 +582,7 @@
             },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[7.0.1, )"
+              "version": "[7.0.11, )"
             },
             "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
               "target": "Package",
@@ -593,13 +590,13 @@
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[7.0.1, )"
+              "version": "[7.0.11, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[7.0.1, )"
+              "version": "[7.0.11, )"
             },
             "Microsoft.EntityFrameworkCore.Relational.Design": {
               "target": "Package",
@@ -607,7 +604,7 @@
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[7.0.1, )"
+              "version": "[7.0.11, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer.Design": {
               "target": "Package",
@@ -617,7 +614,7 @@
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[7.0.1, )"
+              "version": "[7.0.11, )"
             },
             "Microsoft.Extensions.Configuration.Abstractions": {
               "target": "Package",
@@ -629,11 +626,11 @@
             },
             "Mindscape.Raygun4Net.AspNetCore": {
               "target": "Package",
-              "version": "[6.6.2, )"
+              "version": "[7.0.0, )"
             },
             "Mindscape.Raygun4Net.WebApi": {
               "target": "Package",
-              "version": "[5.11.1, )"
+              "version": "[7.0.0, )"
             },
             "NCrontab.Advanced": {
               "target": "Package",
@@ -641,39 +638,39 @@
             },
             "NLog": {
               "target": "Package",
-              "version": "[5.0.0-preview.3, )"
+              "version": "[5.2.4, )"
             },
             "NLog.Web": {
               "target": "Package",
-              "version": "[5.0.0-preview.3, )"
+              "version": "[5.3.4, )"
             },
             "Newtonsoft.Json": {
               "target": "Package",
-              "version": "[13.0.1, )"
+              "version": "[13.0.3, )"
             },
             "PushNotifications.Server": {
               "target": "Package",
-              "version": "[1.3.18-pre, )"
+              "version": "[1.3.35, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[5.6.3, )"
+              "version": "[6.5.0, )"
             },
             "Swashbuckle.AspNetCore.Swagger": {
               "target": "Package",
-              "version": "[6.2.3, )"
+              "version": "[6.5.0, )"
             },
             "Swashbuckle.AspNetCore.SwaggerUI": {
               "target": "Package",
-              "version": "[6.2.1, )"
+              "version": "[6.5.0, )"
             },
             "Syncfusion.EJ2.AspNet.Core": {
               "target": "Package",
-              "version": "[19.3.0.55, )"
+              "version": "[23.1.36, )"
             },
             "System.Data.SqlClient": {
               "target": "Package",
-              "version": "[4.8.2, )"
+              "version": "[4.8.5, )"
             },
             "System.Net.Http": {
               "target": "Package",
@@ -681,7 +678,7 @@
             },
             "ncrontab": {
               "target": "Package",
-              "version": "[3.3.1, )"
+              "version": "[3.3.3, )"
             }
           },
           "imports": [
@@ -700,7 +697,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100-rc.1.23455.8/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
@@ -715,13 +712,15 @@
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Syncfusion\\Essential Studio\\WPF\\22.1.34\\ToolboxNuGetPackages"
+          "C:\\Program Files (x86)\\Syncfusion\\Essential Studio\\WPF\\22.1.34\\ToolboxNuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
           "C:\\Users\\davidb\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Syncfusion Toolbox for WPF.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Syncfusion Toolbox for WPF.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -752,9 +751,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "default"
         }
       },
       "frameworks": {
@@ -763,7 +759,7 @@
           "dependencies": {
             "ComputerInfo": {
               "target": "Package",
-              "version": "[0.1.0-prerelease, )"
+              "version": "[0.2.0, )"
             },
             "CronEspresso": {
               "target": "Package",
@@ -771,7 +767,7 @@
             },
             "Dapper": {
               "target": "Package",
-              "version": "[2.0.123, )"
+              "version": "[2.0.151, )"
             },
             "Dapper.Contrib": {
               "target": "Package",
@@ -779,35 +775,35 @@
             },
             "ElmahCore": {
               "target": "Package",
-              "version": "[2.0.7, )"
+              "version": "[2.1.2, )"
             },
             "ElmahCore.Sql": {
               "target": "Package",
-              "version": "[2.0.7, )"
+              "version": "[2.1.2, )"
             },
             "FileHelpers": {
               "target": "Package",
-              "version": "[3.5.1, )"
+              "version": "[3.5.2, )"
             },
             "Hangfire.AspNetCore": {
               "target": "Package",
-              "version": "[1.8.0-beta4, )"
+              "version": "[1.8.5, )"
             },
             "Hangfire.Core": {
               "target": "Package",
-              "version": "[1.8.0-beta4, )"
+              "version": "[1.8.5, )"
             },
             "Hangfire.SqlServer": {
               "target": "Package",
-              "version": "[1.8.0-beta4, )"
+              "version": "[1.8.5, )"
             },
             "MailKit": {
               "target": "Package",
-              "version": "[3.0.0-preview1, )"
+              "version": "[4.2.0, )"
             },
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
-              "version": "[7.0.1, )"
+              "version": "[7.0.11, )"
             },
             "Microsoft.AspNetCore.Components.QuickGrid": {
               "target": "Package",
@@ -819,7 +815,7 @@
             },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[7.0.1, )"
+              "version": "[7.0.11, )"
             },
             "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
               "target": "Package",
@@ -827,13 +823,13 @@
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[7.0.1, )"
+              "version": "[7.0.11, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[7.0.1, )"
+              "version": "[7.0.11, )"
             },
             "Microsoft.EntityFrameworkCore.Relational.Design": {
               "target": "Package",
@@ -841,7 +837,7 @@
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[7.0.1, )"
+              "version": "[7.0.11, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer.Design": {
               "target": "Package",
@@ -851,7 +847,7 @@
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[7.0.1, )"
+              "version": "[7.0.11, )"
             },
             "Microsoft.Extensions.Configuration.Abstractions": {
               "target": "Package",
@@ -863,11 +859,11 @@
             },
             "Mindscape.Raygun4Net.AspNetCore": {
               "target": "Package",
-              "version": "[6.6.2, )"
+              "version": "[7.0.0, )"
             },
             "Mindscape.Raygun4Net.WebApi": {
               "target": "Package",
-              "version": "[5.11.1, )"
+              "version": "[7.0.0, )"
             },
             "NCrontab.Advanced": {
               "target": "Package",
@@ -875,11 +871,11 @@
             },
             "NLog": {
               "target": "Package",
-              "version": "[5.0.0-preview.3, )"
+              "version": "[5.2.4, )"
             },
             "NLog.Web": {
               "target": "Package",
-              "version": "[5.0.0-preview.3, )"
+              "version": "[5.3.4, )"
             },
             "NToastNotify": {
               "target": "Package",
@@ -887,31 +883,31 @@
             },
             "Newtonsoft.Json": {
               "target": "Package",
-              "version": "[13.0.1, )"
+              "version": "[13.0.3, )"
             },
             "PushNotifications.Server": {
               "target": "Package",
-              "version": "[1.3.18-pre, )"
+              "version": "[1.3.35, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[5.6.3, )"
+              "version": "[6.5.0, )"
             },
             "Swashbuckle.AspNetCore.Swagger": {
               "target": "Package",
-              "version": "[6.2.3, )"
+              "version": "[6.5.0, )"
             },
             "Swashbuckle.AspNetCore.SwaggerUI": {
               "target": "Package",
-              "version": "[6.2.1, )"
+              "version": "[6.5.0, )"
             },
             "Syncfusion.EJ2.AspNet.Core": {
               "target": "Package",
-              "version": "[19.3.0.55, )"
+              "version": "[23.1.36, )"
             },
             "System.Data.SqlClient": {
               "target": "Package",
-              "version": "[4.8.2, )"
+              "version": "[4.8.5, )"
             },
             "System.Net.Http": {
               "target": "Package",
@@ -919,7 +915,7 @@
             },
             "ncrontab": {
               "target": "Package",
-              "version": "[3.3.1, )"
+              "version": "[3.3.3, )"
             },
             "toastr": {
               "target": "Package",
@@ -942,7 +938,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100-rc.1.23455.8/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
@@ -957,16 +953,18 @@
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Syncfusion\\Essential Studio\\WPF\\22.1.34\\ToolboxNuGetPackages"
+          "C:\\Program Files (x86)\\Syncfusion\\Essential Studio\\WPF\\22.1.34\\ToolboxNuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
           "C:\\Users\\davidb\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Syncfusion Toolbox for WPF.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Syncfusion Toolbox for WPF.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net7.0"
+          "net8.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -975,8 +973,8 @@
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net7.0": {
-            "targetAlias": "net7.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {
               "D:\\GitMaster\\Cella\\Cella.Infrastructure\\Cella.Infrastructure.csproj": {
                 "projectPath": "D:\\GitMaster\\Cella\\Cella.Infrastructure\\Cella.Infrastructure.csproj"
@@ -994,14 +992,11 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "default"
         }
       },
       "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
             "FileHelpers": {
               "target": "Package",
@@ -1009,7 +1004,7 @@
             },
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
-              "version": "[7.0.3, )"
+              "version": "[7.0.11, )"
             },
             "Microsoft.AspNetCore.Components.QuickGrid": {
               "target": "Package",
@@ -1017,7 +1012,7 @@
             },
             "Microsoft.AspNetCore.Components.Web": {
               "target": "Package",
-              "version": "[7.0.3, )"
+              "version": "[7.0.11, )"
             },
             "Microsoft.AspNetCore.Identity": {
               "target": "Package",
@@ -1025,7 +1020,7 @@
             },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[7.0.3, )"
+              "version": "[7.0.11, )"
             },
             "Microsoft.AspNetCore.Mvc.Abstractions": {
               "target": "Package",
@@ -1037,7 +1032,7 @@
             },
             "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
               "target": "Package",
-              "version": "[7.0.3, )"
+              "version": "[7.0.11, )"
             },
             "Microsoft.AspNetCore.Mvc.ViewFeatures": {
               "target": "Package",
@@ -1045,13 +1040,13 @@
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[7.0.3, )"
+              "version": "[7.0.11, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[7.0.3, )"
+              "version": "[7.0.11, )"
             },
             "Microsoft.EntityFrameworkCore.Relational.Design": {
               "target": "Package",
@@ -1059,7 +1054,7 @@
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[7.0.3, )"
+              "version": "[7.0.11, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer.Design": {
               "target": "Package",
@@ -1069,7 +1064,7 @@
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[7.0.3, )"
+              "version": "[7.0.11, )"
             },
             "Microsoft.Extensions.Configuration.Abstractions": {
               "target": "Package",
@@ -1093,7 +1088,7 @@
             },
             "Syncfusion.EJ2.AspNet.Core": {
               "target": "Package",
-              "version": "[20.4.0.51, )"
+              "version": "[23.1.36, )"
             },
             "System.Data.SqlClient": {
               "target": "Package",
@@ -1120,7 +1115,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100-rc.1.23455.8\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

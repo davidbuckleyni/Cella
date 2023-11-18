@@ -2,7 +2,7 @@
   "version": 3,
   "targets": {
     "net7.0": {
-      "Microsoft.Extensions.Localization.Abstractions/7.0.3": {
+      "Microsoft.Extensions.Localization.Abstractions/7.0.11": {
         "type": "package",
         "compile": {
           "lib/net7.0/Microsoft.Extensions.Localization.Abstractions.dll": {
@@ -18,10 +18,10 @@
     }
   },
   "libraries": {
-    "Microsoft.Extensions.Localization.Abstractions/7.0.3": {
-      "sha512": "2sEhpRPiWY3iJ+nxHnLUqM8qNoGqQQqduk0QXd3iEt0fc4fw8EwFElqtT4OJMV0qnGGAwYykdOtrzZ1BIqdvpQ==",
+    "Microsoft.Extensions.Localization.Abstractions/7.0.11": {
+      "sha512": "Ofd2vGyid3H35nUAA4J2GS1AF55J8232gw7beZ2zeulg0ksdK0mEx1F8ZrJ+uQxLlJkHwUHUDm5Qks5rsqTi2A==",
       "type": "package",
-      "path": "microsoft.extensions.localization.abstractions/7.0.3",
+      "path": "microsoft.extensions.localization.abstractions/7.0.11",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -33,20 +33,21 @@
         "lib/net7.0/Microsoft.Extensions.Localization.Abstractions.xml",
         "lib/netstandard2.0/Microsoft.Extensions.Localization.Abstractions.dll",
         "lib/netstandard2.0/Microsoft.Extensions.Localization.Abstractions.xml",
-        "microsoft.extensions.localization.abstractions.7.0.3.nupkg.sha512",
+        "microsoft.extensions.localization.abstractions.7.0.11.nupkg.sha512",
         "microsoft.extensions.localization.abstractions.nuspec"
       ]
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
-      "Microsoft.Extensions.Localization.Abstractions >= 7.0.3"
+      "Microsoft.Extensions.Localization.Abstractions >= 7.0.11"
     ]
   },
   "packageFolders": {
     "C:\\Users\\davidb\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files (x86)\\Syncfusion\\Essential Studio\\WPF\\22.1.34\\ToolboxNuGetPackages": {}
+    "C:\\Program Files (x86)\\Syncfusion\\Essential Studio\\WPF\\22.1.34\\ToolboxNuGetPackages": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
@@ -59,13 +60,15 @@
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files (x86)\\Syncfusion\\Essential Studio\\WPF\\22.1.34\\ToolboxNuGetPackages"
+        "C:\\Program Files (x86)\\Syncfusion\\Essential Studio\\WPF\\22.1.34\\ToolboxNuGetPackages",
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
         "C:\\Users\\davidb\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Syncfusion Toolbox for WPF.config"
+        "C:\\Program Files (x86)\\NuGet\\Config\\Syncfusion Toolbox for WPF.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
@@ -86,9 +89,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "default"
       }
     },
     "frameworks": {
@@ -97,7 +97,7 @@
         "dependencies": {
           "Microsoft.Extensions.Localization.Abstractions": {
             "target": "Package",
-            "version": "[7.0.3, )"
+            "version": "[7.0.11, )"
           }
         },
         "imports": [
@@ -116,7 +116,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100-rc.1.23455.8\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

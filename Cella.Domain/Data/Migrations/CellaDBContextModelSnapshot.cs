@@ -17,7 +17,7 @@ namespace Cella.Domain.Data.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "7.0.1")
+                .HasAnnotation("ProductVersion", "7.0.11")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
@@ -169,6 +169,9 @@ namespace Cella.Domain.Data.Migrations
                         .IsConcurrencyToken()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<int?>("CustomerId")
+                        .HasColumnType("int");
+
                     b.Property<string>("Email")
                         .HasMaxLength(256)
                         .HasColumnType("nvarchar(256)");
@@ -211,7 +214,7 @@ namespace Cella.Domain.Data.Migrations
                     b.Property<Guid?>("StoreId")
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<Guid>("TennantId")
+                    b.Property<Guid?>("TennantId")
                         .HasColumnType("uniqueidentifier");
 
                     b.Property<bool>("TwoFactorEnabled")
@@ -1774,7 +1777,8 @@ namespace Cella.Domain.Data.Migrations
                         .HasColumnType("decimal(18,2)");
 
                     b.Property<string>("FullDescription")
-                        .HasColumnType("nvarchar(max)");
+                        .HasColumnType("nvarchar(max)")
+                        .HasAnnotation("Relational:JsonPropertyName", "fullDescription");
 
                     b.Property<string>("GTIN")
                         .HasColumnType("nvarchar(max)");
@@ -1794,7 +1798,8 @@ namespace Cella.Domain.Data.Migrations
 
                     b.Property<string>("Name")
                         .HasMaxLength(5000)
-                        .HasColumnType("nvarchar(max)");
+                        .HasColumnType("nvarchar(max)")
+                        .HasAnnotation("Relational:JsonPropertyName", "name");
 
                     b.Property<string>("Price")
                         .HasColumnType("nvarchar(max)");

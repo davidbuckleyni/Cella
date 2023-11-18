@@ -1,5 +1,6 @@
 using System;
 using System.ComponentModel.DataAnnotations;
+using System.Text.Json.Serialization;
 
 namespace Cella.Models;
 
@@ -37,7 +38,10 @@ public class StockItem : BaseEntity
 
         public string? Price { get; set; }
         [StringLength(5000)]
-        public string? Name { get; set; }
+    
+        [JsonPropertyName("name")]
+        public string? Name { get; set; }      
+        [JsonPropertyName("fullDescription")]
         public string FullDescription { get; set; }
         [StringLength(5000)]
         public int? Categories { get; set; }

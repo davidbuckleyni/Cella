@@ -24,8 +24,7 @@ namespace Cella.BL.Services
         public ThemeService(IConfiguration configuration, CellaDBContext context)
         {
             _configurationRoot = (IConfigurationRoot)configuration;
-            _currentThemeName = configuration[Constants.ThemeConfigKey];
-            _context = context;
+              _context = context;
 
         }
         public async Task<IList<ThemeListItem>> GetInstalledThemes()

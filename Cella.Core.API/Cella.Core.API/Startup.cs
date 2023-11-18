@@ -23,6 +23,10 @@ using Cella.Domain.Interfaces;
 using Cella.Services.Security;
 using Cella.Models.App;
 using Microsoft.AspNetCore.Http;
+using Cella.BL.Interfaces;
+using Cella.BL.Services;
+using Newtonsoft.Json.Serialization;
+
 
 namespace CellaCrm.Core.API
 {
@@ -44,6 +48,7 @@ namespace CellaCrm.Core.API
             services.AddHttpContextAccessor();
                   var appSettingsSection = Configuration.GetSection("AppSettings");
 
+          
             services.Configure<Appsettings>(appSettingsSection);
             services.ConfigureApplicationCookie(options =>
             {
@@ -69,8 +74,11 @@ namespace CellaCrm.Core.API
                 .AddDefaultTokenProviders();
 
             services.AddControllers();
-            
+
+
             services.AddScoped<IUserService, UsersService>();
+            services.AddScoped<IStockItemInterface, StockService>();
+            
 
             services.AddSwaggerGen(c => {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "Cella Crm", Version = "v1" });

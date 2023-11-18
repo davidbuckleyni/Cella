@@ -1,0 +1,125 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\GitMaster\\Cella\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D08D666A-7B1C-4DC7-8766-79B0C8DBE771}|Cella.Blazor\\Cella.Blazor.csproj|d:\\gitmaster\\cella\\cella.blazor\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D08D666A-7B1C-4DC7-8766-79B0C8DBE771}|Cella.Blazor\\Cella.Blazor.csproj|solutionrelative:cella.blazor\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08D666A-7B1C-4DC7-8766-79B0C8DBE771}|Cella.Blazor\\Cella.Blazor.csproj|d:\\gitmaster\\cella\\cella.blazor\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D08D666A-7B1C-4DC7-8766-79B0C8DBE771}|Cella.Blazor\\Cella.Blazor.csproj|solutionrelative:cella.blazor\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E99B069-1945-4AC2-B289-E1BA7DE1E55A}|Cella.Core.API\\Cella.Core.API\\Cella.Core.API.csproj|d:\\gitmaster\\cella\\cella.core.api\\cella.core.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9E99B069-1945-4AC2-B289-E1BA7DE1E55A}|Cella.Core.API\\Cella.Core.API\\Cella.Core.API.csproj|solutionrelative:cella.core.api\\cella.core.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E99B069-1945-4AC2-B289-E1BA7DE1E55A}|Cella.Core.API\\Cella.Core.API\\Cella.Core.API.csproj|d:\\gitmaster\\cella\\cella.core.api\\cella.core.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9E99B069-1945-4AC2-B289-E1BA7DE1E55A}|Cella.Core.API\\Cella.Core.API\\Cella.Core.API.csproj|solutionrelative:cella.core.api\\cella.core.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{31879382-50e1-3e5b-88b6-69f415918fa5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{50170fd7-46b4-3c72-bca6-b7a2bc08534e}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{2a9bd80d-b9a1-34ad-95da-8607b8b40945}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{87493c0f-c4b9-3a09-bb7b-358ab49f624a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{191acb7e-105f-38b7-a841-3c0f4ea5ede5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{c478b6ac-54a8-3bd5-bc46-494f58b422c9}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{f5cd1b51-c771-5648-966f-646d419b1e7c}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "D:\\GitMaster\\Cella\\Cella.Blazor\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "Cella.Blazor\\appsettings.Development.json",
+              "ToolTip": "D:\\GitMaster\\Cella\\Cella.Blazor\\appsettings.Development.json",
+              "RelativeToolTip": "Cella.Blazor\\appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2023-11-18T14:22:55.294Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\GitMaster\\Cella\\Cella.Blazor\\appsettings.json",
+              "RelativeDocumentMoniker": "Cella.Blazor\\appsettings.json",
+              "ToolTip": "D:\\GitMaster\\Cella\\Cella.Blazor\\appsettings.json",
+              "RelativeToolTip": "Cella.Blazor\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2023-11-18T14:22:46.504Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\GitMaster\\Cella\\Cella.Core.API\\Cella.Core.API\\appsettings.json",
+              "RelativeDocumentMoniker": "Cella.Core.API\\Cella.Core.API\\appsettings.json",
+              "ToolTip": "D:\\GitMaster\\Cella\\Cella.Core.API\\Cella.Core.API\\appsettings.json",
+              "RelativeToolTip": "Cella.Core.API\\Cella.Core.API\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2023-11-18T14:16:03.489Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "D:\\GitMaster\\Cella\\Cella.Core.API\\Cella.Core.API\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "Cella.Core.API\\Cella.Core.API\\appsettings.Development.json",
+              "ToolTip": "D:\\GitMaster\\Cella\\Cella.Core.API\\Cella.Core.API\\appsettings.Development.json",
+              "RelativeToolTip": "Cella.Core.API\\Cella.Core.API\\appsettings.Development.json",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAswBAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2023-11-17T12:02:31.831Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
