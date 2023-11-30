@@ -64,7 +64,7 @@
             },
             "Dapper": {
               "target": "Package",
-              "version": "[2.0.151, )"
+              "version": "[2.1.24, )"
             },
             "Dapper.Contrib": {
               "target": "Package",
@@ -84,27 +84,27 @@
             },
             "Hangfire.AspNetCore": {
               "target": "Package",
-              "version": "[1.8.5, )"
+              "version": "[1.8.6, )"
             },
             "Hangfire.Core": {
               "target": "Package",
-              "version": "[1.8.5, )"
+              "version": "[1.8.6, )"
             },
             "Hangfire.SqlServer": {
               "target": "Package",
-              "version": "[1.8.5, )"
+              "version": "[1.8.6, )"
             },
             "MailKit": {
               "target": "Package",
-              "version": "[4.2.0, )"
+              "version": "[4.3.0, )"
             },
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
-              "version": "[7.0.11, )"
+              "version": "[8.0.0, )"
             },
             "Microsoft.AspNetCore.Components.QuickGrid": {
               "target": "Package",
-              "version": "[0.1.0-alpha.22351.1, )"
+              "version": "[8.0.0, )"
             },
             "Microsoft.AspNetCore.Identity": {
               "target": "Package",
@@ -112,7 +112,7 @@
             },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[7.0.11, )"
+              "version": "[8.0.0, )"
             },
             "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
               "target": "Package",
@@ -120,13 +120,13 @@
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[7.0.11, )"
+              "version": "[8.0.0, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[7.0.11, )"
+              "version": "[8.0.0, )"
             },
             "Microsoft.EntityFrameworkCore.Relational.Design": {
               "target": "Package",
@@ -134,7 +134,7 @@
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[7.0.11, )"
+              "version": "[8.0.0, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer.Design": {
               "target": "Package",
@@ -144,23 +144,23 @@
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[7.0.11, )"
+              "version": "[8.0.0, )"
             },
             "Microsoft.Extensions.Configuration.Abstractions": {
               "target": "Package",
-              "version": "[7.0.0, )"
+              "version": "[8.0.0, )"
             },
             "Microsoft.Extensions.DependencyInjection.Abstractions": {
               "target": "Package",
-              "version": "[7.0.0, )"
+              "version": "[8.0.0, )"
             },
             "Mindscape.Raygun4Net.AspNetCore": {
               "target": "Package",
-              "version": "[7.0.0, )"
+              "version": "[8.0.1, )"
             },
             "Mindscape.Raygun4Net.WebApi": {
               "target": "Package",
-              "version": "[7.0.0, )"
+              "version": "[8.0.0, )"
             },
             "NCrontab.Advanced": {
               "target": "Package",
@@ -168,11 +168,11 @@
             },
             "NLog": {
               "target": "Package",
-              "version": "[5.2.4, )"
+              "version": "[5.2.7, )"
             },
             "NLog.Web": {
               "target": "Package",
-              "version": "[5.3.4, )"
+              "version": "[5.3.5, )"
             },
             "Newtonsoft.Json": {
               "target": "Package",
@@ -196,7 +196,7 @@
             },
             "SQLitePCLRaw.core": {
               "target": "Package",
-              "version": "[2.1.6, )"
+              "version": "[2.1.7, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
@@ -212,7 +212,7 @@
             },
             "Syncfusion.EJ2.AspNet.Core": {
               "target": "Package",
-              "version": "[23.1.36, )"
+              "version": "[23.2.6, )"
             },
             "System.Data.SqlClient": {
               "target": "Package",
@@ -307,7 +307,7 @@
             },
             "Dapper": {
               "target": "Package",
-              "version": "[2.0.151, )"
+              "version": "[2.1.24, )"
             },
             "Dapper.Contrib": {
               "target": "Package",
@@ -327,27 +327,27 @@
             },
             "Hangfire.AspNetCore": {
               "target": "Package",
-              "version": "[1.8.5, )"
+              "version": "[1.8.6, )"
             },
             "Hangfire.Core": {
               "target": "Package",
-              "version": "[1.8.5, )"
+              "version": "[1.8.6, )"
             },
             "Hangfire.SqlServer": {
               "target": "Package",
-              "version": "[1.8.5, )"
+              "version": "[1.8.6, )"
             },
             "MailKit": {
               "target": "Package",
-              "version": "[4.2.0, )"
+              "version": "[4.3.0, )"
             },
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
-              "version": "[7.0.11, )"
+              "version": "[8.0.0, )"
             },
             "Microsoft.AspNetCore.Components.QuickGrid": {
               "target": "Package",
-              "version": "[0.1.0-alpha.22351.1, )"
+              "version": "[8.0.0, )"
             },
             "Microsoft.AspNetCore.Identity": {
               "target": "Package",
@@ -355,7 +355,7 @@
             },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[7.0.11, )"
+              "version": "[8.0.0, )"
             },
             "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
               "target": "Package",
@@ -363,13 +363,13 @@
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[7.0.11, )"
+              "version": "[8.0.0, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[7.0.11, )"
+              "version": "[8.0.0, )"
             },
             "Microsoft.EntityFrameworkCore.Relational.Design": {
               "target": "Package",
@@ -377,7 +377,7 @@
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[7.0.11, )"
+              "version": "[8.0.0, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer.Design": {
               "target": "Package",
@@ -387,23 +387,23 @@
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[7.0.11, )"
+              "version": "[8.0.0, )"
             },
             "Microsoft.Extensions.Configuration.Abstractions": {
               "target": "Package",
-              "version": "[7.0.0, )"
+              "version": "[8.0.0, )"
             },
             "Microsoft.Extensions.DependencyInjection.Abstractions": {
               "target": "Package",
-              "version": "[7.0.0, )"
+              "version": "[8.0.0, )"
             },
             "Mindscape.Raygun4Net.AspNetCore": {
               "target": "Package",
-              "version": "[7.0.0, )"
+              "version": "[8.0.1, )"
             },
             "Mindscape.Raygun4Net.WebApi": {
               "target": "Package",
-              "version": "[7.0.0, )"
+              "version": "[8.0.0, )"
             },
             "NCrontab.Advanced": {
               "target": "Package",
@@ -411,11 +411,11 @@
             },
             "NLog": {
               "target": "Package",
-              "version": "[5.2.4, )"
+              "version": "[5.2.7, )"
             },
             "NLog.Web": {
               "target": "Package",
-              "version": "[5.3.4, )"
+              "version": "[5.3.5, )"
             },
             "Newtonsoft.Json": {
               "target": "Package",
@@ -439,7 +439,7 @@
             },
             "Syncfusion.EJ2.AspNet.Core": {
               "target": "Package",
-              "version": "[23.1.36, )"
+              "version": "[23.2.6, )"
             },
             "System.Data.SqlClient": {
               "target": "Package",

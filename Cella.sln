@@ -37,7 +37,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cella.Infrastructure", "Cel
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cella.Module.PaymentPaypal", "Modules\Cella.Module.PaymentPaypal\Cella.Module.PaymentPaypal.csproj", "{260A0851-135C-4AA9-8756-DB1D985CCC55}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cella.Blazor", "Cella.Blazor\Cella.Blazor.csproj", "{D08D666A-7B1C-4DC7-8766-79B0C8DBE771}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cella.Blazor", "Cella.Blazor\Cella.Blazor.csproj", "{D08D666A-7B1C-4DC7-8766-79B0C8DBE771}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

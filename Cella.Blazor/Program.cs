@@ -2,8 +2,10 @@ using Cella.Blazor.Components;
 using Cella.Blazor.Components.Account;
 using Cella.Blazor.Data;
 using Microsoft.AspNetCore.Components.Authorization;
+using Microsoft.AspNetCore.Hosting.StaticWebAssets;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using MudBlazor.Services;
 
 namespace Cella.Blazor
 {
@@ -21,6 +23,8 @@ namespace Cella.Blazor
             builder.Services.AddScoped<IdentityUserAccessor>();
             builder.Services.AddScoped<IdentityRedirectManager>();
             builder.Services.AddScoped<AuthenticationStateProvider, IdentityRevalidatingAuthenticationStateProvider>();
+            builder.Services.AddMudServices();
+            StaticWebAssetsLoader.UseStaticWebAssets(builder.Environment, builder.Configuration);
 
             builder.Services.AddAuthentication(options =>
                 {

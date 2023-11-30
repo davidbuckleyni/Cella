@@ -1,0 +1,12 @@
+D:\GitMaster\Cella\MISSystemPostCodeLookup.Api\PostCodeLookupApi\bin\Debug\net7.0\PostCodeLookupApi.deps.json
+D:\GitMaster\Cella\MISSystemPostCodeLookup.Api\PostCodeLookupApi\bin\Debug\net7.0\PostCodeLookupApi.dll
+D:\GitMaster\Cella\MISSystemPostCodeLookup.Api\PostCodeLookupApi\bin\Debug\net7.0\PostCodeLookupApi.pdb
+D:\GitMaster\Cella\MISSystemPostCodeLookup.Api\PostCodeLookupApi\obj\Debug\net7.0\PostCodeLookupApi.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitMaster\Cella\MISSystemPostCodeLookup.Api\PostCodeLookupApi\obj\Debug\net7.0\PostCodeLookupApi.AssemblyInfoInputs.cache
+D:\GitMaster\Cella\MISSystemPostCodeLookup.Api\PostCodeLookupApi\obj\Debug\net7.0\PostCodeLookupApi.AssemblyInfo.cs
+D:\GitMaster\Cella\MISSystemPostCodeLookup.Api\PostCodeLookupApi\obj\Debug\net7.0\PostCodeLookupApi.csproj.CoreCompileInputs.cache
+D:\GitMaster\Cella\MISSystemPostCodeLookup.Api\PostCodeLookupApi\obj\Debug\net7.0\PostCodeLookupApi.sourcelink.json
+D:\GitMaster\Cella\MISSystemPostCodeLookup.Api\PostCodeLookupApi\obj\Debug\net7.0\PostCodeLookupApi.dll
+D:\GitMaster\Cella\MISSystemPostCodeLookup.Api\PostCodeLookupApi\obj\Debug\net7.0\refint\PostCodeLookupApi.dll
+D:\GitMaster\Cella\MISSystemPostCodeLookup.Api\PostCodeLookupApi\obj\Debug\net7.0\PostCodeLookupApi.pdb
+D:\GitMaster\Cella\MISSystemPostCodeLookup.Api\PostCodeLookupApi\obj\Debug\net7.0\ref\PostCodeLookupApi.dll

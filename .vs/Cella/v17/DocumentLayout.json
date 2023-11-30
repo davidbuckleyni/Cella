@@ -3,12 +3,44 @@
   "WorkspaceRootPath": "D:\\GitMaster\\Cella\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{D08D666A-7B1C-4DC7-8766-79B0C8DBE771}|Cella.Blazor\\Cella.Blazor.csproj|d:\\gitmaster\\cella\\cella.blazor\\components\\pages\\weather.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D08D666A-7B1C-4DC7-8766-79B0C8DBE771}|Cella.Blazor\\Cella.Blazor.csproj|solutionrelative:cella.blazor\\components\\pages\\weather.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08D666A-7B1C-4DC7-8766-79B0C8DBE771}|Cella.Blazor\\Cella.Blazor.csproj|d:\\gitmaster\\cella\\cella.blazor\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D08D666A-7B1C-4DC7-8766-79B0C8DBE771}|Cella.Blazor\\Cella.Blazor.csproj|solutionrelative:cella.blazor\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08D666A-7B1C-4DC7-8766-79B0C8DBE771}|Cella.Blazor\\Cella.Blazor.csproj|d:\\gitmaster\\cella\\cella.blazor\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D08D666A-7B1C-4DC7-8766-79B0C8DBE771}|Cella.Blazor\\Cella.Blazor.csproj|solutionrelative:cella.blazor\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08D666A-7B1C-4DC7-8766-79B0C8DBE771}|Cella.Blazor\\Cella.Blazor.csproj|d:\\gitmaster\\cella\\cella.blazor\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D08D666A-7B1C-4DC7-8766-79B0C8DBE771}|Cella.Blazor\\Cella.Blazor.csproj|solutionrelative:cella.blazor\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08D666A-7B1C-4DC7-8766-79B0C8DBE771}|Cella.Blazor\\Cella.Blazor.csproj|d:\\gitmaster\\cella\\cella.blazor\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D08D666A-7B1C-4DC7-8766-79B0C8DBE771}|Cella.Blazor\\Cella.Blazor.csproj|solutionrelative:cella.blazor\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D08D666A-7B1C-4DC7-8766-79B0C8DBE771}|Cella.Blazor\\Cella.Blazor.csproj|d:\\gitmaster\\cella\\cella.blazor\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{D08D666A-7B1C-4DC7-8766-79B0C8DBE771}|Cella.Blazor\\Cella.Blazor.csproj|solutionrelative:cella.blazor\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{D08D666A-7B1C-4DC7-8766-79B0C8DBE771}|Cella.Blazor\\Cella.Blazor.csproj|d:\\gitmaster\\cella\\cella.blazor\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D08D666A-7B1C-4DC7-8766-79B0C8DBE771}|Cella.Blazor\\Cella.Blazor.csproj|solutionrelative:cella.blazor\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08D666A-7B1C-4DC7-8766-79B0C8DBE771}|Cella.Blazor\\Cella.Blazor.csproj|d:\\gitmaster\\cella\\cella.blazor\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D08D666A-7B1C-4DC7-8766-79B0C8DBE771}|Cella.Blazor\\Cella.Blazor.csproj|solutionrelative:cella.blazor\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D08D666A-7B1C-4DC7-8766-79B0C8DBE771}|Cella.Blazor\\Cella.Blazor.csproj|d:\\gitmaster\\cella\\cella.blazor\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{D08D666A-7B1C-4DC7-8766-79B0C8DBE771}|Cella.Blazor\\Cella.Blazor.csproj|solutionrelative:cella.blazor\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08D666A-7B1C-4DC7-8766-79B0C8DBE771}|Cella.Blazor\\Cella.Blazor.csproj|d:\\gitmaster\\cella\\cella.blazor\\components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D08D666A-7B1C-4DC7-8766-79B0C8DBE771}|Cella.Blazor\\Cella.Blazor.csproj|solutionrelative:cella.blazor\\components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9E99B069-1945-4AC2-B289-E1BA7DE1E55A}|Cella.Core.API\\Cella.Core.API\\Cella.Core.API.csproj|d:\\gitmaster\\cella\\cella.core.api\\cella.core.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -26,7 +58,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 15,
           "Children": [
             {
               "$type": "Bookmark",
@@ -70,32 +102,128 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "D:\\GitMaster\\Cella\\Cella.Blazor\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "Cella.Blazor\\appsettings.Development.json",
-              "ToolTip": "D:\\GitMaster\\Cella\\Cella.Blazor\\appsettings.Development.json",
-              "RelativeToolTip": "Cella.Blazor\\appsettings.Development.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2023-11-18T14:22:55.294Z",
-              "EditorCaption": ""
+              "DocumentIndex": 1,
+              "Title": "Home.razor",
+              "DocumentMoniker": "D:\\GitMaster\\Cella\\Cella.Blazor\\Components\\Pages\\Home.razor",
+              "RelativeDocumentMoniker": "Cella.Blazor\\Components\\Pages\\Home.razor",
+              "ToolTip": "D:\\GitMaster\\Cella\\Cella.Blazor\\Components\\Pages\\Home.razor",
+              "RelativeToolTip": "Cella.Blazor\\Components\\Pages\\Home.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-11-21T10:51:18.26Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
+              "Title": "App.razor",
+              "DocumentMoniker": "D:\\GitMaster\\Cella\\Cella.Blazor\\Components\\App.razor",
+              "RelativeDocumentMoniker": "Cella.Blazor\\Components\\App.razor",
+              "ToolTip": "D:\\GitMaster\\Cella\\Cella.Blazor\\Components\\App.razor",
+              "RelativeToolTip": "Cella.Blazor\\Components\\App.razor",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-11-20T13:26:57.343Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\GitMaster\\Cella\\Cella.Blazor\\appsettings.json",
               "RelativeDocumentMoniker": "Cella.Blazor\\appsettings.json",
               "ToolTip": "D:\\GitMaster\\Cella\\Cella.Blazor\\appsettings.json",
               "RelativeToolTip": "Cella.Blazor\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAACAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2023-11-18T14:22:46.504Z"
             },
             {
               "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "D:\\GitMaster\\Cella\\Cella.Blazor\\Components\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "Cella.Blazor\\Components\\Layout\\NavMenu.razor",
+              "ToolTip": "D:\\GitMaster\\Cella\\Cella.Blazor\\Components\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "Cella.Blazor\\Components\\Layout\\NavMenu.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-11-20T14:03:19.258Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "D:\\GitMaster\\Cella\\Cella.Blazor\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "Cella.Blazor\\appsettings.Development.json",
+              "ToolTip": "D:\\GitMaster\\Cella\\Cella.Blazor\\appsettings.Development.json",
+              "RelativeToolTip": "Cella.Blazor\\appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2023-11-18T14:22:55.294Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Weather.razor",
+              "DocumentMoniker": "D:\\GitMaster\\Cella\\Cella.Blazor\\Components\\Pages\\Weather.razor",
+              "RelativeDocumentMoniker": "Cella.Blazor\\Components\\Pages\\Weather.razor",
+              "ToolTip": "D:\\GitMaster\\Cella\\Cella.Blazor\\Components\\Pages\\Weather.razor",
+              "RelativeToolTip": "Cella.Blazor\\Components\\Pages\\Weather.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-11-20T13:27:47.095Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "D:\\GitMaster\\Cella\\Cella.Blazor\\Components\\_Imports.razor",
+              "RelativeDocumentMoniker": "Cella.Blazor\\Components\\_Imports.razor",
+              "ToolTip": "D:\\GitMaster\\Cella\\Cella.Blazor\\Components\\_Imports.razor",
+              "RelativeToolTip": "Cella.Blazor\\Components\\_Imports.razor",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAwAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-11-21T09:45:50.464Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\GitMaster\\Cella\\Cella.Blazor\\Program.cs",
+              "RelativeDocumentMoniker": "Cella.Blazor\\Program.cs",
+              "ToolTip": "D:\\GitMaster\\Cella\\Cella.Blazor\\Program.cs",
+              "RelativeToolTip": "Cella.Blazor\\Program.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-11-20T13:26:33.437Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "D:\\GitMaster\\Cella\\Cella.Blazor\\Components\\Layout\\MainLayout.razor",
+              "RelativeDocumentMoniker": "Cella.Blazor\\Components\\Layout\\MainLayout.razor",
+              "ToolTip": "D:\\GitMaster\\Cella\\Cella.Blazor\\Components\\Layout\\MainLayout.razor",
+              "RelativeToolTip": "Cella.Blazor\\Components\\Layout\\MainLayout.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-11-20T13:30:45.135Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Routes.razor",
+              "DocumentMoniker": "D:\\GitMaster\\Cella\\Cella.Blazor\\Components\\Routes.razor",
+              "RelativeDocumentMoniker": "Cella.Blazor\\Components\\Routes.razor",
+              "ToolTip": "D:\\GitMaster\\Cella\\Cella.Blazor\\Components\\Routes.razor",
+              "RelativeToolTip": "Cella.Blazor\\Components\\Routes.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-11-20T14:03:22.406Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\GitMaster\\Cella\\Cella.Core.API\\Cella.Core.API\\appsettings.json",
               "RelativeDocumentMoniker": "Cella.Core.API\\Cella.Core.API\\appsettings.json",
@@ -107,7 +235,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 11,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "D:\\GitMaster\\Cella\\Cella.Core.API\\Cella.Core.API\\appsettings.Development.json",
               "RelativeDocumentMoniker": "Cella.Core.API\\Cella.Core.API\\appsettings.Development.json",

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PostCodeLookupApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+69d14f31cd86972d3a9099e9aa2f871f42fef960")]
 [assembly: System.Reflection.AssemblyProductAttribute("PostCodeLookupApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PostCodeLookupApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
